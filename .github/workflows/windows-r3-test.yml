@@ -83,6 +83,15 @@ jobs:
           "DRIVER_EXIT=$LASTEXITCODE" | Out-File -Encoding utf8 driver-result.txt
           if ($LASTEXITCODE -ne 0) { throw "capture-auto.ps1 failed with $LASTEXITCODE" }
 
+      - name: Exercise installed USB/IP backend on loopback
+        id: backend
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        shell: pwsh
+        timeout-minutes: 5
+        run: |
+          python -u dev/test-backend.py backend.json
+          exit $LASTEXITCODE
+
       - name: Collect install and startup diagnostics
         if: failure()
         shell: powershell
@@ -101,6 +110,7 @@ jobs:
             diagnostics/
             screenshots/
             build.log
+            backend.json
             install-result.txt
             driver-result.txt
             release/
@@ -112,7 +122,7 @@ jobs:
           $dest = "test-results/${{ github.run_number }}"
           New-Item -ItemType Directory -Force $dest | Out-Null
           if (Test-Path screenshots) { Copy-Item screenshots/* $dest/ -Recurse -Force }
-          foreach ($f in @('build.log','install-result.txt','driver-result.txt')) {
+          foreach ($f in @('build.log','install-result.txt','driver-result.txt','backend.json')) {
             if (Test-Path $f) { Copy-Item $f $dest/ -Force }
           }
           $cap = $null
@@ -123,6 +133,7 @@ jobs:
             "",
             "- build: ${{ steps.build.outcome }}",
             "- silent install: ${{ steps.install.outcome }}",
+            "- installed backend: ${{ steps.backend.outcome }}",
             "- desktop capture: ${{ steps.capture.outcome }}",
             "- installer: $(if (Test-Path install-result.txt) { (Get-Content install-result.txt -Raw).Trim() -replace "`r`n", ' | ' } else { 'n/a' })",
             "- driver exit: $(if (Test-Path driver-result.txt) { (Get-Content driver-result.txt -Raw).Trim() } else { 'n/a' })",
@@ -132,6 +143,14 @@ jobs:
             "- failures: $(if ($cap -and $cap.failures) { ($cap.failures -join '; ') } else { 'none recorded' })",
             ""
           )
+          if (Test-Path backend.json) {
+            $report=Get-Content -Raw backend.json | ConvertFrom-Json
+            foreach ($check in $report.PSObject.Properties) {
+              $result=$check.Value
+              $detail=if ($result.passed) { ConvertTo-Json -InputObject $result.evidence -Compress } else { $result.error }
+              $lines += "- $($check.Name) passed=$($result.passed) $detail"
+            }
+          }
           if ($cap) { foreach ($s in $cap.screenshots) { $lines += "- $($s.file) ($($s.label)) sha256=$($s.sha256)" } }
           $lines | Set-Content -Encoding UTF8 (Join-Path $dest 'results.md')
           git config user.name 'moyu-test'
