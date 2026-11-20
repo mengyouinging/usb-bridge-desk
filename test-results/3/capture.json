@@ -1,0 +1,17 @@
+﻿{
+    "appSha256":  "56EBB8395898F2E9EF589A89EC6836DF6C23CA99566105197490D3F25C93E18E",
+    "alive30s":  false,
+    "launched":  "2026-11-20T08:10:18.5759250+00:00",
+    "failures":  [
+                     "App exited (-1073741189) while waiting for native main window"
+                 ],
+    "forcedExit":  false,
+    "exitCode":  -1073741189,
+    "os":  "10.0.26100.0",
+    "exitClean":  false,
+    "appPath":  "C:\\Program Files\\USB Bridge Desk\\UsbBridgeDesk.exe",
+    "screenshots":  [
+
+                    ],
+    "managedAppSha256":  "388C2ABE392BBA35942503829406BBAACF2E45313E411F126D3E6EEA142DC036"
+}
