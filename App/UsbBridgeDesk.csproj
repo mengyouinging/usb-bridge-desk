@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PlatformTarget>x64</PlatformTarget>
+    <SelfContained>false</SelfContained>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>../packaging/icon.ico</ApplicationIcon>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
+    <WinUIVersion>1.8.260803003</WinUIVersion>
+    <FoundationVersion>1.8.260803002</FoundationVersion>
+    <InteractionVersion>1.8.260708001</InteractionVersion>
+    <ProjectionTFM>net6.0-windows10.0.17763.0</ProjectionTFM>
+  </PropertyGroup>
+  <!-- Code-first WinUI. The framework supplies built-in XAML resources.
+       Explicit SDK projections avoid running the Windows-only XAML compiler. -->
+  <ItemGroup>
+    <ProjectReference Include="../Core/Core.csproj"/>
+    <FrameworkReference Include="Microsoft.WindowsDesktop.App.WindowsForms"/>
+    <!-- WinUI's assembly metadata references this managed projection. No WebView
+         control, loader, browser runtime or HTML content is used by the app. -->
+    <PackageDownload Include="Microsoft.Web.WebView2" Version="[1.0.3179.45]"/>
+    <Reference Include="Microsoft.Web.WebView2.Core.Projection" HintPath="$(NuGetPackageRoot)/microsoft.web.webview2/1.0.3179.45/lib_manual/$(ProjectionTFM)/Microsoft.Web.WebView2.Core.Projection.dll"/>
+    <PackageDownload Include="Microsoft.WindowsAppSDK.WinUI" Version="[$(WinUIVersion)]"/>
+    <PackageDownload Include="Microsoft.WindowsAppSDK.Foundation" Version="[$(FoundationVersion)]"/>
+    <PackageDownload Include="Microsoft.WindowsAppSDK.InteractiveExperiences" Version="[$(InteractionVersion)]"/>
+    <Reference Include="Microsoft.WinUI" HintPath="$(NuGetPackageRoot)/microsoft.windowsappsdk.winui/$(WinUIVersion)/lib/$(ProjectionTFM)/Microsoft.WinUI.dll"/>
+    <Reference Include="Microsoft.InteractiveExperiences.Projection" HintPath="$(NuGetPackageRoot)/microsoft.windowsappsdk.interactiveexperiences/$(InteractionVersion)/lib/$(ProjectionTFM)/Microsoft.InteractiveExperiences.Projection.dll"/>
+    <Reference Include="Microsoft.Windows.ApplicationModel.Resources.Projection" HintPath="$(NuGetPackageRoot)/microsoft.windowsappsdk.foundation/$(FoundationVersion)/lib/$(ProjectionTFM)/Microsoft.Windows.ApplicationModel.Resources.Projection.dll"/>
+    <Reference Include="Microsoft.Windows.Foundation.Projection" HintPath="$(NuGetPackageRoot)/microsoft.windowsappsdk.foundation/$(FoundationVersion)/lib/$(ProjectionTFM)/Microsoft.Windows.Foundation.Projection.dll"/>
+    <Content Include="$(NuGetPackageRoot)/microsoft.windowsappsdk.foundation/$(FoundationVersion)/runtimes/win-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll" Link="Microsoft.WindowsAppRuntime.Bootstrap.dll" CopyToOutputDirectory="PreserveNewest"/>
+    <Content Include="../packaging/icon.ico" Link="icon.ico" CopyToOutputDirectory="PreserveNewest"/>
+  </ItemGroup>
+</Project>
