@@ -1,0 +1,59 @@
+﻿{
+    "appPath":  "C:\\Program Files\\USB Bridge Desk\\UsbBridgeDesk.exe",
+    "alive30s":  true,
+    "screenshots":  [
+                        {
+                            "width":  986,
+                            "file":  "01-overview.png",
+                            "captured":  "2026-11-20T11:32:46.2043499+00:00",
+                            "height":  689,
+                            "label":  "overview",
+                            "top":  12,
+                            "left":  19,
+                            "sha256":  "5161A11DFAAFD0A78EC2BBAF810E7DF1746BCFA8AE0354989767E5689A137E0F"
+                        },
+                        {
+                            "width":  986,
+                            "file":  "02-local.png",
+                            "captured":  "2026-11-20T11:33:14.6906928+00:00",
+                            "height":  689,
+                            "label":  "host",
+                            "top":  12,
+                            "left":  19,
+                            "sha256":  "3979D2DB9D64E92398CDC302F0FE683C6B7C28D3306A370453438EA8D9A628CF"
+                        },
+                        {
+                            "width":  986,
+                            "file":  "03-remote.png",
+                            "captured":  "2026-11-20T11:33:15.7337465+00:00",
+                            "height":  689,
+                            "label":  "client",
+                            "top":  12,
+                            "left":  19,
+                            "sha256":  "230B80C88C7EA3BA30AD16CF519218E6BE6F7DE4A6316C1B606EE6346EC69CA5"
+                        },
+                        {
+                            "width":  986,
+                            "file":  "04-mappings.png",
+                            "captured":  "2026-11-20T11:33:16.7934548+00:00",
+                            "height":  689,
+                            "label":  "mappings",
+                            "top":  12,
+                            "left":  19,
+                            "sha256":  "821674B24E868BF8FDB3E5CCE6CCCA86A575219D3D859D698F0E415C41B5D763"
+                        }
+                    ],
+    "appSha256":  "07E0CE10B77EDBFD971BD3CB65D5C4CDA372CAEC440A18198E5233646476ABA5",
+    "forcedExit":  true,
+    "resourceIndexSha256":  "AC2FCA4CE9EF1A4ABC821F1101A5178DDEB09B28F0A4A81BF1FC5C586D91A37C",
+    "terminalServerSession":  false,
+    "exitClean":  false,
+    "managedAppSha256":  "EA0EAACF6EE2EFFD7373B0E04E5E8D35D6706BA71AC7425676213E035FE06C10",
+    "acrylicEvidence":  null,
+    "os":  "10.0.26100.0",
+    "exitCode":  -1,
+    "failures":  [
+                     "You cannot call a method on a null-valued expression."
+                 ],
+    "launched":  "2026-11-20T11:32:43.5925886+00:00"
+}

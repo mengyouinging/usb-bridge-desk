@@ -1,0 +1,16 @@
+﻿# R3 1.1.0 Windows test - run 5
+
+- build: success
+- silent install: success
+- desktop capture: failure
+- installer: SIZE=45301013 | SHA256=51907CDE282A3634C92EC1E21750AFA42C7DFE0AECEB3680B18A30035E6A75AA | INSTALL_EXIT=3010
+- driver exit: DRIVER_EXIT=1
+- alive 30s: True
+- clean exit: False (forced: True, code: -1)
+- screenshots: 4
+- failures: You cannot call a method on a null-valued expression.
+
+- 01-overview.png (overview) sha256=5161A11DFAAFD0A78EC2BBAF810E7DF1746BCFA8AE0354989767E5689A137E0F
+- 02-local.png (host) sha256=3979D2DB9D64E92398CDC302F0FE683C6B7C28D3306A370453438EA8D9A628CF
+- 03-remote.png (client) sha256=230B80C88C7EA3BA30AD16CF519218E6BE6F7DE4A6316C1B606EE6346EC69CA5
+- 04-mappings.png (mappings) sha256=821674B24E868BF8FDB3E5CCE6CCCA86A575219D3D859D698F0E415C41B5D763
