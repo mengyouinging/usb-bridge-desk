@@ -1,0 +1,24 @@
+﻿13:18:36 Installed WinUI resources.pri SHA256=AC2FCA4CE9EF1A4ABC821F1101A5178DDEB09B28F0A4A81BF1FC5C586D91A37C
+13:18:37 Started installed application PID=8536
+13:18:38 Fitted DWM frame {X=19,Y=12,Width=986,Height=689} to work area {X=0,Y=0,Width=1024,Height=720}
+13:18:40 SHOT 01-overview 5161A11DFAAFD0A78EC2BBAF810E7DF1746BCFA8AE0354989767E5689A137E0F
+13:19:07 ALIVE30 true
+13:19:08 SHOT 02-local 5CAAC65BEA1F49A9C8C446A5ACE1B911566D9DE45C02B8595AF1B84FEDF5D40A
+13:19:08 SHOT 03-remote 566C69BBF8DD48DDF0B14221C33D8D114348006241FEBCC10F57E3DB71513BAE
+13:19:09 SHOT 04-mappings F62E74443DCD273C91256D2F0B9F45767DD90A86F8F50EC9331FE7469FFA0A0A
+13:19:09 Selecting Settings.theme = 黑夜
+13:19:10 Confirmed Settings.theme = 黑夜
+13:19:10 Selecting Settings.material = 亚克力
+13:19:10 Confirmed Settings.material = 亚克力
+13:19:10 Measuring dark acrylic
+13:19:13 Acrylic desktop blend unverified / {"observed":false,"repeatDrift":0,"titleBarRGB":{"warm":[28,36,40],"cool":[28,36,40],"coolAgain":[28,36,40]},"maxChannelChange":0}
+13:19:13 SHOT 05-dark-acrylic 9F48A8A020B36E9A2CA0F586A597B4D0B1B842F0A720CA9C43D00B10F964CC32
+13:19:14 SHOT 06-dark-overview 7259149D901D327883BA13CEA29BD2C7D4AF3A783B4933E2A3B0AED711B02A53
+13:19:18 Using bounds center for Show Hidden Icons Hide
+13:19:28 FAIL Timed out waiting for notification icon after pointer click.  at At D:\a\usb-bridge-desk\usb-bridge-desk\dev\capture-auto.ps1:89 char:5
++     throw "Timed out waiting for $description. $lastError"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ at Wait-For, D:\a\usb-bridge-desk\usb-bridge-desk\dev\capture-auto.ps1: line 89
+at Tray-Icon, D:\a\usb-bridge-desk\usb-bridge-desk\dev\capture-auto.ps1: line 323
+at Open-TrayMenu, D:\a\usb-bridge-desk\usb-bridge-desk\dev\capture-auto.ps1: line 346
+at Capture-TrayAndExit, D:\a\usb-bridge-desk\usb-bridge-desk\dev\capture-auto.ps1: line 361
+at <ScriptBlock>, D:\a\usb-bridge-desk\usb-bridge-desk\dev\capture-auto.ps1: line 441

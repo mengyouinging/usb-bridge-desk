@@ -1,0 +1,100 @@
+﻿{
+    "appPath":  "C:\\Program Files\\USB Bridge Desk\\UsbBridgeDesk.exe",
+    "alive30s":  true,
+    "screenshots":  [
+                        {
+                            "width":  986,
+                            "file":  "01-overview.png",
+                            "captured":  "2026-11-20T13:18:40.0270043+00:00",
+                            "height":  689,
+                            "label":  "overview",
+                            "top":  12,
+                            "left":  19,
+                            "sha256":  "5161A11DFAAFD0A78EC2BBAF810E7DF1746BCFA8AE0354989767E5689A137E0F"
+                        },
+                        {
+                            "width":  986,
+                            "file":  "02-local.png",
+                            "captured":  "2026-11-20T13:19:08.0294410+00:00",
+                            "height":  689,
+                            "label":  "host",
+                            "top":  12,
+                            "left":  19,
+                            "sha256":  "5CAAC65BEA1F49A9C8C446A5ACE1B911566D9DE45C02B8595AF1B84FEDF5D40A"
+                        },
+                        {
+                            "width":  986,
+                            "file":  "03-remote.png",
+                            "captured":  "2026-11-20T13:19:08.8932492+00:00",
+                            "height":  689,
+                            "label":  "client",
+                            "top":  12,
+                            "left":  19,
+                            "sha256":  "566C69BBF8DD48DDF0B14221C33D8D114348006241FEBCC10F57E3DB71513BAE"
+                        },
+                        {
+                            "width":  986,
+                            "file":  "04-mappings.png",
+                            "captured":  "2026-11-20T13:19:09.7632302+00:00",
+                            "height":  689,
+                            "label":  "mappings",
+                            "top":  12,
+                            "left":  19,
+                            "sha256":  "F62E74443DCD273C91256D2F0B9F45767DD90A86F8F50EC9331FE7469FFA0A0A"
+                        },
+                        {
+                            "width":  986,
+                            "file":  "05-dark-acrylic.png",
+                            "captured":  "2026-11-20T13:19:13.8410876+00:00",
+                            "height":  689,
+                            "label":  "settings dark / acrylic / desktop blend unverified",
+                            "top":  12,
+                            "left":  19,
+                            "sha256":  "9F48A8A020B36E9A2CA0F586A597B4D0B1B842F0A720CA9C43D00B10F964CC32"
+                        },
+                        {
+                            "width":  986,
+                            "file":  "06-dark-overview.png",
+                            "captured":  "2026-11-20T13:19:14.7119891+00:00",
+                            "height":  689,
+                            "label":  "overview dark / acrylic / desktop blend unverified",
+                            "top":  12,
+                            "left":  19,
+                            "sha256":  "7259149D901D327883BA13CEA29BD2C7D4AF3A783B4933E2A3B0AED711B02A53"
+                        }
+                    ],
+    "appSha256":  "5CEFDD2516CE990E4A6F72756164225312AE6DAB34777B6F154EE166E73BA4D6",
+    "forcedExit":  true,
+    "resourceIndexSha256":  "AC2FCA4CE9EF1A4ABC821F1101A5178DDEB09B28F0A4A81BF1FC5C586D91A37C",
+    "terminalServerSession":  false,
+    "exitClean":  false,
+    "managedAppSha256":  "29FF33841C704099B9A8F43FD9F22ECF8D9C763FB1A2683EFC1DAA286B512388",
+    "acrylicEvidence":  {
+                            "observed":  false,
+                            "repeatDrift":  0,
+                            "titleBarRGB":  {
+                                                "warm":  [
+                                                             28,
+                                                             36,
+                                                             40
+                                                         ],
+                                                "cool":  [
+                                                             28,
+                                                             36,
+                                                             40
+                                                         ],
+                                                "coolAgain":  [
+                                                                  28,
+                                                                  36,
+                                                                  40
+                                                              ]
+                                            },
+                            "maxChannelChange":  0
+                        },
+    "os":  "10.0.26100.0",
+    "exitCode":  -1,
+    "failures":  [
+                     "Timed out waiting for notification icon after pointer click. "
+                 ],
+    "launched":  "2026-11-20T13:18:37.0548082+00:00"
+}
