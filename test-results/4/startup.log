@@ -1,0 +1,10 @@
+2026-11-20T10:34:03.8545669+00:00 Main pid=2136 base=C:\Program Files\USB Bridge Desk\
+2026-11-20T10:34:03.8589650+00:00 Checking WinUI process requirements
+2026-11-20T10:34:03.8817249+00:00 Entering Application.Start
+2026-11-20T10:34:03.9564172+00:00 UI dispatcher ready, creating application
+2026-11-20T10:34:03.9692875+00:00 Loading compiled App.xaml
+2026-11-20T10:34:03.9745268+00:00 Application resources loaded
+2026-11-20T10:34:04.0384162+00:00 Constructing main window
+2026-11-20T10:34:04.7288550+00:00 Activating main window
+2026-11-20T10:34:04.8964504+00:00 Main window content loaded
+2026-11-20T10:34:05.0163416+00:00 Overview rendered
