@@ -1,0 +1,59 @@
+{
+  "service_start": {
+    "passed": true,
+    "evidence": {
+      "State": "Running",
+      "ProcessId": 2824,
+      "PathName": "\"C:\\Program Files\\USB Bridge Desk\\resources\\host\\usbipd.exe\" server"
+    }
+  },
+  "tcp_3240_listener": {
+    "passed": true,
+    "evidence": [
+      {
+        "LocalAddress": "::",
+        "LocalPort": 3240,
+        "OwningProcess": 2824
+      }
+    ]
+  },
+  "host_device_enumeration": {
+    "passed": true,
+    "evidence": {
+      "exitCode": 0,
+      "devices": 0
+    }
+  },
+  "usbip_devlist_handshake": {
+    "passed": true,
+    "evidence": {
+      "endpoint": "127.0.0.1:3240",
+      "version": "0x0111",
+      "request": "OP_REQ_DEVLIST",
+      "reply": "OP_REP_DEVLIST",
+      "status": 0,
+      "exports": 0
+    }
+  },
+  "installed_client_loopback_list": {
+    "passed": true,
+    "evidence": {
+      "exitCode": 0,
+      "exports": 0,
+      "endpoint": "127.0.0.1:3240"
+    }
+  },
+  "client_virtual_ports": {
+    "passed": true,
+    "evidence": {
+      "exitCode": 0,
+      "importedPorts": 0
+    }
+  },
+  "restore_service": {
+    "passed": true,
+    "evidence": {
+      "restored": "Stopped"
+    }
+  }
+}
