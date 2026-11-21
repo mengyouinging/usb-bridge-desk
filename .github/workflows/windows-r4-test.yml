@@ -28,6 +28,8 @@ jobs:
     timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Unzip source snapshot
         working-directory: .
@@ -82,6 +84,8 @@ jobs:
 
       - name: Launch app, 30 s run, capture screenshots
         id: capture
+        env:
+          USB_BRIDGE_LOCAL_TYPE_FIXTURE: ${{ inputs.hardware_runner && '0' || '1' }}
         shell: powershell
         timeout-minutes: 20
         run: |
@@ -153,7 +157,7 @@ jobs:
             r4-build/USB-Bridge-Desk-R4/release/
 
       - name: Commit results back to repo
-        if: always()
+        if: ${{ always() && github.ref == 'refs/heads/main' }}
         shell: powershell
         run: |
           $resultPath = "test-results/${{ github.run_number }}"
@@ -196,6 +200,8 @@ jobs:
               $lines += "- minimum $($entry.Name): $($layout.width) x $($layout.height) DIP; within bounds=$($layout.withinWindow)"
             }
             $lines += "- address evidence: $($cap.r4.addresses -join ' / ')"
+            $lines += "- acrylic: $($cap.acrylicEvidence.status) - $($cap.acrylicEvidence.reason)"
+            $lines += "- local screenshot source: $($cap.r4.localSource) $($cap.r4.localFixture.name)"
             $lines += "- Windows local devices: $($cap.r4.localDevices -join ' / ')"
             $lines += "- remote device rows ($($cap.r4.remoteSource)): $($cap.r4.remoteDevices -join ' / ')"
           }
@@ -204,5 +210,14 @@ jobs:
           git config user.name 'moyu-test'
           git config user.email 'moyu-test@local'
           git -C "$env:GITHUB_WORKSPACE" add -- $resultPath
+          if ($LASTEXITCODE -ne 0) { throw 'Could not stage run results' }
           git commit -m "R4 1.2.0 Windows test results (run ${{ github.run_number }})" --allow-empty
-          git push origin HEAD:main
+          if ($LASTEXITCODE -ne 0) { throw 'Could not commit run results' }
+          for ($attempt=1; $attempt -le 3; $attempt++) {
+            git pull --rebase origin main
+            if ($LASTEXITCODE -ne 0) { throw 'Could not rebase result commit on origin/main; see Git output' }
+            git push origin HEAD:main
+            if ($LASTEXITCODE -eq 0) { break }
+            if ($attempt -eq 3) { throw 'Could not publish results after three attempts' }
+            Start-Sleep -Seconds $attempt
+          }
