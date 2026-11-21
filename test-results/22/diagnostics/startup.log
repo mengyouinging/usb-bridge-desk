@@ -1,0 +1,52 @@
+2026-11-21T21:33:21.1005646+00:00 Main pid=8340 base=C:\Program Files\USB Bridge Desk\
+2026-11-21T21:33:21.1079914+00:00 Checking WinUI process requirements
+2026-11-21T21:33:21.1227708+00:00 Entering Application.Start
+2026-11-21T21:33:21.1791253+00:00 UI dispatcher ready, creating application
+2026-11-21T21:33:21.1866692+00:00 Loading compiled App.xaml
+2026-11-21T21:33:21.1918243+00:00 Application resources loaded
+2026-11-21T21:33:21.2499879+00:00 Constructing main window
+2026-11-21T21:33:23.1443182+00:00 Activating main window
+2026-11-21T21:33:23.2300829+00:00 Main window content loaded
+2026-11-21T21:33:23.2362384+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-21T21:33:23.2817127+00:00 Overview rendered
+2026-11-21T21:33:23.2852570+00:00 Update check entered silent=True
+2026-11-21T21:33:23.9175638+00:00 Update check/download failed: System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at UsbBridge.UpdateClient.CheckAsync(CancellationToken token)
+   at Desk.Shell.CheckForUpdate(Boolean silent)
+2026-11-21T21:33:52.0727454+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-21T21:33:58.1490844+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-21T21:33:58.5626500+00:00 DesktopAcrylicController attached=True
+2026-11-21T21:33:58.5628805+00:00 Backdrop requested=acrylic active=WindowAcrylic advancedEffects=True
+2026-11-21T21:34:08.0570594+00:00 Tray exit command pid=8340
+2026-11-21T21:34:08.0598757+00:00 Main window closed
+2026-11-21T21:34:13.9261198+00:00 Main pid=3952 base=C:\Program Files\USB Bridge Desk\
+2026-11-21T21:34:13.9287482+00:00 Checking WinUI process requirements
+2026-11-21T21:34:13.9430097+00:00 Entering Application.Start
+2026-11-21T21:34:13.9910256+00:00 UI dispatcher ready, creating application
+2026-11-21T21:34:13.9977251+00:00 Loading compiled App.xaml
+2026-11-21T21:34:14.0007441+00:00 Application resources loaded
+2026-11-21T21:34:14.0373998+00:00 Constructing main window
+2026-11-21T21:34:14.2185905+00:00 Activating main window
+2026-11-21T21:34:14.2921987+00:00 Main window content loaded
+2026-11-21T21:34:14.2978534+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-21T21:34:14.3505075+00:00 Overview rendered
+2026-11-21T21:34:14.3527862+00:00 Update check entered silent=True
+2026-11-21T21:34:14.4503506+00:00 Update manifest returned latest_version=9.9.9
+2026-11-21T21:34:14.4539949+00:00 Update manifest latest_version=9.9.9 current_version=1.3.0 comparison=newer branch=update-dialog
+2026-11-21T21:34:14.4653485+00:00 Update dialog ShowAsync called
+2026-11-21T21:34:14.4836898+00:00 Update dialog Opened (top-level Window)
+2026-11-21T21:34:14.5317313+00:00 Update prompt download button AutomationPeer created
+2026-11-21T21:34:19.4831710+00:00 Update prompt dispatcher heartbeat tick=1 elapsed_seconds=5
+2026-11-21T21:34:24.4880356+00:00 Update prompt dispatcher heartbeat tick=2 elapsed_seconds=10
+2026-11-21T21:34:29.4990531+00:00 Update prompt dispatcher heartbeat tick=3 elapsed_seconds=15
+2026-11-21T21:34:34.4996396+00:00 Update prompt dispatcher heartbeat tick=4 elapsed_seconds=20
+2026-11-21T21:34:39.5001964+00:00 Update prompt dispatcher heartbeat tick=5 elapsed_seconds=25
+2026-11-21T21:34:44.5012690+00:00 Update prompt dispatcher heartbeat tick=6 elapsed_seconds=30
+2026-11-21T21:34:49.5023778+00:00 Update prompt dispatcher heartbeat tick=7 elapsed_seconds=35
+2026-11-21T21:34:54.5031547+00:00 Update prompt dispatcher heartbeat tick=8 elapsed_seconds=40
+2026-11-21T21:34:59.5162884+00:00 Update prompt dispatcher heartbeat tick=9 elapsed_seconds=45
+2026-11-21T21:35:04.5184753+00:00 Update prompt dispatcher heartbeat tick=10 elapsed_seconds=50
+2026-11-21T21:35:09.5188918+00:00 Update prompt dispatcher heartbeat tick=11 elapsed_seconds=55
+2026-11-21T21:35:14.5191887+00:00 Update prompt dispatcher heartbeat tick=12 elapsed_seconds=60

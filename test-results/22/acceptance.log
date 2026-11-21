@@ -1,0 +1,64 @@
+﻿2026-11-21T21:34:14.6553419+00:00 startup prompt probe FindFirst=False FindAllPidButton=False TopLevelDialogWindow=False
+2026-11-21T21:34:19.7773964+00:00 startup prompt probe FindFirst=False FindAllPidButton=False TopLevelDialogWindow=False
+2026-11-21T21:34:24.9623099+00:00 startup prompt probe FindFirst=False FindAllPidButton=False TopLevelDialogWindow=False
+2026-11-21T21:34:30.3000170+00:00 startup prompt probe FindFirst=False FindAllPidButton=False TopLevelDialogWindow=False
+2026-11-21T21:34:35.4451906+00:00 startup prompt probe FindFirst=False FindAllPidButton=False TopLevelDialogWindow=False
+2026-11-21T21:34:40.5546134+00:00 startup prompt probe FindFirst=False FindAllPidButton=False TopLevelDialogWindow=False
+2026-11-21T21:34:45.7405981+00:00 startup prompt probe FindFirst=False FindAllPidButton=False TopLevelDialogWindow=False
+2026-11-21T21:34:50.8789135+00:00 startup prompt probe FindFirst=False FindAllPidButton=False TopLevelDialogWindow=False
+2026-11-21T21:34:56.0311518+00:00 startup prompt probe FindFirst=False FindAllPidButton=False TopLevelDialogWindow=False
+2026-11-21T21:35:01.1387001+00:00 startup prompt probe FindFirst=False FindAllPidButton=False TopLevelDialogWindow=False
+2026-11-21T21:35:06.2710528+00:00 startup prompt probe FindFirst=False FindAllPidButton=False TopLevelDialogWindow=False
+2026-11-21T21:35:11.3577916+00:00 startup prompt probe FindFirst=False FindAllPidButton=False TopLevelDialogWindow=False
+2026-11-21T21:35:14.4830065+00:00 UIA timeout dump for PID 3952 (startup update prompt):
+WINDOW title='USB Bridge Desk 更新'
+ELEMENT type=ControlType.Window name='USB Bridge Desk 更新'
+ELEMENT type=ControlType.Text name='发现新版本 9.9.9'
+ELEMENT type=ControlType.Text name='Windows updater acceptance fixture'
+BUTTON name='稍后'
+ELEMENT type=ControlType.Button name='稍后'
+BUTTON name='下载并安装'
+ELEMENT type=ControlType.Button name='下载并安装'
+WINDOW title='USB Bridge Desk'
+ELEMENT type=ControlType.Window name='USB Bridge Desk'
+ELEMENT type=ControlType.Pane name='Non Client Input Sink Window'
+ELEMENT type=ControlType.Pane name='AppWindow Custom Title Bar'
+BUTTON name='Minimize'
+ELEMENT type=ControlType.Button name='Minimize'
+BUTTON name='Maximize'
+ELEMENT type=ControlType.Button name='Maximize'
+BUTTON name='Close'
+ELEMENT type=ControlType.Button name='Close'
+ELEMENT type=ControlType.Image name='USB Bridge Desk'
+ELEMENT type=ControlType.Text name='USB Bridge Desk'
+BUTTON name='Open Navigation'
+ELEMENT type=ControlType.Button name='Open Navigation'
+WINDOW title=''
+ELEMENT type=ControlType.ListItem name='连接概览'
+ELEMENT type=ControlType.ListItem name='共享本机 USB'
+ELEMENT type=ControlType.ListItem name='连接远端 USB'
+ELEMENT type=ControlType.ListItem name='映射列表'
+ELEMENT type=ControlType.Text name='●  虚拟控制器已就绪'
+ELEMENT type=ControlType.ListItem name='活动日志'
+ELEMENT type=ControlType.ListItem name='设置'
+ELEMENT type=ControlType.Text name='连接概览'
+ELEMENT type=ControlType.Text name='在两台 Windows 电脑之间共享 USB 设备。'
+ELEMENT type=ControlType.Text name='共享与连接'
+ELEMENT type=ControlType.Text name='在插有设备的电脑启动共享，在需要使用设备的电脑添加远端目标。'
+BUTTON name='共享本机 USB'
+ELEMENT type=ControlType.Button name='共享本机 USB'
+BUTTON name='连接远端 USB'
+ELEMENT type=ControlType.Button name='连接远端 USB'
+BUTTON name=''
+ELEMENT type=ControlType.Text name='本机已共享'
+ELEMENT type=ControlType.Text name='0'
+BUTTON name=''
+ELEMENT type=ControlType.Text name='已保存目标'
+ELEMENT type=ControlType.Text name='0'
+BUTTON name=''
+ELEMENT type=ControlType.Text name='已连接映射'
+ELEMENT type=ControlType.Text name='0'
+ELEMENT type=ControlType.Text name='最近活动'
+BUTTON name='查看日志'
+ELEMENT type=ControlType.Button name='查看日志'
+ELEMENT type=ControlType.Text name='暂无活动。共享、连接与重连记录会显示在这里。'
