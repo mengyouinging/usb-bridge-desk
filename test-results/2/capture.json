@@ -1,0 +1,251 @@
+﻿{
+    "resourceIndexSha256":  "A176E0059B4ABDFFC4676F713E60D8276D7400034375C1A3ED83517619216F22",
+    "acrylicEvidence":  {
+                            "observed":  false,
+                            "repeatDrift":  0,
+                            "titleBarRGB":  {
+                                                "warm":  [
+                                                             28,
+                                                             36,
+                                                             40
+                                                         ],
+                                                "cool":  [
+                                                             28,
+                                                             36,
+                                                             40
+                                                         ],
+                                                "coolAgain":  [
+                                                                  28,
+                                                                  36,
+                                                                  40
+                                                              ]
+                                            },
+                            "maxChannelChange":  0
+                        },
+    "launched":  "2026-11-21T08:46:03.8179447+00:00",
+    "appSha256":  "9A7B3F97D01631A0234EFD5462C53DFAA0A5D3ED87488AC538B53A8AC536A202",
+    "terminalServerSession":  false,
+    "exitMethod":  "tray",
+    "managedAppSha256":  "26F00A17544F1CAF13FCF6FE016285219DA76328E958FE85B05F80413962916E",
+    "exitClean":  true,
+    "screenshots":  [
+                        {
+                            "width":  946,
+                            "file":  "01-overview.png",
+                            "captured":  "2026-11-21T08:46:07.8370556+00:00",
+                            "height":  633,
+                            "label":  "overview",
+                            "top":  0,
+                            "left":  7,
+                            "sha256":  "5385C9A76FC15C5ACCF5CCE4B3D542EBF399BD6C02885A41797BF48E6E9BEF44"
+                        },
+                        {
+                            "width":  20,
+                            "file":  "r4-title.png",
+                            "captured":  "2026-11-21T08:46:33.9537016+00:00",
+                            "height":  20,
+                            "label":  "installed title-bar mark",
+                            "top":  14,
+                            "left":  24,
+                            "sha256":  "1336B4D2D2E40A82DB7CECEF816F71C58DF60649E568235316C750E7F89B9C3F"
+                        },
+                        {
+                            "width":  44,
+                            "file":  "r4-taskbar.png",
+                            "captured":  "2026-11-21T08:46:34.0193007+00:00",
+                            "height":  48,
+                            "label":  "Explorer taskbar application button",
+                            "top":  720,
+                            "left":  688,
+                            "sha256":  "52672F9CD0F22C7B1FDB3DEC11E10C2631A5A22A24A3FF5B4CA3F68E46E0A1D1"
+                        },
+                        {
+                            "width":  16,
+                            "file":  "r4-icon-16.png",
+                            "captured":  "2026-11-21T08:46:34.5087739+00:00",
+                            "height":  16,
+                            "label":  "installed ICO rendered at 16 physical pixels",
+                            "top":  344,
+                            "left":  475,
+                            "sha256":  "47CFD4F5EE3FE7C8048F85676E66E747897B2DA28191F43633ADD6718F5C648D"
+                        },
+                        {
+                            "width":  32,
+                            "file":  "r4-icon-32.png",
+                            "captured":  "2026-11-21T08:46:34.5407771+00:00",
+                            "height":  32,
+                            "label":  "installed ICO rendered at 32 physical pixels",
+                            "top":  344,
+                            "left":  515,
+                            "sha256":  "6BBD764C6F6200CB9D6D5586E8C778D7AA08EF4D446D815E0A6D75965F6593F0"
+                        },
+                        {
+                            "width":  946,
+                            "file":  "02-local.png",
+                            "captured":  "2026-11-21T08:46:35.7626348+00:00",
+                            "height":  633,
+                            "label":  "host",
+                            "top":  0,
+                            "left":  7,
+                            "sha256":  "2B9A1149436DD32F578F85E29E93EAE1FDF5313C40671A4A76778A2AC590A430"
+                        },
+                        {
+                            "width":  1024,
+                            "file":  "r4-addresses.png",
+                            "captured":  "2026-11-21T08:46:36.0028546+00:00",
+                            "height":  768,
+                            "label":  "open address list and local verdicts",
+                            "top":  0,
+                            "left":  0,
+                            "sha256":  "68EF63BFAB7C069279B5AB9173C2F5724493490810968197060B9B9E463039D5"
+                        },
+                        {
+                            "width":  946,
+                            "file":  "03-remote.png",
+                            "captured":  "2026-11-21T08:46:42.0251400+00:00",
+                            "height":  633,
+                            "label":  "client",
+                            "top":  0,
+                            "left":  7,
+                            "sha256":  "276543C382674DB032CAE69E5E2D5DB295462BEAC5B402DBEB88422F2DB99349"
+                        },
+                        {
+                            "width":  946,
+                            "file":  "r4-remote-type.png",
+                            "captured":  "2026-11-21T08:46:43.1501557+00:00",
+                            "height":  633,
+                            "label":  "remote device type: 鼠标（推测）",
+                            "top":  0,
+                            "left":  7,
+                            "sha256":  "6A087197168DAB0471775DC661D1FC7F2632899DE87322D5F254F1E7FCA5A70F"
+                        },
+                        {
+                            "width":  946,
+                            "file":  "04-mappings.png",
+                            "captured":  "2026-11-21T08:46:44.0342902+00:00",
+                            "height":  633,
+                            "label":  "mappings",
+                            "top":  0,
+                            "left":  7,
+                            "sha256":  "5990B32D681336C329D0D7A5424A335D8A3C01629A0031827E7996ADD5A76231"
+                        },
+                        {
+                            "width":  946,
+                            "file":  "05-dark-acrylic.png",
+                            "captured":  "2026-11-21T08:46:48.3850465+00:00",
+                            "height":  633,
+                            "label":  "settings dark / acrylic / desktop blend unverified",
+                            "top":  0,
+                            "left":  7,
+                            "sha256":  "58576C0733D6FED8D3217B11F6FF5DD2C45905DA53D31727936783D635A6B987"
+                        },
+                        {
+                            "width":  946,
+                            "file":  "06-dark-overview.png",
+                            "captured":  "2026-11-21T08:46:49.2705785+00:00",
+                            "height":  633,
+                            "label":  "overview dark / acrylic / desktop blend unverified",
+                            "top":  0,
+                            "left":  7,
+                            "sha256":  "A2E0C6AFDFF5CC8126FB6E4AE59BBBB4DBFB4846CA7E5F0F9D1773AD5FEF98E4"
+                        },
+                        {
+                            "width":  40,
+                            "file":  "r4-tray.png",
+                            "captured":  "2026-11-21T08:46:52.6458215+00:00",
+                            "height":  40,
+                            "label":  "registered notification icon",
+                            "top":  663,
+                            "left":  746,
+                            "sha256":  "26BA4A4A4A3F0C96125BAEA9EE815D7AD167D098C93B4ACF7767D3D691A927E9"
+                        },
+                        {
+                            "width":  1024,
+                            "file":  "07-tray.png",
+                            "captured":  "2026-11-21T08:46:53.3868677+00:00",
+                            "height":  768,
+                            "label":  "visible application tray menu",
+                            "top":  0,
+                            "left":  0,
+                            "sha256":  "61869471701AAB8099CA3C691AFA0641226C1A309DF950E01EF6319C0E2BA086"
+                        }
+                    ],
+    "forcedExit":  false,
+    "exitCode":  0,
+    "failures":  [
+                     "Missing R4 evidence: r4-local-type.png"
+                 ],
+    "appPath":  "C:\\Program Files\\USB Bridge Desk\\UsbBridgeDesk.exe",
+    "r4":  {
+               "remoteDevices":  [
+                                     "Mouse · 鼠标（推测） · 1-2   ·   046d:c077"
+                                 ],
+               "localTypes":  [
+
+                              ],
+               "remoteTypes":  [
+                                   "鼠标（推测）"
+                               ],
+               "trayRect":  "{X=746,Y=663,Width=40,Height=40}",
+               "remoteSource":  "read-only loopback fixture",
+               "addresses":  [
+                                 "不推荐 · Ethernet 3 · 10.1.0.20:3240 虚拟网卡或隧道，仅同一虚拟网络内的对端可能可达。",
+                                 "不推荐 · Ethernet 3 · 10.1.0.20:3240 虚拟网卡或隧道，仅同一虚拟网络内的对端可能可达。"
+                             ],
+               "dpi":  96,
+               "minimum":  {
+                               "host":  {
+                                            "overflow":  [
+
+                                                         ],
+                                            "withinWindow":  true,
+                                            "width":  960,
+                                            "height":  640
+                                        },
+                               "client":  {
+                                              "overflow":  [
+
+                                                           ],
+                                              "withinWindow":  true,
+                                              "width":  960,
+                                              "height":  640
+                                          },
+                               "maps":  {
+                                            "overflow":  [
+
+                                                         ],
+                                            "withinWindow":  true,
+                                            "width":  960,
+                                            "height":  640
+                                        },
+                               "settings":  {
+                                                "overflow":  [
+
+                                                             ],
+                                                "withinWindow":  true,
+                                                "width":  960,
+                                                "height":  640
+                                            },
+                               "home":  {
+                                            "overflow":  [
+
+                                                         ],
+                                            "withinWindow":  true,
+                                            "width":  960,
+                                            "height":  640
+                                        }
+                           },
+               "checks":  {
+
+                          },
+               "localDevices":  [
+
+                                ]
+           },
+    "alive30s":  true,
+    "os":  "10.0.26100.0",
+    "trayShot":  {
+                     "status":  "captured",
+                     "reason":  null
+                 }
+}
