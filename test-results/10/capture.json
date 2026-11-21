@@ -1,0 +1,115 @@
+﻿{
+    "appPath":  "C:\\Program Files\\USB Bridge Desk\\UsbBridgeDesk.exe",
+    "exitCode":  0,
+    "alive30s":  true,
+    "exitMethod":  "tray",
+    "appSha256":  "3FEF66C77214BC1CC23D765DD43AB39C2FEEF94B1047942FA36C2339256BE163",
+    "trayShot":  {
+                     "status":  "captured",
+                     "reason":  null
+                 },
+    "resourceIndexSha256":  "AC2FCA4CE9EF1A4ABC821F1101A5178DDEB09B28F0A4A81BF1FC5C586D91A37C",
+    "terminalServerSession":  false,
+    "exitClean":  true,
+    "managedAppSha256":  "426EAE0278AC5C8FA6D1ED33FDDC307C69F8FFAEA08E92DA1D35127819422266",
+    "acrylicEvidence":  {
+                            "observed":  false,
+                            "repeatDrift":  0,
+                            "titleBarRGB":  {
+                                                "warm":  [
+                                                             28,
+                                                             36,
+                                                             40
+                                                         ],
+                                                "cool":  [
+                                                             28,
+                                                             36,
+                                                             40
+                                                         ],
+                                                "coolAgain":  [
+                                                                  28,
+                                                                  36,
+                                                                  40
+                                                              ]
+                                            },
+                            "maxChannelChange":  0
+                        },
+    "screenshots":  [
+                        {
+                            "width":  986,
+                            "file":  "01-overview.png",
+                            "captured":  "2026-11-21T07:37:05.2611553+00:00",
+                            "height":  689,
+                            "label":  "overview",
+                            "top":  12,
+                            "left":  19,
+                            "sha256":  "5161A11DFAAFD0A78EC2BBAF810E7DF1746BCFA8AE0354989767E5689A137E0F"
+                        },
+                        {
+                            "width":  986,
+                            "file":  "02-local.png",
+                            "captured":  "2026-11-21T07:37:31.8622995+00:00",
+                            "height":  689,
+                            "label":  "host",
+                            "top":  12,
+                            "left":  19,
+                            "sha256":  "78D78B38531FF62080CB42E83EDF8649FB4E7DDD3D1FFF23D7E62DAEFD8B3D18"
+                        },
+                        {
+                            "width":  986,
+                            "file":  "03-remote.png",
+                            "captured":  "2026-11-21T07:37:32.7599277+00:00",
+                            "height":  689,
+                            "label":  "client",
+                            "top":  12,
+                            "left":  19,
+                            "sha256":  "566C69BBF8DD48DDF0B14221C33D8D114348006241FEBCC10F57E3DB71513BAE"
+                        },
+                        {
+                            "width":  986,
+                            "file":  "04-mappings.png",
+                            "captured":  "2026-11-21T07:37:33.6301563+00:00",
+                            "height":  689,
+                            "label":  "mappings",
+                            "top":  12,
+                            "left":  19,
+                            "sha256":  "F62E74443DCD273C91256D2F0B9F45767DD90A86F8F50EC9331FE7469FFA0A0A"
+                        },
+                        {
+                            "width":  986,
+                            "file":  "05-dark-acrylic.png",
+                            "captured":  "2026-11-21T07:37:37.7539814+00:00",
+                            "height":  689,
+                            "label":  "settings dark / acrylic / desktop blend unverified",
+                            "top":  12,
+                            "left":  19,
+                            "sha256":  "9F48A8A020B36E9A2CA0F586A597B4D0B1B842F0A720CA9C43D00B10F964CC32"
+                        },
+                        {
+                            "width":  986,
+                            "file":  "06-dark-overview.png",
+                            "captured":  "2026-11-21T07:37:38.6285989+00:00",
+                            "height":  689,
+                            "label":  "overview dark / acrylic / desktop blend unverified",
+                            "top":  12,
+                            "left":  19,
+                            "sha256":  "6A1F5B0CE02F8B3F25BBAE917B9733A4FCF8D31C8C07F1636969CB58FC6B159A"
+                        },
+                        {
+                            "width":  1024,
+                            "file":  "07-tray.png",
+                            "captured":  "2026-11-21T07:37:42.5640558+00:00",
+                            "height":  768,
+                            "label":  "visible application tray menu",
+                            "top":  0,
+                            "left":  0,
+                            "sha256":  "0DC59D4A806ACD8BD7A02A310CBC5B8FF6C6C2BD4C6B0AA8D5B170DA2429839F"
+                        }
+                    ],
+    "os":  "10.0.26100.0",
+    "forcedExit":  false,
+    "failures":  [
+
+                 ],
+    "launched":  "2026-11-21T07:37:00.9029726+00:00"
+}
