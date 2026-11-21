@@ -1,18 +1,46 @@
-﻿# R3 1.1.0 Windows test - run 4
+﻿# R4 1.2.0 Windows test - run 4
 
 - build: success
 - silent install: success
-- desktop capture: failure
-- installer: SIZE=44958698 | SHA256=E041541064E5FD7D863CDB5364D11A0586525F4731F1BC6362C81383999A5289 | INSTALL_EXIT=3010
-- driver exit: DRIVER_EXIT=1
+- installed backend: success
+- tray overlays: success
+- desktop capture: success
+- installer: SIZE=45474451 | SHA256=9E5F0FED7B000E1A7043C1800866BBECAB13D2CB6445BC6B344651A1E57351F5 | INSTALL_EXIT=3010
+- driver exit: DRIVER_EXIT=0
 - alive 30s: True
-- clean exit: False (forced: True, code: -1)
-- screenshots: 6
-- failures: Exception calling "GetClickablePoint" with "0" argument(s): "The AutomationElement has no clickable point."
+- clean exit: True (forced: False, code: 0)
+- screenshots: 15
+- failures: none recorded
 
-- 01-overview.png (overview) sha256=948905F3E12C06FEFFD821561D8E7A04FD6E391685BA6B295A46E6F4C2D90142
-- 02-local.png (host) sha256=7BE774FDE491C8076C97519C8E14E97DFB88F0D16BA2D2F00D5C1658FADB9CAB
-- 03-remote.png (client) sha256=58A0E22658FADE94043339F0621C47DDF052D0607E60EB9D39A2315193FF20B7
-- 04-mappings.png (mappings) sha256=0AE194FF93C8D9DEBFFEDCBA917DD23BA4498EAB0B3DE228DFB36FB00B6C1C81
-- 05-dark-acrylic.png (settings dark / acrylic selected) sha256=5B08A9977E468BEE72C540D4596BA18E7AFDA3E9AEEE0E9DF5D895C01653AE70
-- 06-dark-overview.png (overview dark / acrylic selected) sha256=C8D610A89DFDD1230B1A466BD225256D1A5D5C9E31B4B457E8624EFAB2F5603B
+- service_start passed=True {"State":"Running","ProcessId":4312,"PathName":"\"C:\\Program Files\\USB Bridge Desk\\resources\\host\\usbipd.exe\" server"}
+- tcp_3240_listener passed=True [{"LocalAddress":"::","LocalPort":3240,"OwningProcess":4312}]
+- host_device_enumeration passed=True {"exitCode":0,"devices":0}
+- usbip_devlist_handshake passed=True {"endpoint":"127.0.0.1:3240","version":"0x0111","request":"OP_REQ_DEVLIST","reply":"OP_REP_DEVLIST","status":0,"exports":0}
+- installed_client_loopback_list passed=True {"exitCode":0,"exports":0,"endpoint":"127.0.0.1:3240"}
+- client_virtual_ports passed=True {"exitCode":0,"importedPorts":0}
+- restore_service passed=True {"restored":"Stopped"}
+- minimum host: 960 x 640 DIP; within bounds=True
+- minimum client: 960 x 640 DIP; within bounds=True
+- minimum maps: 960 x 640 DIP; within bounds=True
+- minimum settings: 960 x 640 DIP; within bounds=True
+- minimum home: 960 x 640 DIP; within bounds=True
+- address evidence: 不推荐 · Ethernet 3 · 10.1.0.26:3240 虚拟网卡或隧道，仅同一虚拟网络内的对端可能可达。 / 不推荐 · vEthernet (nat) · 172.21.80.1:3240 虚拟网卡或隧道，仅同一虚拟网络内的对端可能可达。
+- acrylic: fallback_color_observed - Verified stimulus; stable title pixels match the configured dark fallback color; OS cause unknown
+- local screenshot source: descriptor-fixture 本机类型测试夹具（无实物） · 键盘 · 1-1  ·  0000:0000  ·  模拟 HID 接口描述符
+- Windows local devices: 
+- remote device rows (read-only loopback fixture): Mouse · 鼠标（推测） · 1-2   ·   046d:c077
+- 01-overview.png (overview) sha256=5385C9A76FC15C5ACCF5CCE4B3D542EBF399BD6C02885A41797BF48E6E9BEF44
+- r4-title.png (installed title-bar mark) sha256=1336B4D2D2E40A82DB7CECEF816F71C58DF60649E568235316C750E7F89B9C3F
+- r4-taskbar.png (Explorer taskbar application button) sha256=52672F9CD0F22C7B1FDB3DEC11E10C2631A5A22A24A3FF5B4CA3F68E46E0A1D1
+- r4-icon-16.png (installed ICO rendered at 16 physical pixels) sha256=2921B9AA82757EC478394F7F370DD604AB6B966BDAF6C6006F3B5DEC2C2EAAD2
+- r4-icon-32.png (installed ICO rendered at 32 physical pixels) sha256=6BBD764C6F6200CB9D6D5586E8C778D7AA08EF4D446D815E0A6D75965F6593F0
+- 02-local.png (host) sha256=4681F6926BBC7CBAB6C68B75AABCA2382784408D3FF63E0C8EB58F0AD2549C45
+- r4-addresses.png (open address list and local verdicts) sha256=0CA88D6E385C42784E223C93AE00A68A5923B8846DB65571D8210B0C02E8DE9E
+- r4-local-type.png (display-only local HID fixture (0 physical devices)) sha256=DE2520CA9AC65254E4B4BFB0DBDE3ABAD8D2B5EA66E62753696016FBE817152E
+- 03-remote.png (client) sha256=D2ED2B7E8199001DE6CBB67C7864C07758514847FE6BCAABFE92099A09041E90
+- r4-remote-type.png (remote device type: 鼠标（推测）) sha256=4000944F622C506E54B0D37567F6696F4D7DD6AF5850740F0324EFECBC892C91
+- 04-mappings.png (mappings) sha256=5990B32D681336C329D0D7A5424A335D8A3C01629A0031827E7996ADD5A76231
+- 05-dark-acrylic.png (settings dark / acrylic / fallback_color_observed) sha256=1341BCC14177CB28ADEACA1B16C992471A377B64C9AC1AEC5E0CD4E5FC5F4E67
+- 06-dark-overview.png (overview dark / acrylic / fallback_color_observed) sha256=57D30C4B36BC9CCDA70310B7088578346A3C88ECFA3DEC0487807574577A6313
+- r4-tray.png (registered notification icon) sha256=265E3303B456561609D702CB959FF8C27C1863070F92E275A3F6723F42764AF3
+- 07-tray.png (visible application tray menu) sha256=74546E2CC3D91596EAAED738AB0DC33F96DF21D16A362A659AEA719B00478F25
