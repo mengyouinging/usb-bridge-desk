@@ -35,7 +35,7 @@ jobs:
         working-directory: .
         shell: powershell
         run: |
-          $zip='source-fix8.zip'
+          $zip='source-fix9.zip'
           if(Test-Path r5-build){throw 'Clean runner checkout required: r5-build already exists'}
           Expand-Archive -LiteralPath $zip -DestinationPath r5-build
           Set-Location r5-build/USB-Bridge-Desk-R5
@@ -186,6 +186,7 @@ jobs:
             r5-build/USB-Bridge-Desk-R5/screenshots/uninstall-confirmation.png
             r5-build/USB-Bridge-Desk-R5/screenshots/acceptance.log
             r5-build/USB-Bridge-Desk-R5/screenshots/requests.log
+            r5-build/USB-Bridge-Desk-R5/screenshots/update-prompt-timeout.png
             r5-build/USB-Bridge-Desk-R5/install-result.txt
             r5-build/USB-Bridge-Desk-R5/driver-result.txt
             r5-build/USB-Bridge-Desk-R5/release/
