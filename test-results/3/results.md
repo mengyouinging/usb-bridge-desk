@@ -1,12 +1,14 @@
-﻿# R3 1.1.0 Windows test - run 3
+﻿# R4 1.2.0 Windows test - run 3
 
 - build: success
-- silent install: success
-- desktop capture: failure
-- installer: SIZE=44312634 | SHA256=3A07A99C7F0B1E2D026FC1C494535ACC0F957ED8478304ED9611755004677AD5 | INSTALL_EXIT=3010
-- driver exit: DRIVER_EXIT=1
-- alive 30s: False
-- clean exit: False (forced: False, code: -1073741189)
+- silent install: failure
+- installed backend: skipped
+- tray overlays: skipped
+- desktop capture: skipped
+- installer: SIZE=45466257 | SHA256=381FD06029BF04C2EA6697FE14FF20CE8D7743E36F785AC3AF7E3EB146E0EB2F | INSTALL_EXIT=2
+- driver exit: n/a
+- alive 30s: 
+- clean exit:  (forced: , code: )
 - screenshots: 0
-- failures: App exited (-1073741189) while waiting for native main window
+- failures: none recorded
 
