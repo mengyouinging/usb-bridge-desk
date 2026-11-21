@@ -35,7 +35,7 @@ jobs:
         working-directory: .
         shell: powershell
         run: |
-          $zip='source-fix7.zip'
+          $zip='source-fix8.zip'
           if(Test-Path r5-build){throw 'Clean runner checkout required: r5-build already exists'}
           Expand-Archive -LiteralPath $zip -DestinationPath r5-build
           Set-Location r5-build/USB-Bridge-Desk-R5
@@ -63,6 +63,8 @@ jobs:
           $env:PYTHONUTF8 = "1"
           python -u dev/package.py 2>&1 | Tee-Object -FilePath build.log
           if ($LASTEXITCODE -ne 0) { throw "package.py failed with $LASTEXITCODE" }
+          if (Select-String -Path build.log -Pattern 'warning 6100|\(ACP\)' -Quiet) { throw 'makensis did not read setup.nsi as UTF-8; inspect build.log.' }
+          if (-not (Select-String -Path build.log -Pattern 'Processing script file:.*\(UTF-?8\)' -Quiet)) { throw 'makensis log did not confirm UTF-8 source decoding.' }
           Get-ChildItem release/ | Format-Table Name, Length
 
       - name: Silent-install rebuilt installer
@@ -133,6 +135,31 @@ jobs:
           python -u dev/test-backend.py backend.json
           exit $LASTEXITCODE
 
+      - name: Exercise updater and GUI uninstall flows
+        if: ${{ !cancelled() && steps.backend.outcome == 'success' }}
+        shell: pwsh
+        timeout-minutes: 20
+        run: |
+          $fixture=Join-Path $PWD 'screenshots'
+          New-Item -ItemType Directory -Force $fixture | Out-Null
+          $portFile=Join-Path $env:RUNNER_TEMP 'update-fixture-port.json'
+          $server=Start-Process python -ArgumentList @('dev/update-fixture-server.py',("`"$fixture`""),("`"$portFile`"")) -PassThru -WindowStyle Hidden
+          try {
+            $deadline=(Get-Date).AddSeconds(15)
+            while (!(Test-Path $portFile) -and (Get-Date) -lt $deadline) { Start-Sleep -Milliseconds 100 }
+            if (!(Test-Path $portFile)) { throw 'Updater fixture server did not start.' }
+            $port=(Get-Content -Raw $portFile | ConvertFrom-Json).port
+            $fixtureUrl="http://127.0.0.1:$port"
+            & "$env:SystemRoot\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy Bypass -File dev/windows-r5-acceptance.ps1 `
+              -AppPath $env:APP_PATH `
+              -UninstallerPath (Join-Path (Split-Path $env:APP_PATH) 'Uninstall.exe') `
+              -InstallerPath (Join-Path $PWD 'release\USB-Bridge-Desk-R5-1.3.0-x64.exe') `
+              -FixtureUrl $fixtureUrl -OutDir $fixture
+            if ($LASTEXITCODE -ne 0) { throw "Updater/uninstall acceptance failed with $LASTEXITCODE" }
+          } finally {
+            if ($server -and !$server.HasExited) { Stop-Process -Id $server.Id -Force }
+          }
+
       - name: Collect install and startup diagnostics
         if: failure()
         shell: powershell
@@ -152,6 +179,13 @@ jobs:
             r5-build/USB-Bridge-Desk-R5/screenshots/
             r5-build/USB-Bridge-Desk-R5/build.log
             r5-build/USB-Bridge-Desk-R5/backend.json
+            r5-build/USB-Bridge-Desk-R5/screenshots/update-available.png
+            r5-build/USB-Bridge-Desk-R5/screenshots/settings-update-result.png
+            r5-build/USB-Bridge-Desk-R5/screenshots/update-hash-failure.png
+            r5-build/USB-Bridge-Desk-R5/screenshots/uninstall-running-app-guard.png
+            r5-build/USB-Bridge-Desk-R5/screenshots/uninstall-confirmation.png
+            r5-build/USB-Bridge-Desk-R5/screenshots/acceptance.log
+            r5-build/USB-Bridge-Desk-R5/screenshots/requests.log
             r5-build/USB-Bridge-Desk-R5/install-result.txt
             r5-build/USB-Bridge-Desk-R5/driver-result.txt
             r5-build/USB-Bridge-Desk-R5/release/
