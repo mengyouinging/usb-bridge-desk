@@ -1,0 +1,33 @@
+2026-11-21T16:39:11.2341427+00:00 Main pid=5672 base=C:\Program Files\USB Bridge Desk\
+2026-11-21T16:39:11.2430348+00:00 Checking WinUI process requirements
+2026-11-21T16:39:11.2608156+00:00 Entering Application.Start
+2026-11-21T16:39:11.3249704+00:00 UI dispatcher ready, creating application
+2026-11-21T16:39:11.3325476+00:00 Loading compiled App.xaml
+2026-11-21T16:39:11.3360351+00:00 Application resources loaded
+2026-11-21T16:39:11.3787667+00:00 Constructing main window
+2026-11-21T16:39:13.7179596+00:00 Activating main window
+2026-11-21T16:39:13.8238164+00:00 Main window content loaded
+2026-11-21T16:39:13.8306716+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-21T16:39:13.8806917+00:00 Overview rendered
+2026-11-21T16:39:15.0495356+00:00 Update check/download failed: System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at UsbBridge.UpdateClient.CheckAsync(CancellationToken token)
+   at Desk.Shell.CheckForUpdate(Boolean silent)
+2026-11-21T16:39:42.4749118+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-21T16:39:49.1868567+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-21T16:39:49.6502335+00:00 DesktopAcrylicController attached=True
+2026-11-21T16:39:49.6504844+00:00 Backdrop requested=acrylic active=WindowAcrylic advancedEffects=True
+2026-11-21T16:39:59.3555117+00:00 Tray exit command pid=5672
+2026-11-21T16:39:59.3587450+00:00 Main window closed
+2026-11-21T16:40:05.7379103+00:00 Main pid=4152 base=C:\Program Files\USB Bridge Desk\
+2026-11-21T16:40:05.7411092+00:00 Checking WinUI process requirements
+2026-11-21T16:40:05.7575913+00:00 Entering Application.Start
+2026-11-21T16:40:05.8170485+00:00 UI dispatcher ready, creating application
+2026-11-21T16:40:05.8266097+00:00 Loading compiled App.xaml
+2026-11-21T16:40:05.8308960+00:00 Application resources loaded
+2026-11-21T16:40:05.8772248+00:00 Constructing main window
+2026-11-21T16:40:06.1214709+00:00 Activating main window
+2026-11-21T16:40:06.2144571+00:00 Main window content loaded
+2026-11-21T16:40:06.2207383+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-21T16:40:06.2793832+00:00 Overview rendered
