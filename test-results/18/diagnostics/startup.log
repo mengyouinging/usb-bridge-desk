@@ -1,0 +1,39 @@
+2026-11-21T19:53:18.5748107+00:00 Main pid=4148 base=C:\Program Files\USB Bridge Desk\
+2026-11-21T19:53:18.5840107+00:00 Checking WinUI process requirements
+2026-11-21T19:53:18.5993304+00:00 Entering Application.Start
+2026-11-21T19:53:18.6556376+00:00 UI dispatcher ready, creating application
+2026-11-21T19:53:18.6627680+00:00 Loading compiled App.xaml
+2026-11-21T19:53:18.6661874+00:00 Application resources loaded
+2026-11-21T19:53:18.7060163+00:00 Constructing main window
+2026-11-21T19:53:20.7514686+00:00 Activating main window
+2026-11-21T19:53:20.8344704+00:00 Main window content loaded
+2026-11-21T19:53:20.8401420+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-21T19:53:20.8839666+00:00 Overview rendered
+2026-11-21T19:53:20.8884801+00:00 Update check entered silent=True
+2026-11-21T19:53:21.5521515+00:00 Update check/download failed: System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at UsbBridge.UpdateClient.CheckAsync(CancellationToken token)
+   at Desk.Shell.CheckForUpdate(Boolean silent)
+2026-11-21T19:53:49.5854959+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-21T19:53:55.3037776+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-21T19:53:55.6995265+00:00 DesktopAcrylicController attached=True
+2026-11-21T19:53:55.6997438+00:00 Backdrop requested=acrylic active=WindowAcrylic advancedEffects=True
+2026-11-21T19:54:05.1411985+00:00 Tray exit command pid=4148
+2026-11-21T19:54:05.1439690+00:00 Main window closed
+2026-11-21T19:54:10.9532153+00:00 Main pid=6416 base=C:\Program Files\USB Bridge Desk\
+2026-11-21T19:54:10.9558043+00:00 Checking WinUI process requirements
+2026-11-21T19:54:10.9693613+00:00 Entering Application.Start
+2026-11-21T19:54:11.0159116+00:00 UI dispatcher ready, creating application
+2026-11-21T19:54:11.0231237+00:00 Loading compiled App.xaml
+2026-11-21T19:54:11.0263915+00:00 Application resources loaded
+2026-11-21T19:54:11.0647282+00:00 Constructing main window
+2026-11-21T19:54:11.2447123+00:00 Activating main window
+2026-11-21T19:54:11.3162661+00:00 Main window content loaded
+2026-11-21T19:54:11.3219032+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-21T19:54:11.3723381+00:00 Overview rendered
+2026-11-21T19:54:11.3745674+00:00 Update check entered silent=True
+2026-11-21T19:54:11.4633720+00:00 Update manifest returned latest_version=9.9.9
+2026-11-21T19:54:11.4669079+00:00 Update manifest latest_version=9.9.9 current_version=1.3.0 comparison=newer branch=update-dialog
+2026-11-21T19:54:11.4708499+00:00 Update dialog ShowAsync called
+2026-11-21T19:54:11.4862388+00:00 Update dialog Opened
