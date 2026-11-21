@@ -1,0 +1,239 @@
+﻿2026-11-21T22:29:02.5202217+00:00 startup prompt probe elapsed_since_first_probe=0s RootElement FindFirst=False FindAllPidButton=False UpdateWindow=False MainWindow='USB Bridge Desk 更新'
+2026-11-21T22:29:02.5519816+00:00 startup HWND probe hwnd=0x40142 visible=True rectAvailable=True rect=252,235,772,485 FromHandle=True fromHandleError=none title='USB Bridge Desk 更新' buttonFound=False
+2026-11-21T22:29:02.5718827+00:00 startup HWND probe hwnd=0x5018C visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=False
+2026-11-21T22:29:02.5736415+00:00 startup HWND probe hwnd=0x501AC visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-21T22:29:02.5776825+00:00 startup HWND probe hwnd=0x601D0 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-21T22:29:02.5797066+00:00 startup HWND probe hwnd=0xA01C6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-21T22:29:02.5817323+00:00 startup HWND probe hwnd=0x40148 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-21T22:29:02.5837497+00:00 startup HWND probe hwnd=0x8012A visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:02.5857683+00:00 startup HWND probe hwnd=0x6002E visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:02.5877889+00:00 startup HWND probe hwnd=0x601F6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:02.5895663+00:00 startup prompt probe HWNDButton=False
+2026-11-21T22:29:07.9805024+00:00 startup prompt probe elapsed_since_first_probe=5.8s RootElement FindFirst=False FindAllPidButton=False UpdateWindow=False MainWindow='USB Bridge Desk 更新'
+2026-11-21T22:29:07.9899046+00:00 startup HWND probe hwnd=0x40142 visible=True rectAvailable=True rect=252,235,772,485 FromHandle=True fromHandleError=none title='USB Bridge Desk 更新' buttonFound=False
+2026-11-21T22:29:08.0056875+00:00 startup HWND probe hwnd=0x5018C visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=False
+2026-11-21T22:29:08.0077074+00:00 startup HWND probe hwnd=0x501AC visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-21T22:29:08.0097235+00:00 startup HWND probe hwnd=0x601D0 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-21T22:29:08.0117407+00:00 startup HWND probe hwnd=0xA01C6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-21T22:29:08.0137520+00:00 startup HWND probe hwnd=0x40148 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-21T22:29:08.0157711+00:00 startup HWND probe hwnd=0x8012A visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:08.0177980+00:00 startup HWND probe hwnd=0x6002E visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:08.0215947+00:00 startup HWND probe hwnd=0x601F6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:08.0215947+00:00 startup prompt probe HWNDButton=False
+2026-11-21T22:29:13.4392174+00:00 startup prompt probe elapsed_since_first_probe=11.2s RootElement FindFirst=False FindAllPidButton=False UpdateWindow=False MainWindow='USB Bridge Desk 更新'
+2026-11-21T22:29:13.4492980+00:00 startup HWND probe hwnd=0x40142 visible=True rectAvailable=True rect=252,235,772,485 FromHandle=True fromHandleError=none title='USB Bridge Desk 更新' buttonFound=False
+2026-11-21T22:29:13.4651708+00:00 startup HWND probe hwnd=0x5018C visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=False
+2026-11-21T22:29:13.4671927+00:00 startup HWND probe hwnd=0x501AC visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-21T22:29:13.4692098+00:00 startup HWND probe hwnd=0x601D0 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-21T22:29:13.4715086+00:00 startup HWND probe hwnd=0xA01C6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-21T22:29:13.4735354+00:00 startup HWND probe hwnd=0x40148 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-21T22:29:13.4755511+00:00 startup HWND probe hwnd=0x8012A visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:13.4775690+00:00 startup HWND probe hwnd=0x6002E visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:13.4795810+00:00 startup HWND probe hwnd=0x601F6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:13.4815971+00:00 startup prompt probe HWNDButton=False
+2026-11-21T22:29:18.9067038+00:00 startup prompt probe elapsed_since_first_probe=16.7s RootElement FindFirst=False FindAllPidButton=False UpdateWindow=False MainWindow='USB Bridge Desk 更新'
+2026-11-21T22:29:18.9147539+00:00 startup HWND probe hwnd=0x40142 visible=True rectAvailable=True rect=252,235,772,485 FromHandle=True fromHandleError=none title='USB Bridge Desk 更新' buttonFound=False
+2026-11-21T22:29:18.9326441+00:00 startup HWND probe hwnd=0x5018C visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=False
+2026-11-21T22:29:18.9344089+00:00 startup HWND probe hwnd=0x501AC visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-21T22:29:18.9364276+00:00 startup HWND probe hwnd=0x601D0 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-21T22:29:18.9384468+00:00 startup HWND probe hwnd=0xA01C6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-21T22:29:18.9404634+00:00 startup HWND probe hwnd=0x40148 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-21T22:29:18.9424843+00:00 startup HWND probe hwnd=0x8012A visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:18.9445045+00:00 startup HWND probe hwnd=0x6002E visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:18.9465174+00:00 startup HWND probe hwnd=0x601F6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:18.9465174+00:00 startup prompt probe HWNDButton=False
+2026-11-21T22:29:24.4412785+00:00 startup prompt probe elapsed_since_first_probe=22.2s RootElement FindFirst=False FindAllPidButton=False UpdateWindow=False MainWindow='USB Bridge Desk 更新'
+2026-11-21T22:29:24.4490904+00:00 startup HWND probe hwnd=0x40142 visible=True rectAvailable=True rect=252,235,772,485 FromHandle=True fromHandleError=none title='USB Bridge Desk 更新' buttonFound=False
+2026-11-21T22:29:24.4675010+00:00 startup HWND probe hwnd=0x5018C visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=False
+2026-11-21T22:29:24.4695193+00:00 startup HWND probe hwnd=0x501AC visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-21T22:29:24.4715340+00:00 startup HWND probe hwnd=0x601D0 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-21T22:29:24.4735451+00:00 startup HWND probe hwnd=0xA01C6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-21T22:29:24.4755580+00:00 startup HWND probe hwnd=0x40148 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-21T22:29:24.4795789+00:00 startup HWND probe hwnd=0x8012A visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:24.4813822+00:00 startup HWND probe hwnd=0x6002E visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:24.4833997+00:00 startup HWND probe hwnd=0x601F6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:24.4833997+00:00 startup prompt probe HWNDButton=False
+2026-11-21T22:29:29.9360184+00:00 startup prompt probe elapsed_since_first_probe=27.7s RootElement FindFirst=False FindAllPidButton=False UpdateWindow=False MainWindow='USB Bridge Desk 更新'
+2026-11-21T22:29:29.9458283+00:00 startup HWND probe hwnd=0x40142 visible=True rectAvailable=True rect=252,235,772,485 FromHandle=True fromHandleError=none title='USB Bridge Desk 更新' buttonFound=False
+2026-11-21T22:29:29.9617186+00:00 startup HWND probe hwnd=0x5018C visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=False
+2026-11-21T22:29:29.9637304+00:00 startup HWND probe hwnd=0x501AC visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-21T22:29:29.9657503+00:00 startup HWND probe hwnd=0x601D0 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-21T22:29:29.9677664+00:00 startup HWND probe hwnd=0xA01C6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-21T22:29:29.9718067+00:00 startup HWND probe hwnd=0x40148 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-21T22:29:29.9738312+00:00 startup HWND probe hwnd=0x8012A visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:29.9738312+00:00 startup HWND probe hwnd=0x6002E visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:29.9776116+00:00 startup HWND probe hwnd=0x601F6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:29.9776116+00:00 startup prompt probe HWNDButton=False
+2026-11-21T22:29:35.3506674+00:00 startup prompt probe elapsed_since_first_probe=33.2s RootElement FindFirst=False FindAllPidButton=False UpdateWindow=False MainWindow='USB Bridge Desk 更新'
+2026-11-21T22:29:35.3587330+00:00 startup HWND probe hwnd=0x40142 visible=True rectAvailable=True rect=252,235,772,485 FromHandle=True fromHandleError=none title='USB Bridge Desk 更新' buttonFound=False
+2026-11-21T22:29:35.3766353+00:00 startup HWND probe hwnd=0x5018C visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=False
+2026-11-21T22:29:35.3786476+00:00 startup HWND probe hwnd=0x501AC visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-21T22:29:35.3804109+00:00 startup HWND probe hwnd=0x601D0 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-21T22:29:35.3824230+00:00 startup HWND probe hwnd=0xA01C6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-21T22:29:35.3824230+00:00 startup HWND probe hwnd=0x40148 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-21T22:29:35.3844484+00:00 startup HWND probe hwnd=0x8012A visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:35.3864744+00:00 startup HWND probe hwnd=0x6002E visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:35.3884948+00:00 startup HWND probe hwnd=0x601F6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:35.3905210+00:00 startup prompt probe HWNDButton=False
+2026-11-21T22:29:40.7922464+00:00 startup prompt probe elapsed_since_first_probe=38.6s RootElement FindFirst=False FindAllPidButton=False UpdateWindow=False MainWindow='USB Bridge Desk 更新'
+2026-11-21T22:29:40.8000766+00:00 startup HWND probe hwnd=0x40142 visible=True rectAvailable=True rect=252,235,772,485 FromHandle=True fromHandleError=none title='USB Bridge Desk 更新' buttonFound=False
+2026-11-21T22:29:40.8175820+00:00 startup HWND probe hwnd=0x5018C visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=False
+2026-11-21T22:29:40.8179890+00:00 startup HWND probe hwnd=0x501AC visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-21T22:29:40.8200099+00:00 startup HWND probe hwnd=0x601D0 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-21T22:29:40.8220216+00:00 startup HWND probe hwnd=0xA01C6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-21T22:29:40.8240425+00:00 startup HWND probe hwnd=0x40148 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-21T22:29:40.8260636+00:00 startup HWND probe hwnd=0x8012A visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:40.8280749+00:00 startup HWND probe hwnd=0x6002E visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:40.8311102+00:00 startup HWND probe hwnd=0x601F6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:40.8318460+00:00 startup prompt probe HWNDButton=False
+2026-11-21T22:29:46.2409722+00:00 startup prompt probe elapsed_since_first_probe=44s RootElement FindFirst=False FindAllPidButton=False UpdateWindow=False MainWindow='USB Bridge Desk 更新'
+2026-11-21T22:29:46.2507976+00:00 startup HWND probe hwnd=0x40142 visible=True rectAvailable=True rect=252,235,772,485 FromHandle=True fromHandleError=none title='USB Bridge Desk 更新' buttonFound=False
+2026-11-21T22:29:46.2686814+00:00 startup HWND probe hwnd=0x5018C visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=False
+2026-11-21T22:29:46.2707001+00:00 startup HWND probe hwnd=0x501AC visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-21T22:29:46.2727138+00:00 startup HWND probe hwnd=0x601D0 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-21T22:29:46.2747355+00:00 startup HWND probe hwnd=0xA01C6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-21T22:29:46.2767603+00:00 startup HWND probe hwnd=0x40148 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-21T22:29:46.2767603+00:00 startup HWND probe hwnd=0x8012A visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:46.2805517+00:00 startup HWND probe hwnd=0x6002E visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:46.2805517+00:00 startup HWND probe hwnd=0x601F6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:46.2825635+00:00 startup prompt probe HWNDButton=False
+2026-11-21T22:29:51.6967624+00:00 startup prompt probe elapsed_since_first_probe=49.5s RootElement FindFirst=False FindAllPidButton=False UpdateWindow=False MainWindow='USB Bridge Desk 更新'
+2026-11-21T22:29:51.7065923+00:00 startup HWND probe hwnd=0x40142 visible=True rectAvailable=True rect=252,235,772,485 FromHandle=True fromHandleError=none title='USB Bridge Desk 更新' buttonFound=False
+2026-11-21T22:29:51.7224711+00:00 startup HWND probe hwnd=0x5018C visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=False
+2026-11-21T22:29:51.7265062+00:00 startup HWND probe hwnd=0x501AC visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-21T22:29:51.7285180+00:00 startup HWND probe hwnd=0x601D0 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-21T22:29:51.7302805+00:00 startup HWND probe hwnd=0xA01C6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-21T22:29:51.7322999+00:00 startup HWND probe hwnd=0x40148 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-21T22:29:51.7343247+00:00 startup HWND probe hwnd=0x8012A visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:51.7363431+00:00 startup HWND probe hwnd=0x6002E visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:51.7363431+00:00 startup HWND probe hwnd=0x601F6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:51.7383696+00:00 startup prompt probe HWNDButton=False
+2026-11-21T22:29:57.1385163+00:00 startup prompt probe elapsed_since_first_probe=55s RootElement FindFirst=False FindAllPidButton=False UpdateWindow=False MainWindow='USB Bridge Desk 更新'
+2026-11-21T22:29:57.1485956+00:00 startup HWND probe hwnd=0x40142 visible=True rectAvailable=True rect=252,235,772,485 FromHandle=True fromHandleError=none title='USB Bridge Desk 更新' buttonFound=False
+2026-11-21T22:29:57.1644833+00:00 startup HWND probe hwnd=0x5018C visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=False
+2026-11-21T22:29:57.1665017+00:00 startup HWND probe hwnd=0x501AC visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-21T22:29:57.1682747+00:00 startup HWND probe hwnd=0x601D0 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-21T22:29:57.1703013+00:00 startup HWND probe hwnd=0xA01C6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-21T22:29:57.1723293+00:00 startup HWND probe hwnd=0x40148 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-21T22:29:57.1743418+00:00 startup HWND probe hwnd=0x8012A visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:57.1763569+00:00 startup HWND probe hwnd=0x6002E visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:57.1783687+00:00 startup HWND probe hwnd=0x601F6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:29:57.1803810+00:00 startup prompt probe HWNDButton=False
+2026-11-21T22:30:02.5525081+00:00 startup prompt probe elapsed_since_first_probe=60.4s RootElement FindFirst=False FindAllPidButton=False UpdateWindow=False MainWindow='USB Bridge Desk 更新'
+2026-11-21T22:30:02.5646048+00:00 startup HWND probe hwnd=0x40142 visible=True rectAvailable=True rect=252,235,772,485 FromHandle=True fromHandleError=none title='USB Bridge Desk 更新' buttonFound=False
+2026-11-21T22:30:02.5804875+00:00 startup HWND probe hwnd=0x5018C visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=False
+2026-11-21T22:30:02.5825001+00:00 startup HWND probe hwnd=0x501AC visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-21T22:30:02.5842570+00:00 startup HWND probe hwnd=0x601D0 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-21T22:30:02.5862744+00:00 startup HWND probe hwnd=0xA01C6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-21T22:30:02.5882996+00:00 startup HWND probe hwnd=0x40148 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-21T22:30:02.5903118+00:00 startup HWND probe hwnd=0x8012A visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:30:02.5923231+00:00 startup HWND probe hwnd=0x6002E visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:30:02.5943401+00:00 startup HWND probe hwnd=0x601F6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:30:02.5943401+00:00 startup prompt probe HWNDButton=False
+2026-11-21T22:30:07.9428545+00:00 startup prompt probe elapsed_since_first_probe=65.8s RootElement FindFirst=False FindAllPidButton=False UpdateWindow=False MainWindow='USB Bridge Desk 更新'
+2026-11-21T22:30:07.9509182+00:00 startup HWND probe hwnd=0x40142 visible=True rectAvailable=True rect=252,235,772,485 FromHandle=True fromHandleError=none title='USB Bridge Desk 更新' buttonFound=False
+2026-11-21T22:30:07.9685674+00:00 startup HWND probe hwnd=0x5018C visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=False
+2026-11-21T22:30:07.9705906+00:00 startup HWND probe hwnd=0x501AC visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-21T22:30:07.9726071+00:00 startup HWND probe hwnd=0x601D0 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-21T22:30:07.9746329+00:00 startup HWND probe hwnd=0xA01C6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-21T22:30:07.9746329+00:00 startup HWND probe hwnd=0x40148 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-21T22:30:07.9766587+00:00 startup HWND probe hwnd=0x8012A visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:30:07.9786847+00:00 startup HWND probe hwnd=0x6002E visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:30:07.9806982+00:00 startup HWND probe hwnd=0x601F6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:30:07.9827109+00:00 startup prompt probe HWNDButton=False
+2026-11-21T22:30:13.3419302+00:00 startup prompt probe elapsed_since_first_probe=71.2s RootElement FindFirst=False FindAllPidButton=False UpdateWindow=False MainWindow='USB Bridge Desk 更新'
+2026-11-21T22:30:13.3520059+00:00 startup HWND probe hwnd=0x40142 visible=True rectAvailable=True rect=252,235,772,485 FromHandle=True fromHandleError=none title='USB Bridge Desk 更新' buttonFound=False
+2026-11-21T22:30:13.3678591+00:00 startup HWND probe hwnd=0x5018C visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=False
+2026-11-21T22:30:13.3696263+00:00 startup HWND probe hwnd=0x501AC visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-21T22:30:13.3716399+00:00 startup HWND probe hwnd=0x601D0 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-21T22:30:13.3736527+00:00 startup HWND probe hwnd=0xA01C6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-21T22:30:13.3756672+00:00 startup HWND probe hwnd=0x40148 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-21T22:30:13.3776790+00:00 startup HWND probe hwnd=0x8012A visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:30:13.3796974+00:00 startup HWND probe hwnd=0x6002E visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:30:13.3817090+00:00 startup HWND probe hwnd=0x601F6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:30:13.3817090+00:00 startup prompt probe HWNDButton=False
+2026-11-21T22:30:18.7380822+00:00 startup prompt probe elapsed_since_first_probe=76.5s RootElement FindFirst=False FindAllPidButton=False UpdateWindow=False MainWindow='USB Bridge Desk 更新'
+2026-11-21T22:30:18.7481641+00:00 startup HWND probe hwnd=0x40142 visible=True rectAvailable=True rect=252,235,772,485 FromHandle=True fromHandleError=none title='USB Bridge Desk 更新' buttonFound=False
+2026-11-21T22:30:18.7640182+00:00 startup HWND probe hwnd=0x5018C visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=False
+2026-11-21T22:30:18.7660321+00:00 startup HWND probe hwnd=0x501AC visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-21T22:30:18.7677987+00:00 startup HWND probe hwnd=0x601D0 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-21T22:30:18.7698113+00:00 startup HWND probe hwnd=0xA01C6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-21T22:30:18.7723280+00:00 startup HWND probe hwnd=0x40148 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-21T22:30:18.7738923+00:00 startup HWND probe hwnd=0x8012A visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:30:18.7759129+00:00 startup HWND probe hwnd=0x6002E visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:30:18.7787050+00:00 startup HWND probe hwnd=0x601F6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:30:18.7787050+00:00 startup prompt probe HWNDButton=False
+2026-11-21T22:30:24.1185877+00:00 startup prompt probe elapsed_since_first_probe=81.9s RootElement FindFirst=False FindAllPidButton=False UpdateWindow=False MainWindow='USB Bridge Desk 更新'
+2026-11-21T22:30:24.1263842+00:00 startup HWND probe hwnd=0x40142 visible=True rectAvailable=True rect=252,235,772,485 FromHandle=True fromHandleError=none title='USB Bridge Desk 更新' buttonFound=False
+2026-11-21T22:30:24.1442585+00:00 startup HWND probe hwnd=0x5018C visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=False
+2026-11-21T22:30:24.1462838+00:00 startup HWND probe hwnd=0x501AC visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-21T22:30:24.1482969+00:00 startup HWND probe hwnd=0x601D0 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-21T22:30:24.1490853+00:00 startup HWND probe hwnd=0xA01C6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-21T22:30:24.1511054+00:00 startup HWND probe hwnd=0x40148 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-21T22:30:24.1531229+00:00 startup HWND probe hwnd=0x8012A visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:30:24.1541007+00:00 startup HWND probe hwnd=0x6002E visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:30:24.1561137+00:00 startup HWND probe hwnd=0x601F6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:30:24.1581258+00:00 startup prompt probe HWNDButton=False
+2026-11-21T22:30:29.5033678+00:00 startup prompt probe elapsed_since_first_probe=87.3s RootElement FindFirst=False FindAllPidButton=False UpdateWindow=False MainWindow='USB Bridge Desk 更新'
+2026-11-21T22:30:29.5131809+00:00 startup HWND probe hwnd=0x40142 visible=True rectAvailable=True rect=252,235,772,485 FromHandle=True fromHandleError=none title='USB Bridge Desk 更新' buttonFound=False
+2026-11-21T22:30:29.5298089+00:00 startup HWND probe hwnd=0x5018C visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=False
+2026-11-21T22:30:29.5318207+00:00 startup HWND probe hwnd=0x501AC visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-21T22:30:29.5338314+00:00 startup HWND probe hwnd=0x601D0 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-21T22:30:29.5350663+00:00 startup HWND probe hwnd=0xA01C6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-21T22:30:29.5370839+00:00 startup HWND probe hwnd=0x40148 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-21T22:30:29.5391022+00:00 startup HWND probe hwnd=0x8012A visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:30:29.5408612+00:00 startup HWND probe hwnd=0x6002E visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:30:29.5428744+00:00 startup HWND probe hwnd=0x601F6 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-21T22:30:29.5428744+00:00 startup prompt probe HWNDButton=False
+2026-11-21T22:30:32.4711451+00:00 UIA timeout dump for PID 4580 (startup update prompt):
+WINDOW title='USB Bridge Desk 更新'
+ELEMENT type=ControlType.Window name='USB Bridge Desk 更新'
+ELEMENT type=ControlType.Text name='发现新版本 9.9.9'
+ELEMENT type=ControlType.Text name='Windows updater acceptance fixture'
+BUTTON name='稍后'
+ELEMENT type=ControlType.Button name='稍后'
+BUTTON name='下载并安装'
+ELEMENT type=ControlType.Button name='下载并安装'
+WINDOW title='USB Bridge Desk'
+ELEMENT type=ControlType.Window name='USB Bridge Desk'
+ELEMENT type=ControlType.Pane name='Non Client Input Sink Window'
+ELEMENT type=ControlType.Pane name='AppWindow Custom Title Bar'
+BUTTON name='Minimize'
+ELEMENT type=ControlType.Button name='Minimize'
+BUTTON name='Maximize'
+ELEMENT type=ControlType.Button name='Maximize'
+BUTTON name='Close'
+ELEMENT type=ControlType.Button name='Close'
+ELEMENT type=ControlType.Image name='USB Bridge Desk'
+ELEMENT type=ControlType.Text name='USB Bridge Desk'
+BUTTON name='Open Navigation'
+ELEMENT type=ControlType.Button name='Open Navigation'
+WINDOW title=''
+ELEMENT type=ControlType.ListItem name='连接概览'
+ELEMENT type=ControlType.ListItem name='共享本机 USB'
+ELEMENT type=ControlType.ListItem name='连接远端 USB'
+ELEMENT type=ControlType.ListItem name='映射列表'
+ELEMENT type=ControlType.Text name='●  虚拟控制器已就绪'
+ELEMENT type=ControlType.ListItem name='活动日志'
+ELEMENT type=ControlType.ListItem name='设置'
+ELEMENT type=ControlType.Text name='连接概览'
+ELEMENT type=ControlType.Text name='在两台 Windows 电脑之间共享 USB 设备。'
+ELEMENT type=ControlType.Text name='共享与连接'
+ELEMENT type=ControlType.Text name='在插有设备的电脑启动共享，在需要使用设备的电脑添加远端目标。'
+BUTTON name='共享本机 USB'
+ELEMENT type=ControlType.Button name='共享本机 USB'
+BUTTON name='连接远端 USB'
+ELEMENT type=ControlType.Button name='连接远端 USB'
+BUTTON name=''
+ELEMENT type=ControlType.Text name='本机已共享'
+ELEMENT type=ControlType.Text name='0'
+BUTTON name=''
+ELEMENT type=ControlType.Text name='已保存目标'
+ELEMENT type=ControlType.Text name='0'
+BUTTON name=''
+ELEMENT type=ControlType.Text name='已连接映射'
+ELEMENT type=ControlType.Text name='0'
+ELEMENT type=ControlType.Text name='最近活动'
+BUTTON name='查看日志'
+ELEMENT type=ControlType.Button name='查看日志'
+ELEMENT type=ControlType.Text name='暂无活动。共享、连接与重连记录会显示在这里。'
