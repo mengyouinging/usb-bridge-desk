@@ -1,16 +1,16 @@
-2026-11-21T07:37:01.0667960+00:00 Main pid=5988 base=C:\Program Files\USB Bridge Desk\
-2026-11-21T07:37:01.0767150+00:00 Checking WinUI process requirements
-2026-11-21T07:37:01.0956419+00:00 Entering Application.Start
-2026-11-21T07:37:01.1678051+00:00 UI dispatcher ready, creating application
-2026-11-21T07:37:01.1777196+00:00 Loading compiled App.xaml
-2026-11-21T07:37:01.1817673+00:00 Application resources loaded
-2026-11-21T07:37:01.2311445+00:00 Constructing main window
-2026-11-21T07:37:03.5713739+00:00 Activating main window
-2026-11-21T07:37:03.6838794+00:00 Main window content loaded
-2026-11-21T07:37:03.6921609+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
-2026-11-21T07:37:03.7718232+00:00 Overview rendered
-2026-11-21T07:37:34.0102595+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
-2026-11-21T07:37:34.4898072+00:00 DesktopAcrylicController attached=True
-2026-11-21T07:37:34.4900906+00:00 Backdrop requested=acrylic active=WindowAcrylic advancedEffects=True
-2026-11-21T07:37:42.5752673+00:00 Tray exit command pid=5988
-2026-11-21T07:37:42.5787858+00:00 Main window closed
+2026-11-21T14:05:44.9362465+00:00 Main pid=4900 base=C:\Program Files\USB Bridge Desk\
+2026-11-21T14:05:44.9463862+00:00 Checking WinUI process requirements
+2026-11-21T14:05:44.9695946+00:00 Entering Application.Start
+2026-11-21T14:05:45.0966393+00:00 UI dispatcher ready, creating application
+2026-11-21T14:05:45.1094806+00:00 Loading compiled App.xaml
+2026-11-21T14:05:45.1146576+00:00 Application resources loaded
+2026-11-21T14:05:45.1823551+00:00 Constructing main window
+2026-11-21T14:05:47.7096511+00:00 Activating main window
+2026-11-21T14:05:47.8631726+00:00 Main window content loaded
+2026-11-21T14:05:47.8738483+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-21T14:05:47.9485560+00:00 Overview rendered
+2026-11-21T14:06:21.6350822+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-21T14:06:22.1710545+00:00 DesktopAcrylicController attached=True
+2026-11-21T14:06:22.1714917+00:00 Backdrop requested=acrylic active=WindowAcrylic advancedEffects=True
+2026-11-21T14:06:31.1871218+00:00 Tray exit command pid=4900
+2026-11-21T14:06:31.1921921+00:00 Main window closed
