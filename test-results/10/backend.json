@@ -3,7 +3,7 @@
     "passed": true,
     "evidence": {
       "State": "Running",
-      "ProcessId": 6644,
+      "ProcessId": 7624,
       "PathName": "\"C:\\Program Files\\USB Bridge Desk\\resources\\host\\usbipd.exe\" server"
     }
   },
@@ -13,7 +13,7 @@
       {
         "LocalAddress": "::",
         "LocalPort": 3240,
-        "OwningProcess": 6644
+        "OwningProcess": 7624
       }
     ]
   },
