@@ -1,6 +1,6 @@
 # R5 1.3.0 Windows test: build from source, run Core/updater/address/device regression tests,
 # rebuild the NSIS installer, silent-install it, launch the app for 30 s and
-# capture R4 minimum layouts, installed icons, device types and R3 acceptance views.
+# capture 880 x 640 minimum layouts, installed icons, device types and R3 acceptance views.
 # Results are committed back to test-results/<run-number>/ on main so they can
 # be read without the Actions UI.
 name: R5 1.3.0 Windows test
@@ -35,7 +35,7 @@ jobs:
         working-directory: .
         shell: powershell
         run: |
-          $zip='source-fix2.zip'
+          $zip='source-fix4.zip'
           if(Test-Path r5-build){throw 'Clean runner checkout required: r5-build already exists'}
           Expand-Archive -LiteralPath $zip -DestinationPath r5-build
           Set-Location r5-build/USB-Bridge-Desk-R5
