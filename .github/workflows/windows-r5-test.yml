@@ -35,7 +35,7 @@ jobs:
         working-directory: .
         shell: powershell
         run: |
-          $zip='source-fix4.zip'
+          $zip='source-fix5.zip'
           if(Test-Path r5-build){throw 'Clean runner checkout required: r5-build already exists'}
           Expand-Archive -LiteralPath $zip -DestinationPath r5-build
           Set-Location r5-build/USB-Bridge-Desk-R5
@@ -213,8 +213,9 @@ jobs:
           if ($LASTEXITCODE -ne 0) { throw 'Could not stage run results' }
           git commit -m "R5 1.3.0 Windows test results (run ${{ github.run_number }})" --allow-empty
           if ($LASTEXITCODE -ne 0) { throw 'Could not commit run results' }
+          git status --porcelain | Tee-Object -FilePath (Join-Path $dest 'pre-rebase-status.txt')
           for ($attempt=1; $attempt -le 3; $attempt++) {
-            git pull --rebase origin main
+            git pull --rebase --autostash origin main
             if ($LASTEXITCODE -ne 0) { throw 'Could not rebase result commit on origin/main; see Git output' }
             git push origin HEAD:main
             if ($LASTEXITCODE -eq 0) { break }
