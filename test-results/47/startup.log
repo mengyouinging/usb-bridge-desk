@@ -1,16 +1,23 @@
-2026-11-22T05:31:50.1341989+00:00 Main pid=4752 base=C:\Program Files\USB Bridge Desk\
-2026-11-22T05:31:50.1437660+00:00 Checking WinUI process requirements
-2026-11-22T05:31:50.1737918+00:00 Entering Application.Start
-2026-11-22T05:31:50.2811433+00:00 UI dispatcher ready, creating application
-2026-11-22T05:31:50.2946414+00:00 Loading compiled App.xaml
-2026-11-22T05:31:50.3002732+00:00 Application resources loaded
-2026-11-22T05:31:50.3620896+00:00 Constructing main window
-2026-11-22T05:31:53.6601618+00:00 Activating main window
-2026-11-22T05:31:53.8190686+00:00 Main window content loaded
-2026-11-22T05:31:53.8286063+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
-2026-11-22T05:31:53.8986084+00:00 Overview rendered
-2026-11-22T05:32:33.9726004+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
-2026-11-22T05:32:34.5574720+00:00 DesktopAcrylicController attached=True
-2026-11-22T05:32:34.5580420+00:00 Backdrop requested=acrylic active=WindowAcrylic advancedEffects=True
-2026-11-22T05:32:51.9595043+00:00 Tray exit command pid=4752
-2026-11-22T05:32:51.9646780+00:00 Main window closed
+2026-11-22T10:07:19.4120983+00:00 Main pid=8576 base=C:\Program Files\USB Bridge Desk\
+2026-11-22T10:07:19.4210749+00:00 Checking WinUI process requirements
+2026-11-22T10:07:19.4394935+00:00 Entering Application.Start
+2026-11-22T10:07:19.5293695+00:00 UI dispatcher ready, creating application
+2026-11-22T10:07:19.5390457+00:00 Loading compiled App.xaml
+2026-11-22T10:07:19.5431132+00:00 Application resources loaded
+2026-11-22T10:07:19.5911054+00:00 Constructing main window
+2026-11-22T10:07:22.0664065+00:00 Activating main window
+2026-11-22T10:07:22.1700538+00:00 Main window content loaded
+2026-11-22T10:07:22.1772387+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-22T10:07:22.2327031+00:00 Overview rendered
+2026-11-22T10:07:22.2392820+00:00 Update check entered silent=True
+2026-11-22T10:07:23.3153471+00:00 Update check/download failed: System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at UsbBridge.UpdateClient.CheckAsync(CancellationToken token)
+   at Desk.Shell.CheckForUpdate(Boolean silent)
+2026-11-22T10:07:50.4613977+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-22T10:07:56.3915365+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-22T10:07:56.8271354+00:00 DesktopAcrylicController attached=True
+2026-11-22T10:07:56.8273622+00:00 Backdrop requested=acrylic active=WindowAcrylic advancedEffects=True
+2026-11-22T10:08:06.3160957+00:00 Tray exit command pid=8576
+2026-11-22T10:08:06.3191927+00:00 Main window closed
