@@ -1,46 +1,48 @@
-﻿# R4 1.2.0 Windows test - run 39
+﻿# R5 1.3.0 Windows test - run 39
 
 - build: success
 - silent install: success
 - installed backend: success
 - tray overlays: success
 - desktop capture: success
-- installer: SIZE=45438790 | SHA256=0FB3AD92336E34975E7EA6FD792DF544C0EA75662087C59CC854765EDBC02AE9 | INSTALL_EXIT=3010
+- installer: SIZE=45797213 | SHA256=FA7ED01A1B1836DEA8FDD395D43F1CD2B725404B0D4DA9ED3341065845F2242B | INSTALL_EXIT=0
 - driver exit: DRIVER_EXIT=0
 - alive 30s: True
 - clean exit: True (forced: False, code: 0)
-- screenshots: 15
+- screenshots: 16
 - failures: none recorded
 
-- service_start passed=True {"State":"Running","ProcessId":844,"PathName":"\"C:\\Program Files\\USB Bridge Desk\\resources\\host\\usbipd.exe\" server"}
-- tcp_3240_listener passed=True [{"LocalAddress":"::","LocalPort":3240,"OwningProcess":844}]
+- service_start passed=True {"State":"Running","ProcessId":2288,"PathName":"\"C:\\Program Files\\USB Bridge Desk\\resources\\host\\usbipd.exe\" server"}
+- tcp_3240_listener passed=True [{"LocalAddress":"::","LocalPort":3240,"OwningProcess":2288}]
 - host_device_enumeration passed=True {"exitCode":0,"devices":0}
 - usbip_devlist_handshake passed=True {"endpoint":"127.0.0.1:3240","version":"0x0111","request":"OP_REQ_DEVLIST","reply":"OP_REP_DEVLIST","status":0,"exports":0}
 - installed_client_loopback_list passed=True {"exitCode":0,"exports":0,"endpoint":"127.0.0.1:3240"}
 - client_virtual_ports passed=True {"exitCode":0,"importedPorts":0}
 - restore_service passed=True {"restored":"Stopped"}
-- minimum host: 960 x 640 DIP; within bounds=True
-- minimum client: 960 x 640 DIP; within bounds=True
-- minimum maps: 960 x 640 DIP; within bounds=True
-- minimum settings: 960 x 640 DIP; within bounds=True
-- minimum home: 960 x 640 DIP; within bounds=True
-- address evidence: 不推荐 · Ethernet 3 · 10.1.0.106:3240 虚拟网卡或隧道，仅同一虚拟网络内的对端可能可达。 / 不推荐 · vEthernet (nat) · 192.168.160.1:3240 虚拟网卡或隧道，仅同一虚拟网络内的对端可能可达。
+- minimum home: 880 x 640 DIP; within bounds=True
+- minimum client: 880 x 640 DIP; within bounds=True
+- minimum maps: 880 x 640 DIP; within bounds=True
+- minimum host: 880 x 640 DIP; within bounds=True
+- minimum logs: 880 x 640 DIP; within bounds=True
+- minimum settings: 880 x 640 DIP; within bounds=True
+- address evidence: 不推荐 · Ethernet 3 · 10.1.0.27:3240 虚拟网卡或隧道，仅同一虚拟网络内的对端可能可达。 / 不推荐 · vEthernet (nat) · 172.24.224.1:3240 虚拟网卡或隧道，仅同一虚拟网络内的对端可能可达。
 - acrylic: fallback_color_observed - Verified stimulus; stable title pixels match the configured dark fallback color; OS cause unknown
 - local screenshot source: descriptor-fixture 本机类型测试夹具（无实物） · 键盘 · 1-1  ·  0000:0000  ·  模拟 HID 接口描述符
 - Windows local devices: 
 - remote device rows (read-only loopback fixture): Mouse · 鼠标（推测） · 1-2   ·   046d:c077
-- 01-overview.png (overview) sha256=5385C9A76FC15C5ACCF5CCE4B3D542EBF399BD6C02885A41797BF48E6E9BEF44
+- 01-overview.png (overview) sha256=ADC890281081BF073ABFDBAE362439DC692B675FCD8B9FEBFD8122535C3B9AA5
 - r4-title.png (installed title-bar mark) sha256=1336B4D2D2E40A82DB7CECEF816F71C58DF60649E568235316C750E7F89B9C3F
 - r4-taskbar.png (Explorer taskbar application button) sha256=52672F9CD0F22C7B1FDB3DEC11E10C2631A5A22A24A3FF5B4CA3F68E46E0A1D1
 - r4-icon-16.png (installed ICO rendered at 16 physical pixels) sha256=2921B9AA82757EC478394F7F370DD604AB6B966BDAF6C6006F3B5DEC2C2EAAD2
 - r4-icon-32.png (installed ICO rendered at 32 physical pixels) sha256=6BBD764C6F6200CB9D6D5586E8C778D7AA08EF4D446D815E0A6D75965F6593F0
-- 02-local.png (host) sha256=5C96A9691741539C921E5B8238F20ACC6A1E7C233DBA3087CCE2B342822950EA
-- r4-addresses.png (open address list and local verdicts) sha256=F83D1E6AB67DA3A023C1DB988A732E1AE38F1668B63A3DCEF81AC1DFA27000EA
-- r4-local-type.png (display-only local HID fixture (0 physical devices)) sha256=DB2378C9998855ABCA23F79B23438293EF24E956AC16F7BD8867FED4B2265947
-- 03-remote.png (client) sha256=BD6CE970D783C78C0D309EADE2F6105D2C715773BB2E772A133A94D3E3309898
-- r4-remote-type.png (remote device type: 鼠标（推测）) sha256=5588A0A23B4AAE8532725DABA2FDA86783441B4F8FCE5B24A9D3D26F2280E738
-- 04-mappings.png (mappings) sha256=B4950EAA9EA06AB37101CD3719DF6CC3537EA2B305ADC078EC64069F093529C7
-- 05-dark-acrylic.png (settings dark / acrylic / fallback_color_observed) sha256=58576C0733D6FED8D3217B11F6FF5DD2C45905DA53D31727936783D635A6B987
-- 06-dark-overview.png (overview dark / acrylic / fallback_color_observed) sha256=0B4595FE5A22F75106425B58A1D11062012B5F1442AA97840BEB4CEEE194BE30
+- 02-local.png (host) sha256=3C0B03BC1FE944EE1BCC1EBD876FDFE24EBD8D72EF307BFBCB99D57C02B1FC2F
+- r4-addresses.png (open address list and local verdicts) sha256=3D19F0D0F10E3E5D29EBC389B5973C7F7B67B6F747CF0DB3EA0924298265A35A
+- r4-local-type.png (display-only local HID fixture (0 physical devices)) sha256=86D5CC23C5CF0341352BD69BE8B78A68FBF7BBA4AE96A60E96A5245C8835B1B9
+- 03-remote.png (client) sha256=7379FC9207A44F10EA82CC8AC9752BD68D1561FFEADD938EFA9AE5B854219A8D
+- r4-remote-type.png (remote device type: 鼠标（推测）) sha256=AB0AD0F44F80FBF607ECB8ED77074FAD92C0B0CA3955481B18ED615BC61D0034
+- 04-mappings.png (mappings) sha256=D351FCE1148B2EBAFF9E564988E559919F04ABA2701F97D9CCE6ACF4F87BCEB0
+- 05-dark-acrylic.png (settings dark / acrylic / fallback_color_observed) sha256=672776620E82D554129742A377AAAD7D6984A32055C1004D65013FF05FF6B5A2
+- 06-dark-overview.png (overview dark / acrylic / fallback_color_observed) sha256=038DF9264FA375F84066B7B7EB9142B719F00AED250A1B08C09F7893F82FECB0
+- 07-dark-device-card.png (dark mode content-matched device-card watermark) sha256=AEADBD5DAD3342376F099C92E86B8D84EE02FD3AC4F1FBEC1ED45C9CC297B6CA
 - r4-tray.png (registered notification icon) sha256=265E3303B456561609D702CB959FF8C27C1863070F92E275A3F6723F42764AF3
-- 07-tray.png (visible application tray menu) sha256=25075932D23B857780C0491789954B70F8F150D72F36E12DA92DE1C89BE22ECC
+- 07-tray.png (visible application tray menu) sha256=52E32D207323D982A7F1FDBADA9815E43832F8B38CA3FE4FA124310BB094DFEC
