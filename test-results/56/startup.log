@@ -1,0 +1,16 @@
+2026-11-22T11:19:50.6834528+00:00 Main pid=2532 base=C:\Program Files\USB Bridge Desk\
+2026-11-22T11:19:50.6954350+00:00 Checking WinUI process requirements
+2026-11-22T11:19:50.7181481+00:00 Entering Application.Start
+2026-11-22T11:19:50.8012890+00:00 UI dispatcher ready, creating application
+2026-11-22T11:19:50.8138433+00:00 Loading compiled App.xaml
+2026-11-22T11:19:50.8187580+00:00 Application resources loaded
+2026-11-22T11:19:50.8791043+00:00 Constructing main window
+2026-11-22T11:19:53.7933785+00:00 Activating main window
+2026-11-22T11:19:53.9442925+00:00 Main window content loaded
+2026-11-22T11:19:53.9531793+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-22T11:19:54.0232697+00:00 Overview rendered
+2026-11-22T11:20:27.4052008+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-22T11:20:27.8863771+00:00 DesktopAcrylicController attached=True
+2026-11-22T11:20:27.8866491+00:00 Backdrop requested=acrylic active=WindowAcrylic advancedEffects=True
+2026-11-22T11:20:36.5973761+00:00 Tray exit command pid=2532
+2026-11-22T11:20:36.6013924+00:00 Main window closed
