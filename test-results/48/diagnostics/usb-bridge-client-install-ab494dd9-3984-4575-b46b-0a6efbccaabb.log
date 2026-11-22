@@ -1,0 +1,136 @@
+﻿2026-11-22 10:42:24.608   Log opened. (Time zone: UTC+00:00)
+2026-11-22 10:42:24.608   Setup version: Inno Setup version 7.1.0 (32-bit)
+2026-11-22 10:42:24.608   Original Setup EXE: C:\Program Files\USB Bridge Desk\resources\engines\USBip-0.9.8.1-x64.exe
+2026-11-22 10:42:24.608   Setup command line: /SL5="$201C8,24784926,890880,C:\Program Files\USB Bridge Desk\resources\engines\USBip-0.9.8.1-x64.exe" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /RESTARTEXITCODE=3010 /COMPONENTS=main,client /TASKS=vcredist /DIR="C:\Program Files\USB Bridge Desk Engines\Client" /LOG="C:\Users\RUNNER~1\AppData\Local\Temp\usb-bridge-client-install-ab494dd9-3984-4575-b46b-0a6efbccaabb.log" 
+2026-11-22 10:42:24.612   Windows version: 10.0.26100
+2026-11-22 10:42:24.612   Windows architecture: x64 (64-bit)
+2026-11-22 10:42:24.612   Machine types supported by system: x86 x64
+2026-11-22 10:42:24.612   User privileges: Administrative
+2026-11-22 10:42:24.698   Administrative install mode: Yes
+2026-11-22 10:42:24.698   Install mode root key: HKEY_LOCAL_MACHINE
+2026-11-22 10:42:24.698   64-bit install mode: Yes
+2026-11-22 10:42:24.698   RedirectionGuard status for current process: Enabled in enforcing mode
+2026-11-22 10:42:24.701   Created protected temporary directory: C:\Users\RUNNER~1\AppData\Local\Temp\is-S63TYH6TIS.tmp
+2026-11-22 10:42:24.831   -- DLL function import --
+2026-11-22 10:42:24.831   Function and DLL name: NtQuerySystemInformation@ntdll.dll
+2026-11-22 10:42:24.831   Importing the DLL function. Dest DLL name: ntdll.dll
+2026-11-22 10:42:24.831   Successfully imported the DLL function. Delay loaded? No
+2026-11-22 10:42:26.111   Found 5 files to register with RestartManager.
+2026-11-22 10:42:26.111   Calling RestartManager's RmGetList.
+2026-11-22 10:42:26.119   RmGetList finished successfully.
+2026-11-22 10:42:26.119   RestartManager found no applications using one of our files.
+2026-11-22 10:42:26.119   Starting the installation process.
+2026-11-22 10:42:26.121   Creating directory: \\?\C:\Program Files\USB Bridge Desk Engines\Client
+2026-11-22 10:42:26.121   Directory for uninstall files: C:\Program Files\USB Bridge Desk Engines\Client
+2026-11-22 10:42:26.121   Creating new uninstall log: C:\Program Files\USB Bridge Desk Engines\Client\unins000.dat
+2026-11-22 10:42:26.258   -- File entry --
+2026-11-22 10:42:26.258   Dest filename: C:\Program Files\USB Bridge Desk Engines\Client\unins000.exe
+2026-11-22 10:42:26.258   Non-default bitness: 32-bit
+2026-11-22 10:42:26.407   Time stamp of our file: 2026-11-22T10:42:24.271Z
+2026-11-22 10:42:26.407   Installing the file.
+2026-11-22 10:42:26.426   Successfully installed the file.
+2026-11-22 10:42:26.426   -- File entry --
+2026-11-22 10:42:26.426   Dest filename: \\?\C:\Program Files\USB Bridge Desk Engines\Client\Readme.md
+2026-11-22 10:42:26.426   Time stamp of our file: 2026-09-26T12:38:44.000Z
+2026-11-22 10:42:26.426   Installing the file.
+2026-11-22 10:42:26.428   Successfully installed the file.
+2026-11-22 10:42:26.428   -- File entry --
+2026-11-22 10:42:26.428   Dest filename: \\?\C:\Program Files\USB Bridge Desk Engines\Client\usbip.exe
+2026-11-22 10:42:26.428   Time stamp of our file: 2026-09-26T14:23:42.000Z
+2026-11-22 10:42:26.428   Installing the file.
+2026-11-22 10:42:26.470   Successfully installed the file.
+2026-11-22 10:42:26.470   -- File entry --
+2026-11-22 10:42:26.470   Dest filename: \\?\C:\Program Files\USB Bridge Desk Engines\Client\devnode.exe
+2026-11-22 10:42:26.472   Time stamp of our file: 2026-09-26T14:23:44.000Z
+2026-11-22 10:42:26.472   Installing the file.
+2026-11-22 10:42:26.482   Successfully installed the file.
+2026-11-22 10:42:26.482   -- File entry --
+2026-11-22 10:42:26.482   Dest filename: \\?\C:\Program Files\USB Bridge Desk Engines\Client\libusbip.dll
+2026-11-22 10:42:26.482   Time stamp of our file: 2026-09-26T13:01:14.000Z
+2026-11-22 10:42:26.482   Installing the file.
+2026-11-22 10:42:26.495   Successfully installed the file.
+2026-11-22 10:42:26.495   -- File entry --
+2026-11-22 10:42:26.495   Dest filename: \\?\C:\Program Files\USB Bridge Desk Engines\Client\resources.dll
+2026-11-22 10:42:26.495   Time stamp of our file: 2026-09-26T13:00:44.000Z
+2026-11-22 10:42:26.495   Installing the file.
+2026-11-22 10:42:26.496   Successfully installed the file.
+2026-11-22 10:42:26.496   -- File entry --
+2026-11-22 10:42:26.496   Dest filename: \\?\C:\Users\RUNNER~1\AppData\Local\Temp\is-S63TYH6TIS.tmp\vc_redist.x64.exe
+2026-11-22 10:42:26.513   Time stamp of our file: 2026-07-02T21:36:18.000Z
+2026-11-22 10:42:26.513   Installing the file.
+2026-11-22 10:42:26.702   Successfully installed the file.
+2026-11-22 10:42:26.702   -- File entry --
+2026-11-22 10:42:26.702   Dest filename: \\?\C:\Users\RUNNER~1\AppData\Local\Temp\is-S63TYH6TIS.tmp\usbip2_filter.cat
+2026-11-22 10:42:26.702   Time stamp of our file: 2026-09-26T14:17:30.000Z
+2026-11-22 10:42:26.702   Installing the file.
+2026-11-22 10:42:26.708   Successfully installed the file.
+2026-11-22 10:42:26.708   -- File entry --
+2026-11-22 10:42:26.708   Dest filename: \\?\C:\Users\RUNNER~1\AppData\Local\Temp\is-S63TYH6TIS.tmp\usbip2_filter.inf
+2026-11-22 10:42:26.708   Time stamp of our file: 2026-09-26T14:17:30.000Z
+2026-11-22 10:42:26.708   Installing the file.
+2026-11-22 10:42:26.708   Successfully installed the file.
+2026-11-22 10:42:26.708   -- File entry --
+2026-11-22 10:42:26.708   Dest filename: \\?\C:\Users\RUNNER~1\AppData\Local\Temp\is-S63TYH6TIS.tmp\usbip2_filter.sys
+2026-11-22 10:42:26.708   Time stamp of our file: 2026-09-26T14:17:30.000Z
+2026-11-22 10:42:26.708   Installing the file.
+2026-11-22 10:42:26.712   Successfully installed the file.
+2026-11-22 10:42:26.712   -- File entry --
+2026-11-22 10:42:26.712   Dest filename: \\?\C:\Users\RUNNER~1\AppData\Local\Temp\is-S63TYH6TIS.tmp\usbip2_ude.cat
+2026-11-22 10:42:26.712   Time stamp of our file: 2026-09-26T14:17:30.000Z
+2026-11-22 10:42:26.712   Installing the file.
+2026-11-22 10:42:26.712   Successfully installed the file.
+2026-11-22 10:42:26.712   -- File entry --
+2026-11-22 10:42:26.712   Dest filename: \\?\C:\Users\RUNNER~1\AppData\Local\Temp\is-S63TYH6TIS.tmp\usbip2_ude.inf
+2026-11-22 10:42:26.712   Time stamp of our file: 2026-09-26T14:17:30.000Z
+2026-11-22 10:42:26.712   Installing the file.
+2026-11-22 10:42:26.714   Successfully installed the file.
+2026-11-22 10:42:26.714   -- File entry --
+2026-11-22 10:42:26.714   Dest filename: \\?\C:\Users\RUNNER~1\AppData\Local\Temp\is-S63TYH6TIS.tmp\usbip2_ude.sys
+2026-11-22 10:42:26.714   Time stamp of our file: 2026-09-26T14:17:30.000Z
+2026-11-22 10:42:26.714   Installing the file.
+2026-11-22 10:42:26.719   Successfully installed the file.
+2026-11-22 10:42:26.719   -- Icon entry --
+2026-11-22 10:42:26.719   Dest filename: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\USBip\Uninstall USBip.lnk
+2026-11-22 10:42:26.719   Creating directory: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\USBip
+2026-11-22 10:42:26.726   Creating the icon.
+2026-11-22 10:42:26.760   Successfully created the icon.
+2026-11-22 10:42:26.764   Saving uninstall information.
+2026-11-22 10:42:26.764   Writing uninstaller messages: C:\Program Files\USB Bridge Desk Engines\Client\unins000.msg
+2026-11-22 10:42:26.764   Creating new uninstall key: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{199505b0-b93d-4521-a8c7-897818e0205a}_is1
+2026-11-22 10:42:26.765   Writing uninstall key values.
+2026-11-22 10:42:26.766   Detected previous non administrative install? No
+2026-11-22 10:42:26.766   Detected previous administrative 32-bit install? No
+2026-11-22 10:42:26.783   Installation process succeeded.
+2026-11-22 10:42:26.785   -- Run entry --
+2026-11-22 10:42:26.785   Run as: Current user
+2026-11-22 10:42:26.785   Type: Exec
+2026-11-22 10:42:26.785   Filename: C:\Users\RUNNER~1\AppData\Local\Temp\is-S63TYH6TIS.tmp\vc_redist.x64.exe
+2026-11-22 10:42:26.785   Parameters: /quiet /norestart
+2026-11-22 10:42:28.862   Process exit code: 1638
+2026-11-22 10:42:28.862   -- Run entry --
+2026-11-22 10:42:28.862   Run as: Current user
+2026-11-22 10:42:28.864   Type: Exec
+2026-11-22 10:42:28.864   Filename: C:\Windows\system32\pnputil.exe
+2026-11-22 10:42:28.864   Parameters: /add-driver "C:\Users\RUNNER~1\AppData\Local\Temp\is-S63TYH6TIS.tmp\usbip2_filter.inf" /install
+2026-11-22 10:42:29.000   Output:
+2026-11-22 10:42:29.000   Microsoft PnP Utility
+2026-11-22 10:42:29.000   
+2026-11-22 10:42:29.000   Adding driver package:  usbip2_filter.inf
+2026-11-22 10:42:29.307   Driver package added successfully.
+2026-11-22 10:42:29.307   Published Name:         oem13.inf
+2026-11-22 10:42:29.307   
+2026-11-22 10:42:29.307   Total driver packages:  1
+2026-11-22 10:42:29.307   Added driver packages:  1
+2026-11-22 10:42:29.307   Process exit code: 0
+2026-11-22 10:42:29.307   -- Run entry --
+2026-11-22 10:42:29.307   Run as: Current user
+2026-11-22 10:42:29.307   Type: Exec
+2026-11-22 10:42:29.307   Filename: C:\Program Files\USB Bridge Desk Engines\Client\devnode.exe
+2026-11-22 10:42:29.307   Parameters: install "C:\Users\RUNNER~1\AppData\Local\Temp\is-S63TYH6TIS.tmp\usbip2_ude.inf" ROOT\USBIP_WIN2\UDE
+2026-11-22 10:42:29.957   Process exit code: 0
+2026-11-22 10:42:29.959   Registering detach task: USBip Detach All On Reboot Or Shutdown
+2026-11-22 10:42:30.266   Detach task registered successfully
+2026-11-22 10:42:30.266   Need to restart Windows? Yes
+2026-11-22 10:42:30.268   Will not restart Windows automatically.
+2026-11-22 10:42:30.268   Deinitializing Setup.
+2026-11-22 10:42:30.304   Log closed.

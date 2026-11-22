@@ -1,5 +1,5 @@
 ﻿{
-    "resourceIndexSha256":  "A176E0059B4ABDFFC4676F713E60D8276D7400034375C1A3ED83517619216F22",
+    "resourceIndexSha256":  "1C7BD159B1EDCD108F98B4D4A15CB5B0E909738E59D94B987A4F011279A29C05",
     "acrylicEvidence":  {
                             "reason":  "Verified stimulus; stable title pixels match the configured dark fallback color; OS cause unknown",
                             "repeatDrift":  0,
@@ -43,11 +43,11 @@
                                                               ]
                                             },
                             "titlePoint":  [
-                                               480,
+                                               440,
                                                18
                                            ],
                             "appBackdrop":  {
-                                                "value":  "2026-11-22T07:10:18.9274865+00:00 Backdrop requested=acrylic active=WindowAcrylic advancedEffects=True",
+                                                "value":  "2026-11-22T10:43:16.6978036+00:00 Backdrop requested=acrylic active=WindowAcrylic advancedEffects=True",
                                                 "PSPath":  "C:\\Users\\runneradmin\\AppData\\Local\\USB Bridge Desk\\startup.log",
                                                 "PSParentPath":  "C:\\Users\\runneradmin\\AppData\\Local\\USB Bridge Desk",
                                                 "PSChildName":  "startup.log",
@@ -199,7 +199,7 @@
                                                                                                              "Modules":  "System.Management.Automation.dll"
                                                                                                          },
                                                                                             "TypeHandle":  {
-                                                                                                               "Value":  140708265161792
+                                                                                                               "Value":  140727146869824
                                                                                                            },
                                                                                             "DeclaringMethod":  null,
                                                                                             "BaseType":  {
@@ -800,7 +800,7 @@
                                                                                       "DisplayRoot":  null
                                                                                   },
                                                                                   {
-                                                                                      "CurrentLocation":  "a\\usb-bridge-desk\\usb-bridge-desk\\r4-build\\USB-Bridge-Desk-R4",
+                                                                                      "CurrentLocation":  "a\\usb-bridge-desk\\usb-bridge-desk\\r5-build\\USB-Bridge-Desk-R5",
                                                                                       "Name":  "D",
                                                                                       "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
                                                                                       "Root":  "D:\\",
@@ -811,12 +811,12 @@
                                                                                   }
                                                                               ]
                                                                },
-                                                "ReadCount":  14
+                                                "ReadCount":  21
                                             },
                             "observed":  false,
                             "maxChannelChange":  0,
                             "controller":  {
-                                               "value":  "2026-11-22T07:10:18.9271689+00:00 DesktopAcrylicController attached=True",
+                                               "value":  "2026-11-22T10:43:16.6975206+00:00 DesktopAcrylicController attached=True",
                                                "PSPath":  "C:\\Users\\runneradmin\\AppData\\Local\\USB Bridge Desk\\startup.log",
                                                "PSParentPath":  "C:\\Users\\runneradmin\\AppData\\Local\\USB Bridge Desk",
                                                "PSChildName":  "startup.log",
@@ -968,7 +968,7 @@
                                                                                                             "Modules":  "System.Management.Automation.dll"
                                                                                                         },
                                                                                            "TypeHandle":  {
-                                                                                                              "Value":  140708265161792
+                                                                                                              "Value":  140727146869824
                                                                                                           },
                                                                                            "DeclaringMethod":  null,
                                                                                            "BaseType":  {
@@ -1569,7 +1569,7 @@
                                                                                      "DisplayRoot":  null
                                                                                  },
                                                                                  {
-                                                                                     "CurrentLocation":  "a\\usb-bridge-desk\\usb-bridge-desk\\r4-build\\USB-Bridge-Desk-R4",
+                                                                                     "CurrentLocation":  "a\\usb-bridge-desk\\usb-bridge-desk\\r5-build\\USB-Bridge-Desk-R5",
                                                                                      "Name":  "D",
                                                                                      "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
                                                                                      "Root":  "D:\\",
@@ -1580,30 +1580,30 @@
                                                                                  }
                                                                              ]
                                                               },
-                                               "ReadCount":  13
+                                               "ReadCount":  20
                                            }
                         },
-    "launched":  "2026-11-22T07:09:41.5115194+00:00",
-    "appSha256":  "29F8398BD032485DA474A0F583A0C73B4E4BB478AF0DDB66A6A926ECD701182D",
+    "launched":  "2026-11-22T10:42:37.6899650+00:00",
+    "appSha256":  "0F936222F056C8512ACD449481CA6C3BCB2C0E2B288BC007AF8982C91C445487",
     "terminalServerSession":  false,
     "exitMethod":  "tray",
-    "managedAppSha256":  "905EAEABDDCFFF9E4D31219FC7E7501A194F8B47BE4F20B4E884F03AEDE24138",
+    "managedAppSha256":  "CC9019F842F575E2A1E0C0270575CA39DEEA8246ACB755B8A272774F8934D9DC",
     "exitClean":  true,
     "screenshots":  [
                         {
-                            "width":  946,
+                            "width":  866,
                             "file":  "01-overview.png",
-                            "captured":  "2026-11-22T07:09:46.2063786+00:00",
+                            "captured":  "2026-11-22T10:42:42.4354845+00:00",
                             "height":  633,
                             "label":  "overview",
                             "top":  0,
                             "left":  7,
-                            "sha256":  "01F557DFCB4A9BA05E9F96F4792243345EA05DE2BFF22AD7A27501B01BF4BA68"
+                            "sha256":  "05231BB7E7ED8B572868EF1FB8024505A4E5D4760308CF7ECBD0077E4AD26451"
                         },
                         {
                             "width":  20,
                             "file":  "r4-title.png",
-                            "captured":  "2026-11-22T07:10:11.6430308+00:00",
+                            "captured":  "2026-11-22T10:43:07.8149444+00:00",
                             "height":  20,
                             "label":  "installed title-bar mark",
                             "top":  14,
@@ -1613,7 +1613,7 @@
                         {
                             "width":  44,
                             "file":  "r4-taskbar.png",
-                            "captured":  "2026-11-22T07:10:11.7340884+00:00",
+                            "captured":  "2026-11-22T10:43:07.9180399+00:00",
                             "height":  48,
                             "label":  "Explorer taskbar application button",
                             "top":  720,
@@ -1623,7 +1623,7 @@
                         {
                             "width":  16,
                             "file":  "r4-icon-16.png",
-                            "captured":  "2026-11-22T07:10:12.1213322+00:00",
+                            "captured":  "2026-11-22T10:43:08.3138951+00:00",
                             "height":  16,
                             "label":  "installed ICO rendered at 16 physical pixels",
                             "top":  344,
@@ -1633,7 +1633,7 @@
                         {
                             "width":  32,
                             "file":  "r4-icon-32.png",
-                            "captured":  "2026-11-22T07:10:12.1720434+00:00",
+                            "captured":  "2026-11-22T10:43:08.3614210+00:00",
                             "height":  32,
                             "label":  "installed ICO rendered at 32 physical pixels",
                             "top":  344,
@@ -1641,89 +1641,99 @@
                             "sha256":  "6BBD764C6F6200CB9D6D5586E8C778D7AA08EF4D446D815E0A6D75965F6593F0"
                         },
                         {
-                            "width":  946,
+                            "width":  866,
                             "file":  "02-local.png",
-                            "captured":  "2026-11-22T07:10:13.5100906+00:00",
+                            "captured":  "2026-11-22T10:43:10.3577353+00:00",
                             "height":  633,
                             "label":  "host",
                             "top":  0,
                             "left":  7,
-                            "sha256":  "5C96A9691741539C921E5B8238F20ACC6A1E7C233DBA3087CCE2B342822950EA"
+                            "sha256":  "2FAA6A280C62A8C4D08705F00C36B804F5EE798C9C9CBD7285EEB596CAB0A462"
                         },
                         {
                             "width":  1024,
                             "file":  "r4-addresses.png",
-                            "captured":  "2026-11-22T07:10:13.8282931+00:00",
+                            "captured":  "2026-11-22T10:43:11.5470310+00:00",
                             "height":  768,
                             "label":  "open address list and local verdicts",
                             "top":  0,
                             "left":  0,
-                            "sha256":  "9572EF7EF4EB3E8A2531A25D16742DC55CF3BC45E7DDF92321F86C2F1D03FD03"
+                            "sha256":  "D497B854AD6CB61594EDD617137C3A1281217E28B4D23A384EB735F24C3480E3"
                         },
                         {
-                            "width":  946,
+                            "width":  866,
                             "file":  "r4-local-type.png",
-                            "captured":  "2026-11-22T07:10:14.7508576+00:00",
+                            "captured":  "2026-11-22T10:43:12.4814362+00:00",
                             "height":  633,
                             "label":  "display-only local HID fixture (0 physical devices)",
                             "top":  0,
                             "left":  7,
-                            "sha256":  "DB2378C9998855ABCA23F79B23438293EF24E956AC16F7BD8867FED4B2265947"
+                            "sha256":  "052B3F55B4C22B9030645A6154DB3023ECD291ECA877E9F6367377B501F6B446"
                         },
                         {
-                            "width":  946,
+                            "width":  866,
                             "file":  "03-remote.png",
-                            "captured":  "2026-11-22T07:10:15.6882504+00:00",
+                            "captured":  "2026-11-22T10:43:13.4481819+00:00",
                             "height":  633,
                             "label":  "client",
                             "top":  0,
                             "left":  7,
-                            "sha256":  "516A3F99DE234D81B82F87B33A34CE779C84F2C250F7BC8E8732CAD472D31E28"
+                            "sha256":  "0E5EADE222242A8B2955FFA6D29AFFA6CECF84194077065DFB369C710AA5337C"
                         },
                         {
-                            "width":  946,
+                            "width":  866,
                             "file":  "r4-remote-type.png",
-                            "captured":  "2026-11-22T07:10:16.8295764+00:00",
+                            "captured":  "2026-11-22T10:43:14.6397466+00:00",
                             "height":  633,
                             "label":  "remote device type: 鼠标（推测）",
                             "top":  0,
                             "left":  7,
-                            "sha256":  "E61179F1A3CD1A95A6B8D7A90C00C9C0E25126F066FF00DF575B97733AD024D5"
+                            "sha256":  "9C1E6AD3B7146F95644BE027C994D3C68DC339EB468670CD5A1AFBE133E222A2"
                         },
                         {
-                            "width":  946,
+                            "width":  866,
                             "file":  "04-mappings.png",
-                            "captured":  "2026-11-22T07:10:17.7656627+00:00",
+                            "captured":  "2026-11-22T10:43:15.5560346+00:00",
                             "height":  633,
                             "label":  "mappings",
                             "top":  0,
                             "left":  7,
-                            "sha256":  "A9A6CEC7553B57A8ED9AF53A73AB112A2720C671E88A41F4FA13C43EE8A339DD"
+                            "sha256":  "03750A6DE8C03E64F7D078AAB472EE6690A882FFD53E3EB28682111833E4A8C7"
                         },
                         {
-                            "width":  946,
+                            "width":  866,
                             "file":  "05-dark-acrylic.png",
-                            "captured":  "2026-11-22T07:10:22.6666041+00:00",
+                            "captured":  "2026-11-22T10:43:20.4075291+00:00",
                             "height":  633,
                             "label":  "settings dark / acrylic / fallback_color_observed",
                             "top":  0,
                             "left":  7,
-                            "sha256":  "35A037D84112AA1247AFA0B3C0C62DF2C8D529A6CF7DCBD19C10C5E95B14DE36"
+                            "sha256":  "190B2CAC5DB1F15BE51B17CA123103F1F4AA3875BFAD31395E91D8D08DF23CB8"
                         },
                         {
-                            "width":  946,
+                            "width":  866,
                             "file":  "06-dark-overview.png",
-                            "captured":  "2026-11-22T07:10:23.5817271+00:00",
+                            "captured":  "2026-11-22T10:43:21.2895261+00:00",
                             "height":  633,
                             "label":  "overview dark / acrylic / fallback_color_observed",
                             "top":  0,
                             "left":  7,
-                            "sha256":  "8EE55CE0CA9F6BFF616F5E8DD48A3DC413B1E64EC8077895AB73CED2DED12694"
+                            "sha256":  "AF8A7501F88041A972AA6EBFE91A25B6EA116B3070F6E46936615917DF815840"
+                        },
+                        {
+                            "width":  866,
+                            "file":  "07-dark-device-card.png",
+                            "captured":  "2026-11-22T10:43:22.2221876+00:00",
+                            "height":  633,
+                            "label":  "dark mode content-matched device-card watermark",
+                            "top":  0,
+                            "left":  7,
+                            "sha256":  "CFB34DCB7C926DD85A7C50E568A642FD73C3EC4F35A833365E70FB11FA24441D"
                         },
                         {
                             "width":  40,
                             "file":  "r4-tray.png",
-                            "captured":  "2026-11-22T07:10:27.3267762+00:00",
+                            "captured":  "2026-11-22T10:43:25.5199094+00:00",
                             "height":  40,
                             "label":  "registered notification icon",
                             "top":  663,
@@ -1733,12 +1743,12 @@
                         {
                             "width":  1024,
                             "file":  "07-tray.png",
-                            "captured":  "2026-11-22T07:10:31.2111292+00:00",
+                            "captured":  "2026-11-22T10:43:26.2546146+00:00",
                             "height":  768,
                             "label":  "visible application tray menu",
                             "top":  0,
                             "left":  0,
-                            "sha256":  "CBBEEAFB62BCD81656D36AD7C7A3F84D2F9826574645551D4FEF283EC035E5CD"
+                            "sha256":  "869D745DAF72A7439F9E1A4E2E51F5735B506C74CF33C3F877DBB37C3EB9AD34"
                         }
                     ],
     "forcedExit":  false,
@@ -1760,9 +1770,9 @@
                "trayRect":  "{X=746,Y=663,Width=40,Height=40}",
                "localFixture":  {
                                     "label":  "键盘",
-                                    "physicalDevices":  0,
+                                    "interfaceDescriptor":  "03/01/01",
                                     "name":  "本机类型测试夹具（无实物） · 键盘 · 1-1  ·  0000:0000  ·  模拟 HID 接口描述符",
-                                    "compatibleId":  "USB\\Class_03\u0026SubClass_01\u0026Prot_01"
+                                    "physicalDevices":  0
                                 },
                "icon16ContactContrast":  [
                                              221,
@@ -1773,18 +1783,18 @@
                "localSource":  "descriptor-fixture",
                "remoteSource":  "read-only loopback fixture",
                "addresses":  [
-                                 "不推荐 · Ethernet 3 · 10.1.0.79:3240 虚拟网卡或隧道，仅同一虚拟网络内的对端可能可达。",
-                                 "不推荐 · vEthernet (nat) · 172.31.96.1:3240 虚拟网卡或隧道，仅同一虚拟网络内的对端可能可达。"
+                                 "不推荐 · Ethernet 3 · 10.1.0.8:3240 虚拟网卡或隧道，仅同一虚拟网络内的对端可能可达。",
+                                 "不推荐 · vEthernet (nat) · 172.21.128.1:3240 虚拟网卡或隧道，仅同一虚拟网络内的对端可能可达。"
                              ],
                "dpi":  96,
                "addressUIAPeerCount":  4,
                "minimum":  {
-                               "host":  {
+                               "home":  {
                                             "overflow":  [
 
                                                          ],
                                             "withinWindow":  true,
-                                            "width":  960,
+                                            "width":  880,
                                             "height":  640
                                         },
                                "client":  {
@@ -1792,7 +1802,7 @@
 
                                                            ],
                                               "withinWindow":  true,
-                                              "width":  960,
+                                              "width":  880,
                                               "height":  640
                                           },
                                "maps":  {
@@ -1800,7 +1810,23 @@
 
                                                          ],
                                             "withinWindow":  true,
-                                            "width":  960,
+                                            "width":  880,
+                                            "height":  640
+                                        },
+                               "host":  {
+                                            "overflow":  [
+
+                                                         ],
+                                            "withinWindow":  true,
+                                            "width":  880,
+                                            "height":  640
+                                        },
+                               "logs":  {
+                                            "overflow":  [
+
+                                                         ],
+                                            "withinWindow":  true,
+                                            "width":  880,
                                             "height":  640
                                         },
                                "settings":  {
@@ -1808,17 +1834,9 @@
 
                                                              ],
                                                 "withinWindow":  true,
-                                                "width":  960,
+                                                "width":  880,
                                                 "height":  640
-                                            },
-                               "home":  {
-                                            "overflow":  [
-
-                                                         ],
-                                            "withinWindow":  true,
-                                            "width":  960,
-                                            "height":  640
-                                        }
+                                            }
                            },
                "checks":  {
 
