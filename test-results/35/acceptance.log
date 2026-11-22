@@ -1,0 +1,76 @@
+﻿2026-11-22T02:36:54.0758309+00:00 startup prompt probe elapsed_since_first_probe=0s pass1-dump count=48 buttons=ControlType.Button|Minimize; ControlType.Button|Maximize; ControlType.Button|Close; ControlType.Button|Open Navigation; ControlType.Button|共享本机 USB; ControlType.Button|连接远端 USB; ControlType.Button|; ControlType.Button|; ControlType.Button|; ControlType.Button|查看日志; ControlType.Button|稍后; ControlType.Button|下载并安装 tree=ControlType.Window|USB Bridge Desk || ControlType.Pane|Non Client Input Sink Window || ControlType.Pane|AppWindow Custom Title Bar || ControlType.Button|Minimize || ControlType.Button|Maximize || ControlType.Button|Close || ControlType.Pane| || ControlType.Pane| || ControlType.Image|USB Bridge Desk || ControlType.Text|USB Bridge Desk || ControlType.Custom| || ControlType.Button|Open Navigation || ControlType.Window| || ControlType.Pane| || ControlType.Group| || ControlType.ListItem|连接概览 || ControlType.ListItem|共享本机 USB || ControlType.ListItem|连接远端 USB || ControlType.ListItem|映射列表 || ControlType.Text|●  虚拟控制器已就绪 || ControlType.Pane| || ControlType.Group| || ControlType.ListItem|活动日志 || ControlType.ListItem|设置 || ControlType.Pane| || ControlType.Text|连接概览 || ControlType.Text|在两台 Windows 电脑之间共享 USB 设备。 || ControlType.Text|共享与连接 || ControlType.Text|在插有设备的电脑启动共享，在需要使用设备的电脑添加远端目标。 || ControlType.Button|共享本机 USB || ControlType.Button|连接远端 USB || ControlType.Button| || ControlType.Text|本机已共享 || ControlType.Text|0 || ControlType.Button| || ControlType.Text|已保存目标 || ControlType.Text|0 || ControlType.Button| || ControlType.Text|已连接映射 || ControlType.Text|0 || ControlType.Text|最近活动 || ControlType.Button|查看日志 || ControlType.Text|暂无活动。共享、连接与重连记录会显示在这里。 || ControlType.Text|USB Bridge Desk 更新 || ControlType.Text|发现新版本 9.9.9 || ControlType.Text|Windows updater acceptance fixture || ControlType.Button|稍后 || ControlType.Button|下载并安装
+2026-11-22T02:36:54.1769900+00:00 startup prompt probe elapsed_since_first_probe=0s pass2-string-match collectionCount=48 targetButton=False matches=0
+2026-11-22T02:36:54.2542698+00:00 startup prompt probe elapsed_since_first_probe=0s FindAll-count-comparison first=48 second=48 sameCount=True secondContainsButton=False
+2026-11-22T02:36:54.3375017+00:00 startup prompt probe elapsed_since_first_probe=0s main-window-root count=47 installAutomationIdRoot=True installAutomationIdMainWindow=True deferAutomationIdRoot=True deferAutomationIdMainWindow=True selectedLookup=main-window-automation-id
+2026-11-22T02:36:54.3591397+00:00 startup prompt probe elapsed_since_first_probe=0s UpdateWindow=False MainWindow='USB Bridge Desk' WindowTypePid=True WindowNamePid=False WindowNameOnly=False typePidCurrent=[current[type=ControlType.Window name='USB Bridge Desk' pid=6176 automationId='' class='WinUIDesktopWin32WindowClass' hwnd=655750 control=True content=True rect=0,0,1024,720] cached[type= name='' pid= automationId='' class='' hwnd= control= content= rect=]]
+2026-11-22T02:36:54.3947992+00:00 startup HWND probe hwnd=0xA0186 visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=False
+2026-11-22T02:36:54.3947992+00:00 startup HWND probe hwnd=0x30232 visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-22T02:36:54.3968082+00:00 startup HWND probe hwnd=0x40220 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-22T02:36:54.3988179+00:00 startup HWND probe hwnd=0x50196 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-22T02:36:54.4008276+00:00 startup HWND probe hwnd=0x30234 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-22T02:36:54.4025901+00:00 startup HWND probe hwnd=0x7017A visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-22T02:36:54.4025901+00:00 startup HWND probe hwnd=0x30230 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-22T02:36:54.4046060+00:00 startup HWND probe hwnd=0x5020C visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-22T02:36:54.4066148+00:00 startup prompt probe HWNDButton=False
+2026-11-22T02:36:54.4430667+00:00 startup prompt first-hit timestamp=2026-11-22T02:36:54.4430667+00:00 elapsed_since=app-Opened 0.7s via=AutomationId='UpdatePrompt.Install' via=main-window-automation-id acceptanceWithin10s=True
+2026-11-22T02:36:54.5035275+00:00 startup prompt probe elapsed_since_first_probe=0.5s pass1-dump count=48 buttons=ControlType.Button|Minimize; ControlType.Button|Maximize; ControlType.Button|Close; ControlType.Button|Open Navigation; ControlType.Button|共享本机 USB; ControlType.Button|连接远端 USB; ControlType.Button|; ControlType.Button|; ControlType.Button|; ControlType.Button|查看日志; ControlType.Button|稍后; ControlType.Button|下载并安装 tree=ControlType.Window|USB Bridge Desk || ControlType.Pane|Non Client Input Sink Window || ControlType.Pane|AppWindow Custom Title Bar || ControlType.Button|Minimize || ControlType.Button|Maximize || ControlType.Button|Close || ControlType.Pane| || ControlType.Pane| || ControlType.Image|USB Bridge Desk || ControlType.Text|USB Bridge Desk || ControlType.Custom| || ControlType.Button|Open Navigation || ControlType.Window| || ControlType.Pane| || ControlType.Group| || ControlType.ListItem|连接概览 || ControlType.ListItem|共享本机 USB || ControlType.ListItem|连接远端 USB || ControlType.ListItem|映射列表 || ControlType.Text|●  虚拟控制器已就绪 || ControlType.Pane| || ControlType.Group| || ControlType.ListItem|活动日志 || ControlType.ListItem|设置 || ControlType.Pane| || ControlType.Text|连接概览 || ControlType.Text|在两台 Windows 电脑之间共享 USB 设备。 || ControlType.Text|共享与连接 || ControlType.Text|在插有设备的电脑启动共享，在需要使用设备的电脑添加远端目标。 || ControlType.Button|共享本机 USB || ControlType.Button|连接远端 USB || ControlType.Button| || ControlType.Text|本机已共享 || ControlType.Text|0 || ControlType.Button| || ControlType.Text|已保存目标 || ControlType.Text|0 || ControlType.Button| || ControlType.Text|已连接映射 || ControlType.Text|0 || ControlType.Text|最近活动 || ControlType.Button|查看日志 || ControlType.Text|暂无活动。共享、连接与重连记录会显示在这里。 || ControlType.Text|USB Bridge Desk 更新 || ControlType.Text|发现新版本 9.9.9 || ControlType.Text|Windows updater acceptance fixture || ControlType.Button|稍后 || ControlType.Button|下载并安装
+2026-11-22T02:36:54.5115663+00:00 startup prompt probe elapsed_since_first_probe=0.5s pass2-string-match collectionCount=48 targetButton=False matches=0
+2026-11-22T02:36:54.5786590+00:00 startup prompt probe elapsed_since_first_probe=0.5s FindAll-count-comparison first=48 second=48 sameCount=True secondContainsButton=False
+2026-11-22T02:36:54.6520644+00:00 startup prompt probe elapsed_since_first_probe=0.5s main-window-root count=47 installAutomationIdRoot=True installAutomationIdMainWindow=True deferAutomationIdRoot=True deferAutomationIdMainWindow=True selectedLookup=main-window-automation-id
+2026-11-22T02:36:54.6578465+00:00 startup prompt probe elapsed_since_first_probe=0.5s UpdateWindow=False MainWindow='USB Bridge Desk' WindowTypePid=True WindowNamePid=False WindowNameOnly=False typePidCurrent=[current[type=ControlType.Window name='USB Bridge Desk' pid=6176 automationId='' class='WinUIDesktopWin32WindowClass' hwnd=655750 control=True content=True rect=0,0,1024,720] cached[type= name='' pid= automationId='' class='' hwnd= control= content= rect=]]
+2026-11-22T02:36:54.6716747+00:00 startup HWND probe hwnd=0xA0186 visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=False
+2026-11-22T02:36:54.6736889+00:00 startup HWND probe hwnd=0x30232 visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-22T02:36:54.6736889+00:00 startup HWND probe hwnd=0x40220 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-22T02:36:54.6756986+00:00 startup HWND probe hwnd=0x50196 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-22T02:36:54.6777078+00:00 startup HWND probe hwnd=0x30234 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-22T02:36:54.6797191+00:00 startup HWND probe hwnd=0x7017A visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-22T02:36:54.6797191+00:00 startup HWND probe hwnd=0x30230 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-22T02:36:54.6817286+00:00 startup HWND probe hwnd=0x5020C visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-22T02:36:54.6837517+00:00 startup prompt probe HWNDButton=False
+2026-11-22T02:36:54.7452452+00:00 startup prompt first-hit screenshot timestamp=2026-11-22T02:36:54.7452452+00:00 path=update-prompt-first-hit.png
+2026-11-22T02:36:54.7472591+00:00 startup update prompt button found via=AutomationId='UpdatePrompt.Install' via=main-window-automation-id
+2026-11-22T02:36:54.7847680+00:00 New-version prompt visible at startup; download button has not been clicked.
+2026-11-22T02:37:14.8929291+00:00 UIA timeout dump for PID 6176 (Settings navigation) elements=43:
+WINDOW title='USB Bridge Desk'
+ELEMENT type=ControlType.Window name='USB Bridge Desk'
+ELEMENT type=ControlType.Pane name='Non Client Input Sink Window'
+ELEMENT type=ControlType.Pane name='AppWindow Custom Title Bar'
+BUTTON name='Minimize'
+ELEMENT type=ControlType.Button name='Minimize'
+BUTTON name='Maximize'
+ELEMENT type=ControlType.Button name='Maximize'
+BUTTON name='Close'
+ELEMENT type=ControlType.Button name='Close'
+ELEMENT type=ControlType.Image name='USB Bridge Desk'
+ELEMENT type=ControlType.Text name='USB Bridge Desk'
+BUTTON name='Open Navigation'
+ELEMENT type=ControlType.Button name='Open Navigation'
+WINDOW title=''
+ELEMENT type=ControlType.ListItem name='连接概览'
+ELEMENT type=ControlType.ListItem name='共享本机 USB'
+ELEMENT type=ControlType.ListItem name='连接远端 USB'
+ELEMENT type=ControlType.ListItem name='映射列表'
+ELEMENT type=ControlType.Text name='●  虚拟控制器已就绪'
+ELEMENT type=ControlType.ListItem name='活动日志'
+ELEMENT type=ControlType.ListItem name='设置'
+ELEMENT type=ControlType.Text name='连接概览'
+ELEMENT type=ControlType.Text name='在两台 Windows 电脑之间共享 USB 设备。'
+ELEMENT type=ControlType.Text name='共享与连接'
+ELEMENT type=ControlType.Text name='在插有设备的电脑启动共享，在需要使用设备的电脑添加远端目标。'
+BUTTON name='共享本机 USB'
+ELEMENT type=ControlType.Button name='共享本机 USB'
+BUTTON name='连接远端 USB'
+ELEMENT type=ControlType.Button name='连接远端 USB'
+BUTTON name=''
+ELEMENT type=ControlType.Text name='本机已共享'
+ELEMENT type=ControlType.Text name='0'
+BUTTON name=''
+ELEMENT type=ControlType.Text name='已保存目标'
+ELEMENT type=ControlType.Text name='0'
+BUTTON name=''
+ELEMENT type=ControlType.Text name='已连接映射'
+ELEMENT type=ControlType.Text name='0'
+ELEMENT type=ControlType.Text name='最近活动'
+BUTTON name='查看日志'
+ELEMENT type=ControlType.Button name='查看日志'
+ELEMENT type=ControlType.Text name='暂无活动。共享、连接与重连记录会显示在这里。'
