@@ -35,7 +35,7 @@ jobs:
         working-directory: .
         shell: powershell
         run: |
-          $zip='source-fix22.zip'
+          $zip='source-fix23.zip'
           if(Test-Path r5-build){throw 'Clean runner checkout required: r5-build already exists'}
           Expand-Archive -LiteralPath $zip -DestinationPath r5-build
           Set-Location r5-build/USB-Bridge-Desk-R5
@@ -158,6 +158,10 @@ jobs:
               $details=($parseErrors | ForEach-Object { "line $($_.Extent.StartLineNumber), column $($_.Extent.StartColumnNumber): $($_.Message)" }) -join '; '
               throw "Acceptance script parse failed: $details"
             }
+            $env:ACCEPTANCE_PATH=$acceptancePath
+            $powershell51=Join-Path $env:SystemRoot 'System32\WindowsPowerShell\v1.0\powershell.exe'
+            & $powershell51 -NoProfile -ExecutionPolicy Bypass -Command '$tokens=$null; $errors=$null; [void][System.Management.Automation.Language.Parser]::ParseFile($env:ACCEPTANCE_PATH,[ref]$tokens,[ref]$errors); if ($errors.Count -gt 0) { foreach ($errorItem in $errors) { [Console]::Error.WriteLine(("PowerShell 5.1 parse error at line {0}, column {1}: {2} | {3}" -f $errorItem.Extent.StartLineNumber,$errorItem.Extent.StartColumnNumber,$errorItem.Message,$errorItem.Extent.Text)) }; exit 1 }'
+            if ($LASTEXITCODE -ne 0) { throw 'Windows PowerShell 5.1 parser rejected acceptance.ps1.' }
             & "$env:SystemRoot\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy Bypass -File dev/windows-r5-acceptance.ps1 `
               -AppPath $env:APP_PATH `
               -UninstallerPath (Join-Path (Split-Path $env:APP_PATH) 'Uninstall.exe') `
