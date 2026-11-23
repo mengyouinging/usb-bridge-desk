@@ -1,0 +1,643 @@
+﻿2026-11-23T15:47:42.5821134+00:00 startup prompt probe elapsed_since_first_probe=0.1s pass1-dump count=48 buttons=ControlType.Button|Minimize; ControlType.Button|Maximize; ControlType.Button|Close; ControlType.Button|Open Navigation; ControlType.Button|共享本机 USB; ControlType.Button|连接远端 USB; ControlType.Button|; ControlType.Button|; ControlType.Button|; ControlType.Button|查看日志; ControlType.Button|稍后; ControlType.Button|下载并安装 tree=ControlType.Window|USB Bridge Desk || ControlType.Pane|Non Client Input Sink Window || ControlType.Pane|AppWindow Custom Title Bar || ControlType.Button|Minimize || ControlType.Button|Maximize || ControlType.Button|Close || ControlType.Pane| || ControlType.Pane| || ControlType.Image|USB Bridge Desk || ControlType.Text|USB Bridge Desk || ControlType.Custom| || ControlType.Button|Open Navigation || ControlType.Window| || ControlType.Pane| || ControlType.Group| || ControlType.ListItem|连接概览 || ControlType.ListItem|共享本机 USB || ControlType.ListItem|连接远端 USB || ControlType.ListItem|映射列表 || ControlType.Text|○  控制器待检查 || ControlType.Pane| || ControlType.Group| || ControlType.ListItem|活动日志 || ControlType.ListItem|设置 || ControlType.Pane| || ControlType.Text|连接概览 || ControlType.Text|在两台 Windows 电脑之间共享 USB 设备。 || ControlType.Text|共享与连接 || ControlType.Text|在插有设备的电脑启动共享，在需要使用设备的电脑添加远端目标。 || ControlType.Button|共享本机 USB || ControlType.Button|连接远端 USB || ControlType.Button| || ControlType.Text|本机已共享 || ControlType.Text|— || ControlType.Button| || ControlType.Text|已保存目标 || ControlType.Text|0 || ControlType.Button| || ControlType.Text|已连接映射 || ControlType.Text|0 || ControlType.Text|最近活动 || ControlType.Button|查看日志 || ControlType.Text|暂无活动。共享、连接与重连记录会显示在这里。 || ControlType.Text|USB Bridge Desk 更新 || ControlType.Text|发现新版本 9.9.9 || ControlType.Text|Windows updater acceptance fixture || ControlType.Button|稍后 || ControlType.Button|下载并安装
+2026-11-23T15:47:42.7250343+00:00 startup prompt probe elapsed_since_first_probe=0.1s pass2-string-match collectionCount=48 targetButton=True matches=1
+2026-11-23T15:47:42.7747826+00:00 startup prompt probe elapsed_since_first_probe=0.1s pass3-candidate Name='下载并安装' NameLength=5 Codepoints=U+4E0B,U+8F7D,U+5E76,U+5B89,U+88C5 ControlType=ControlType.Button ProcessId=8452 AutomationId='UpdatePrompt.Install' ControlTypeEquals=True NameEquals=True ProcessIdEquals=True ProgrammaticNameEquals=True CurrentReferenceEquals=False CurrentType=System.Windows.Automation.AutomationElement+AutomationElementInformation
+2026-11-23T15:47:42.8786834+00:00 startup prompt probe elapsed_since_first_probe=0.1s FindAll-count-comparison first=48 second=48 sameCount=True secondContainsButton=True
+2026-11-23T15:47:43.0409874+00:00 startup prompt probe elapsed_since_first_probe=0.1s main-window-root count=47 installAutomationIdRoot=True installAutomationIdMainWindow=True deferAutomationIdRoot=True deferAutomationIdMainWindow=True selectedLookup=main-window-automation-id
+2026-11-23T15:47:43.0669172+00:00 startup prompt probe elapsed_since_first_probe=0.1s UpdateWindow=False MainWindow='USB Bridge Desk' WindowTypePid=True WindowNamePid=False WindowNameOnly=False typePidCurrent=[current[type=ControlType.Window name='USB Bridge Desk' pid=8452 automationId='' class='WinUIDesktopWin32WindowClass' hwnd=655688 control=True content=True rect=0,0,1024,720] cached[type= name='' pid= automationId='' class='' hwnd= control= content= rect=]]
+2026-11-23T15:47:43.1104632+00:00 startup HWND probe hwnd=0xA0148 visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=True
+2026-11-23T15:47:43.1145027+00:00 startup HWND probe hwnd=0x70056 visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-23T15:47:43.1165150+00:00 startup HWND probe hwnd=0x701D6 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-23T15:47:43.1185372+00:00 startup HWND probe hwnd=0x80130 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-23T15:47:43.1223210+00:00 startup HWND probe hwnd=0x401FC visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-23T15:47:43.1243426+00:00 startup HWND probe hwnd=0x50212 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-23T15:47:43.1263614+00:00 startup HWND probe hwnd=0x501CE visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-23T15:47:43.1283816+00:00 startup HWND probe hwnd=0x5016C visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-23T15:47:43.1344485+00:00 startup prompt probe HWNDButton=True
+2026-11-23T15:47:43.1838955+00:00 startup prompt first-hit timestamp=2026-11-23T15:47:43.1825200+00:00 elapsed_since=app-Opened 0.9s via=AutomationId='UpdatePrompt.Install' via=main-window-automation-id acceptanceWithin10s=True
+2026-11-23T15:47:43.2733242+00:00 startup prompt probe elapsed_since_first_probe=0.9s pass1-dump count=48 buttons=ControlType.Button|Minimize; ControlType.Button|Maximize; ControlType.Button|Close; ControlType.Button|Open Navigation; ControlType.Button|共享本机 USB; ControlType.Button|连接远端 USB; ControlType.Button|; ControlType.Button|; ControlType.Button|; ControlType.Button|查看日志; ControlType.Button|稍后; ControlType.Button|下载并安装 tree=ControlType.Window|USB Bridge Desk || ControlType.Pane|Non Client Input Sink Window || ControlType.Pane|AppWindow Custom Title Bar || ControlType.Button|Minimize || ControlType.Button|Maximize || ControlType.Button|Close || ControlType.Pane| || ControlType.Pane| || ControlType.Image|USB Bridge Desk || ControlType.Text|USB Bridge Desk || ControlType.Custom| || ControlType.Button|Open Navigation || ControlType.Window| || ControlType.Pane| || ControlType.Group| || ControlType.ListItem|连接概览 || ControlType.ListItem|共享本机 USB || ControlType.ListItem|连接远端 USB || ControlType.ListItem|映射列表 || ControlType.Text|●  虚拟控制器已就绪 || ControlType.Pane| || ControlType.Group| || ControlType.ListItem|活动日志 || ControlType.ListItem|设置 || ControlType.Pane| || ControlType.Text|连接概览 || ControlType.Text|在两台 Windows 电脑之间共享 USB 设备。 || ControlType.Text|共享与连接 || ControlType.Text|在插有设备的电脑启动共享，在需要使用设备的电脑添加远端目标。 || ControlType.Button|共享本机 USB || ControlType.Button|连接远端 USB || ControlType.Button| || ControlType.Text|本机已共享 || ControlType.Text|0 || ControlType.Button| || ControlType.Text|已保存目标 || ControlType.Text|0 || ControlType.Button| || ControlType.Text|已连接映射 || ControlType.Text|0 || ControlType.Text|最近活动 || ControlType.Button|查看日志 || ControlType.Text|暂无活动。共享、连接与重连记录会显示在这里。 || ControlType.Text|USB Bridge Desk 更新 || ControlType.Text|发现新版本 9.9.9 || ControlType.Text|Windows updater acceptance fixture || ControlType.Button|稍后 || ControlType.Button|下载并安装
+2026-11-23T15:47:43.2851567+00:00 startup prompt probe elapsed_since_first_probe=0.9s pass2-string-match collectionCount=48 targetButton=True matches=1
+2026-11-23T15:47:43.3070743+00:00 startup prompt probe elapsed_since_first_probe=0.9s pass3-candidate Name='下载并安装' NameLength=5 Codepoints=U+4E0B,U+8F7D,U+5E76,U+5B89,U+88C5 ControlType=ControlType.Button ProcessId=8452 AutomationId='UpdatePrompt.Install' ControlTypeEquals=True NameEquals=True ProcessIdEquals=True ProgrammaticNameEquals=True CurrentReferenceEquals=False CurrentType=System.Windows.Automation.AutomationElement+AutomationElementInformation
+2026-11-23T15:47:43.3844312+00:00 startup prompt probe elapsed_since_first_probe=0.9s FindAll-count-comparison first=48 second=48 sameCount=True secondContainsButton=True
+2026-11-23T15:47:43.5154607+00:00 startup prompt probe elapsed_since_first_probe=0.9s main-window-root count=47 installAutomationIdRoot=True installAutomationIdMainWindow=True deferAutomationIdRoot=True deferAutomationIdMainWindow=True selectedLookup=main-window-automation-id
+2026-11-23T15:47:43.5258272+00:00 startup prompt probe elapsed_since_first_probe=0.9s UpdateWindow=False MainWindow='USB Bridge Desk' WindowTypePid=True WindowNamePid=False WindowNameOnly=False typePidCurrent=[current[type=ControlType.Window name='USB Bridge Desk' pid=8452 automationId='' class='WinUIDesktopWin32WindowClass' hwnd=655688 control=True content=True rect=0,0,1024,720] cached[type= name='' pid= automationId='' class='' hwnd= control= content= rect=]]
+2026-11-23T15:47:43.5431898+00:00 startup HWND probe hwnd=0xA0148 visible=True rectAvailable=True rect=0,0,1024,720 FromHandle=True fromHandleError=none title='USB Bridge Desk' buttonFound=True
+2026-11-23T15:47:43.5452060+00:00 startup HWND probe hwnd=0x70056 visible=False rectAvailable=True rect=0,0,136,39 FromHandle=True fromHandleError=none title='' buttonFound=False
+2026-11-23T15:47:43.5575630+00:00 startup HWND probe hwnd=0x701D6 visible=False rectAvailable=True rect=0,0,1,1 FromHandle=True fromHandleError=none title='GDI+ Window (UsbBridgeDesk.exe)' buttonFound=False
+2026-11-23T15:47:43.5598873+00:00 startup HWND probe hwnd=0x80130 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='.NET-BroadcastEventWindow.5c39d4.0' buttonFound=False
+2026-11-23T15:47:43.5632721+00:00 startup HWND probe hwnd=0x401FC visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='MSCTFIME UI' buttonFound=False
+2026-11-23T15:47:43.5646508+00:00 startup HWND probe hwnd=0x50212 visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-23T15:47:43.5669803+00:00 startup HWND probe hwnd=0x501CE visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-23T15:47:43.5689955+00:00 startup HWND probe hwnd=0x5016C visible=False rectAvailable=True rect=0,0,0,0 FromHandle=True fromHandleError=none title='Default IME' buttonFound=False
+2026-11-23T15:47:43.5710176+00:00 startup prompt probe HWNDButton=True
+2026-11-23T15:47:43.6475341+00:00 startup prompt first-hit screenshot timestamp=2026-11-23T15:47:43.6455187+00:00 path=update-prompt-first-hit.png
+2026-11-23T15:47:43.6475341+00:00 startup update prompt button found via=AutomationId='UpdatePrompt.Install' via=main-window-automation-id
+2026-11-23T15:47:43.6985855+00:00 New-version prompt visible at startup; download button has not been clicked.
+2026-11-23T15:47:43.8456585+00:00 Independent UIA enumeration label='Settings navigation' AutomationId='Nav.settings' ControlType=ControlType.ListItem ProcessId=8452
+2026-11-23T15:47:44.0280534+00:00 Independent UIA enumeration label='settings update check' AutomationId='Settings.UpdateCheck' ControlType=ControlType.Button ProcessId=8452
+2026-11-23T15:47:44.1122397+00:00 Settings check showed the update; server log confirms no installer download before explicit choice.
+2026-11-23T15:47:44.2887607+00:00 Independent UIA enumeration label='Settings navigation' AutomationId='Nav.settings' ControlType=ControlType.ListItem ProcessId=8452
+2026-11-23T15:47:44.4065146+00:00 Independent UIA enumeration label='settings update check' AutomationId='Settings.UpdateCheck' ControlType=ControlType.Button ProcessId=8452
+2026-11-23T15:47:45.3361538+00:00 Wrong SHA-256 rejection confirmed: UpdateNotice AutomationId present, UIA failure text visible, and startup trace records InvalidDataException.
+2026-11-23T15:47:45.3817301+00:00 Wrong SHA-256 manifest was rejected and the UI reported verification failure.
+2026-11-23T15:47:45.4933243+00:00 Independent UIA enumeration label='Settings navigation' AutomationId='Nav.settings' ControlType=ControlType.ListItem ProcessId=8452
+2026-11-23T15:47:45.6317087+00:00 Independent UIA enumeration label='settings update check' AutomationId='Settings.UpdateCheck' ControlType=ControlType.Button ProcessId=8452
+2026-11-23T15:47:47.3036943+00:00 Correct SHA-256 download launched installer PID 3040.
+2026-11-23T15:47:47.3097328+00:00 Verified installer was downloaded and launched; setup process was stopped before modifying the installation.
+2026-11-23T15:47:50.3497975+00:00 Uninstaller window poll candidates=4:
+2026-11-23T15:47:50.3558819+00:00 Candidate HWND=0x20216 PID=6908 title='System tray overflow window.'
+2026-11-23T15:47:50.3558819+00:00 Candidate HWND=0x90130 PID=6884 title='USB Bridge Desk'
+2026-11-23T15:47:50.3579147+00:00 Candidate HWND=0x601CA PID=3792 title='C:\ProgramData\GitHub\HostedComputeAgent\hosted-compute-agent'
+2026-11-23T15:47:50.3579147+00:00 Candidate HWND=0x100B0 PID=6908 title='Program Manager'
+2026-11-23T15:47:50.5721428+00:00 Uninstaller window poll candidates=5:
+2026-11-23T15:47:50.5727251+00:00 Candidate HWND=0x20216 PID=6908 title='System tray overflow window.'
+2026-11-23T15:47:50.5727251+00:00 Candidate HWND=0x3020A PID=9028 title='USB Bridge Desk 卸载 '
+2026-11-23T15:47:50.5741607+00:00 Candidate HWND=0x90130 PID=6884 title='USB Bridge Desk'
+2026-11-23T15:47:50.5787985+00:00 Candidate HWND=0x601CA PID=3792 title='C:\ProgramData\GitHub\HostedComputeAgent\hosted-compute-agent'
+2026-11-23T15:47:50.5787985+00:00 Candidate HWND=0x100B0 PID=6908 title='Program Manager'
+2026-11-23T15:47:50.5822494+00:00 Found uninstaller HWND=0x3020A owner PID=9028 title='USB Bridge Desk 卸载 '
+2026-11-23T15:47:50.5933886+00:00 === NSIS dialog Win32/UIA comparison (window discovery) HWND=0x3020A owner PID=9028 ===
+2026-11-23T15:47:50.5974391+00:00 Win32 EnumChildWindows + GetWindowTextW list count=18:
+2026-11-23T15:47:50.6068804+00:00 WIN32 child HWND=0x3020C class='Button' text='' PID=9028 visible=False enabled=False
+2026-11-23T15:47:50.6068804+00:00 WIN32 child HWND=0xC001A class='Button' text='卸载(&U)' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.6088946+00:00 WIN32 child HWND=0x80194 class='Button' text='取消(&C)' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.6088946+00:00 WIN32 child HWND=0x70208 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:47:50.6088946+00:00 WIN32 child HWND=0x40152 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:47:50.6109077+00:00 WIN32 child HWND=0x90158 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.6109077+00:00 WIN32 child HWND=0x70072 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.6109077+00:00 WIN32 child HWND=0x501F4 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:47:50.6129205+00:00 WIN32 child HWND=0x40206 class='Static' text='USB Bridge Desk ' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.6129205+00:00 WIN32 child HWND=0x7016A class='Static' text='USB Bridge Desk' PID=9028 visible=True enabled=False
+2026-11-23T15:47:50.6129205+00:00 WIN32 child HWND=0x401F2 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.6149330+00:00 WIN32 child HWND=0x40166 class='Static' text='卸载 USB Bridge Desk' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.6149330+00:00 WIN32 child HWND=0x601E4 class='Static' text='从本机卸载 USB Bridge Desk 。' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.6166930+00:00 WIN32 child HWND=0x30218 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.6187181+00:00 WIN32 child HWND=0x30286 class='#32770' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.6194990+00:00 WIN32 child HWND=0x3023C class='Static' text='卸载目录: ' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.6207392+00:00 WIN32 child HWND=0x20284 class='Edit' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.6215269+00:00 WIN32 child HWND=0x20282 class='Static' text='此向导将从本机卸载 USB Bridge Desk 。 点击 [卸载(U)] 开始卸载。' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.6366330+00:00 UIA dialog subtree list count=14:
+2026-11-23T15:47:50.6426738+00:00 UIA child ControlType=ControlType.Pane Name='卸载(U)' AutomationId='1' PID=9028
+2026-11-23T15:47:50.6484527+00:00 UIA child ControlType=ControlType.Pane Name='取消(C)' AutomationId='2' PID=9028
+2026-11-23T15:47:50.6504638+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1035' PID=9028
+2026-11-23T15:47:50.6504638+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1036' PID=9028
+2026-11-23T15:47:50.6524774+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk ' AutomationId='1256' PID=9028
+2026-11-23T15:47:50.6524774+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk' AutomationId='1028' PID=9028
+2026-11-23T15:47:50.6544923+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1034' PID=9028
+2026-11-23T15:47:50.6544923+00:00 UIA child ControlType=ControlType.Pane Name='卸载 USB Bridge Desk' AutomationId='1037' PID=9028
+2026-11-23T15:47:50.6565124+00:00 UIA child ControlType=ControlType.Pane Name='从本机卸载 USB Bridge Desk 。' AutomationId='1038' PID=9028
+2026-11-23T15:47:50.6565124+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1039' PID=9028
+2026-11-23T15:47:50.6565124+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='' PID=9028
+2026-11-23T15:47:50.6585346+00:00 UIA child ControlType=ControlType.Pane Name='卸载目录: ' AutomationId='1029' PID=9028
+2026-11-23T15:47:50.6585346+00:00 UIA child ControlType=ControlType.Pane Name='C:\Program Files\USB Bridge Desk' AutomationId='1000' PID=9028
+2026-11-23T15:47:50.6605567+00:00 UIA child ControlType=ControlType.Pane Name='此向导将从本机卸载 USB Bridge Desk 。 点击 [卸载(U)] 开始卸载。' AutomationId='1006' PID=9028
+2026-11-23T15:47:50.6802770+00:00 NSIS button probe (running-app uninstall confirmation) discovered owner PID=9028 visible dialogs=1
+2026-11-23T15:47:50.6962104+00:00 === NSIS dialog Win32/UIA comparison (running-app uninstall confirmation) HWND=0x3020A owner PID=9028 ===
+2026-11-23T15:47:50.6962104+00:00 Win32 EnumChildWindows + GetWindowTextW list count=18:
+2026-11-23T15:47:50.7002556+00:00 WIN32 child HWND=0x3020C class='Button' text='' PID=9028 visible=False enabled=False
+2026-11-23T15:47:50.7022790+00:00 WIN32 child HWND=0xC001A class='Button' text='卸载(&U)' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.7022790+00:00 WIN32 child HWND=0x80194 class='Button' text='取消(&C)' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.7022790+00:00 WIN32 child HWND=0x70208 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:47:50.7043041+00:00 WIN32 child HWND=0x40152 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:47:50.7043041+00:00 WIN32 child HWND=0x90158 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.7043041+00:00 WIN32 child HWND=0x70072 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.7063282+00:00 WIN32 child HWND=0x501F4 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:47:50.7063282+00:00 WIN32 child HWND=0x40206 class='Static' text='USB Bridge Desk ' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.7063282+00:00 WIN32 child HWND=0x7016A class='Static' text='USB Bridge Desk' PID=9028 visible=True enabled=False
+2026-11-23T15:47:50.7083516+00:00 WIN32 child HWND=0x401F2 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.7083516+00:00 WIN32 child HWND=0x40166 class='Static' text='卸载 USB Bridge Desk' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.7083516+00:00 WIN32 child HWND=0x601E4 class='Static' text='从本机卸载 USB Bridge Desk 。' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.7103747+00:00 WIN32 child HWND=0x30218 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.7103747+00:00 WIN32 child HWND=0x30286 class='#32770' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.7103747+00:00 WIN32 child HWND=0x3023C class='Static' text='卸载目录: ' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.7121445+00:00 WIN32 child HWND=0x20284 class='Edit' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.7121445+00:00 WIN32 child HWND=0x20282 class='Static' text='此向导将从本机卸载 USB Bridge Desk 。 点击 [卸载(U)] 开始卸载。' PID=9028 visible=True enabled=True
+2026-11-23T15:47:50.7222173+00:00 UIA dialog subtree list count=14:
+2026-11-23T15:47:50.7222173+00:00 UIA child ControlType=ControlType.Pane Name='卸载(U)' AutomationId='1' PID=9028
+2026-11-23T15:47:50.7242312+00:00 UIA child ControlType=ControlType.Pane Name='取消(C)' AutomationId='2' PID=9028
+2026-11-23T15:47:50.7262457+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1035' PID=9028
+2026-11-23T15:47:50.7262457+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1036' PID=9028
+2026-11-23T15:47:50.7280144+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk ' AutomationId='1256' PID=9028
+2026-11-23T15:47:50.7280144+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk' AutomationId='1028' PID=9028
+2026-11-23T15:47:50.7300382+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1034' PID=9028
+2026-11-23T15:47:50.7300382+00:00 UIA child ControlType=ControlType.Pane Name='卸载 USB Bridge Desk' AutomationId='1037' PID=9028
+2026-11-23T15:47:50.7320603+00:00 UIA child ControlType=ControlType.Pane Name='从本机卸载 USB Bridge Desk 。' AutomationId='1038' PID=9028
+2026-11-23T15:47:50.7340755+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1039' PID=9028
+2026-11-23T15:47:50.7340755+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='' PID=9028
+2026-11-23T15:47:50.7360936+00:00 UIA child ControlType=ControlType.Pane Name='卸载目录: ' AutomationId='1029' PID=9028
+2026-11-23T15:47:50.7401278+00:00 UIA child ControlType=ControlType.Pane Name='C:\Program Files\USB Bridge Desk' AutomationId='1000' PID=9028
+2026-11-23T15:47:50.7421539+00:00 UIA child ControlType=ControlType.Pane Name='此向导将从本机卸载 USB Bridge Desk 。 点击 [卸载(U)] 开始卸载。' AutomationId='1006' PID=9028
+2026-11-23T15:48:20.7875492+00:00 NSIS button probe (running-app uninstall confirmation) discovered owner PID=9028 visible dialogs=1
+2026-11-23T15:48:20.7895608+00:00 === NSIS dialog Win32/UIA comparison (running-app uninstall confirmation) HWND=0x3020A owner PID=9028 ===
+2026-11-23T15:48:20.7903636+00:00 Win32 EnumChildWindows + GetWindowTextW list count=18:
+2026-11-23T15:48:20.7903636+00:00 WIN32 child HWND=0x3020C class='Button' text='' PID=9028 visible=False enabled=False
+2026-11-23T15:48:20.7915722+00:00 WIN32 child HWND=0xC001A class='Button' text='卸载(&U)' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.7923957+00:00 WIN32 child HWND=0x80194 class='Button' text='取消(&C)' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.7935853+00:00 WIN32 child HWND=0x70208 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:48:20.7935853+00:00 WIN32 child HWND=0x40152 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:48:20.7944240+00:00 WIN32 child HWND=0x90158 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.7944240+00:00 WIN32 child HWND=0x70072 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.7955987+00:00 WIN32 child HWND=0x501F4 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:48:20.7964499+00:00 WIN32 child HWND=0x40206 class='Static' text='USB Bridge Desk ' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.7973568+00:00 WIN32 child HWND=0x7016A class='Static' text='USB Bridge Desk' PID=9028 visible=True enabled=False
+2026-11-23T15:48:20.7973568+00:00 WIN32 child HWND=0x401F2 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.7973568+00:00 WIN32 child HWND=0x40166 class='Static' text='卸载 USB Bridge Desk' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.7993681+00:00 WIN32 child HWND=0x601E4 class='Static' text='从本机卸载 USB Bridge Desk 。' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.7993681+00:00 WIN32 child HWND=0x30218 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.7993681+00:00 WIN32 child HWND=0x30286 class='#32770' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8013785+00:00 WIN32 child HWND=0x3023C class='Static' text='卸载目录: ' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8013785+00:00 WIN32 child HWND=0x20284 class='Edit' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8013785+00:00 WIN32 child HWND=0x20282 class='Static' text='此向导将从本机卸载 USB Bridge Desk 。 点击 [卸载(U)] 开始卸载。' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8094372+00:00 UIA dialog subtree list count=14:
+2026-11-23T15:48:20.8114516+00:00 UIA child ControlType=ControlType.Pane Name='卸载(U)' AutomationId='1' PID=9028
+2026-11-23T15:48:20.8132183+00:00 UIA child ControlType=ControlType.Pane Name='取消(C)' AutomationId='2' PID=9028
+2026-11-23T15:48:20.8132183+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1035' PID=9028
+2026-11-23T15:48:20.8132183+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1036' PID=9028
+2026-11-23T15:48:20.8152396+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk ' AutomationId='1256' PID=9028
+2026-11-23T15:48:20.8152396+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk' AutomationId='1028' PID=9028
+2026-11-23T15:48:20.8172610+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1034' PID=9028
+2026-11-23T15:48:20.8172610+00:00 UIA child ControlType=ControlType.Pane Name='卸载 USB Bridge Desk' AutomationId='1037' PID=9028
+2026-11-23T15:48:20.8192752+00:00 UIA child ControlType=ControlType.Pane Name='从本机卸载 USB Bridge Desk 。' AutomationId='1038' PID=9028
+2026-11-23T15:48:20.8192752+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1039' PID=9028
+2026-11-23T15:48:20.8192752+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='' PID=9028
+2026-11-23T15:48:20.8212965+00:00 UIA child ControlType=ControlType.Pane Name='卸载目录: ' AutomationId='1029' PID=9028
+2026-11-23T15:48:20.8212965+00:00 UIA child ControlType=ControlType.Pane Name='C:\Program Files\USB Bridge Desk' AutomationId='1000' PID=9028
+2026-11-23T15:48:20.8233179+00:00 UIA child ControlType=ControlType.Pane Name='此向导将从本机卸载 USB Bridge Desk 。 点击 [卸载(U)] 开始卸载。' AutomationId='1006' PID=9028
+2026-11-23T15:48:20.8253382+00:00 NSIS UIA wait expired (running-app uninstall confirmation); using Win32 BM_CLICK fallback owner PID=9028
+2026-11-23T15:48:20.8331679+00:00 NSIS button probe (running-app uninstall confirmation) discovered owner PID=9028 visible dialogs=1
+2026-11-23T15:48:20.8351904+00:00 === NSIS dialog Win32/UIA comparison (running-app uninstall confirmation) HWND=0x3020A owner PID=9028 ===
+2026-11-23T15:48:20.8351904+00:00 Win32 EnumChildWindows + GetWindowTextW list count=18:
+2026-11-23T15:48:20.8372130+00:00 WIN32 child HWND=0x3020C class='Button' text='' PID=9028 visible=False enabled=False
+2026-11-23T15:48:20.8372130+00:00 WIN32 child HWND=0xC001A class='Button' text='卸载(&U)' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8372130+00:00 WIN32 child HWND=0x80194 class='Button' text='取消(&C)' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8392352+00:00 WIN32 child HWND=0x70208 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:48:20.8392352+00:00 WIN32 child HWND=0x40152 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:48:20.8392352+00:00 WIN32 child HWND=0x90158 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8412578+00:00 WIN32 child HWND=0x70072 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8412578+00:00 WIN32 child HWND=0x501F4 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:48:20.8412578+00:00 WIN32 child HWND=0x40206 class='Static' text='USB Bridge Desk ' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8432802+00:00 WIN32 child HWND=0x7016A class='Static' text='USB Bridge Desk' PID=9028 visible=True enabled=False
+2026-11-23T15:48:20.8432802+00:00 WIN32 child HWND=0x401F2 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8432802+00:00 WIN32 child HWND=0x40166 class='Static' text='卸载 USB Bridge Desk' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8450492+00:00 WIN32 child HWND=0x601E4 class='Static' text='从本机卸载 USB Bridge Desk 。' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8450492+00:00 WIN32 child HWND=0x30218 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8450492+00:00 WIN32 child HWND=0x30286 class='#32770' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8470718+00:00 WIN32 child HWND=0x3023C class='Static' text='卸载目录: ' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8470718+00:00 WIN32 child HWND=0x20284 class='Edit' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8470718+00:00 WIN32 child HWND=0x20282 class='Static' text='此向导将从本机卸载 USB Bridge Desk 。 点击 [卸载(U)] 开始卸载。' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8571644+00:00 UIA dialog subtree list count=14:
+2026-11-23T15:48:20.8571644+00:00 UIA child ControlType=ControlType.Pane Name='卸载(U)' AutomationId='1' PID=9028
+2026-11-23T15:48:20.8591781+00:00 UIA child ControlType=ControlType.Pane Name='取消(C)' AutomationId='2' PID=9028
+2026-11-23T15:48:20.8591781+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1035' PID=9028
+2026-11-23T15:48:20.8609370+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1036' PID=9028
+2026-11-23T15:48:20.8609370+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk ' AutomationId='1256' PID=9028
+2026-11-23T15:48:20.8629594+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk' AutomationId='1028' PID=9028
+2026-11-23T15:48:20.8629594+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1034' PID=9028
+2026-11-23T15:48:20.8649783+00:00 UIA child ControlType=ControlType.Pane Name='卸载 USB Bridge Desk' AutomationId='1037' PID=9028
+2026-11-23T15:48:20.8649783+00:00 UIA child ControlType=ControlType.Pane Name='从本机卸载 USB Bridge Desk 。' AutomationId='1038' PID=9028
+2026-11-23T15:48:20.8649783+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1039' PID=9028
+2026-11-23T15:48:20.8669997+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='' PID=9028
+2026-11-23T15:48:20.8669997+00:00 UIA child ControlType=ControlType.Pane Name='卸载目录: ' AutomationId='1029' PID=9028
+2026-11-23T15:48:20.8690217+00:00 UIA child ControlType=ControlType.Pane Name='C:\Program Files\USB Bridge Desk' AutomationId='1000' PID=9028
+2026-11-23T15:48:20.8690217+00:00 UIA child ControlType=ControlType.Pane Name='此向导将从本机卸载 USB Bridge Desk 。 点击 [卸载(U)] 开始卸载。' AutomationId='1006' PID=9028
+2026-11-23T15:48:20.8710438+00:00 NSIS click via Win32 SendMessage BM_CLICK (running-app uninstall confirmation) HWND=0xC001A text='卸载(&U)' owner PID=9028
+2026-11-23T15:48:20.8788745+00:00 NSIS button probe (live-app uninstall guard dialog) discovered owner PID=9028 visible dialogs=1
+2026-11-23T15:48:20.8808891+00:00 === NSIS dialog Win32/UIA comparison (live-app uninstall guard dialog) HWND=0x3020A owner PID=9028 ===
+2026-11-23T15:48:20.8829155+00:00 Win32 EnumChildWindows + GetWindowTextW list count=18:
+2026-11-23T15:48:20.8829155+00:00 WIN32 child HWND=0x3020C class='Button' text='< 上一步(&P)' PID=9028 visible=True enabled=False
+2026-11-23T15:48:20.8829155+00:00 WIN32 child HWND=0xC001A class='Button' text='下一步(&N) >' PID=9028 visible=True enabled=False
+2026-11-23T15:48:20.8849338+00:00 WIN32 child HWND=0x80194 class='Button' text='取消(&C)' PID=9028 visible=True enabled=False
+2026-11-23T15:48:20.8849338+00:00 WIN32 child HWND=0x70208 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:48:20.8849338+00:00 WIN32 child HWND=0x40152 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:48:20.8869467+00:00 WIN32 child HWND=0x90158 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8869467+00:00 WIN32 child HWND=0x70072 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8869467+00:00 WIN32 child HWND=0x501F4 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:48:20.8889587+00:00 WIN32 child HWND=0x40206 class='Static' text='USB Bridge Desk ' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8889587+00:00 WIN32 child HWND=0x7016A class='Static' text='USB Bridge Desk' PID=9028 visible=True enabled=False
+2026-11-23T15:48:20.8889587+00:00 WIN32 child HWND=0x401F2 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8909754+00:00 WIN32 child HWND=0x40166 class='Static' text='正在卸载' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8909754+00:00 WIN32 child HWND=0x601E4 class='Static' text='USB Bridge Desk 正在卸载，请稍候。' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8927389+00:00 WIN32 child HWND=0x30218 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8927389+00:00 WIN32 child HWND=0x30286 class='#32770' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8967659+00:00 WIN32 child HWND=0x3023C class='Static' text='卸载目录: ' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8967659+00:00 WIN32 child HWND=0x20284 class='Edit' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.8987812+00:00 WIN32 child HWND=0x20282 class='Static' text='此向导将从本机卸载 USB Bridge Desk 。 点击 [卸载(U)] 开始卸载。' PID=9028 visible=True enabled=True
+2026-11-23T15:48:20.9285453+00:00 UIA dialog subtree list count=15:
+2026-11-23T15:48:20.9305639+00:00 UIA child ControlType=ControlType.Pane Name='< 上一步(P)' AutomationId='3' PID=9028
+2026-11-23T15:48:20.9305639+00:00 UIA child ControlType=ControlType.Pane Name='下一步(N) >' AutomationId='1' PID=9028
+2026-11-23T15:48:20.9325926+00:00 UIA child ControlType=ControlType.Pane Name='取消(C)' AutomationId='2' PID=9028
+2026-11-23T15:48:20.9325926+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1035' PID=9028
+2026-11-23T15:48:20.9346208+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1036' PID=9028
+2026-11-23T15:48:20.9346208+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk ' AutomationId='1256' PID=9028
+2026-11-23T15:48:20.9366345+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk' AutomationId='1028' PID=9028
+2026-11-23T15:48:20.9386570+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1034' PID=9028
+2026-11-23T15:48:20.9386570+00:00 UIA child ControlType=ControlType.Pane Name='正在卸载' AutomationId='1037' PID=9028
+2026-11-23T15:48:20.9404283+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk 正在卸载，请稍候。' AutomationId='1038' PID=9028
+2026-11-23T15:48:20.9424466+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1039' PID=9028
+2026-11-23T15:48:20.9424466+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='' PID=9028
+2026-11-23T15:48:20.9444637+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1004' PID=9028
+2026-11-23T15:48:20.9464907+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1006' PID=9028
+2026-11-23T15:48:20.9464907+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1016' PID=9028
+2026-11-23T15:48:51.0320941+00:00 NSIS button probe (live-app uninstall guard dialog) discovered owner PID=9028 visible dialogs=2
+2026-11-23T15:48:51.0341074+00:00 === NSIS dialog Win32/UIA comparison (live-app uninstall guard dialog) HWND=0x3027C owner PID=9028 ===
+2026-11-23T15:48:51.0349055+00:00 Win32 EnumChildWindows + GetWindowTextW list count=3:
+2026-11-23T15:48:51.0349055+00:00 WIN32 child HWND=0x30278 class='Button' text='OK' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.0361195+00:00 WIN32 child HWND=0x20276 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.0369349+00:00 WIN32 child HWND=0x20274 class='Static' text='请先关闭 USB Bridge Desk，然后重试。' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.0401476+00:00 UIA dialog subtree list count=3:
+2026-11-23T15:48:51.0409805+00:00 UIA child ControlType=ControlType.Pane Name='OK' AutomationId='2' PID=9028
+2026-11-23T15:48:51.0419070+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='20' PID=9028
+2026-11-23T15:48:51.0419070+00:00 UIA child ControlType=ControlType.Pane Name='请先关闭 USB Bridge Desk，然后重试。' AutomationId='65535' PID=9028
+2026-11-23T15:48:51.0446811+00:00 === NSIS dialog Win32/UIA comparison (live-app uninstall guard dialog) HWND=0x3020A owner PID=9028 ===
+2026-11-23T15:48:51.0446811+00:00 Win32 EnumChildWindows + GetWindowTextW list count=20:
+2026-11-23T15:48:51.0459515+00:00 WIN32 child HWND=0x3020C class='Button' text='< 上一步(&P)' PID=9028 visible=True enabled=False
+2026-11-23T15:48:51.0466915+00:00 WIN32 child HWND=0xC001A class='Button' text='下一步(&N) >' PID=9028 visible=True enabled=False
+2026-11-23T15:48:51.0466915+00:00 WIN32 child HWND=0x80194 class='Button' text='取消(&C)' PID=9028 visible=True enabled=False
+2026-11-23T15:48:51.0479666+00:00 WIN32 child HWND=0x70208 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:48:51.0487026+00:00 WIN32 child HWND=0x40152 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:48:51.0487026+00:00 WIN32 child HWND=0x90158 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.0499901+00:00 WIN32 child HWND=0x70072 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.0507149+00:00 WIN32 child HWND=0x501F4 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:48:51.0507149+00:00 WIN32 child HWND=0x40206 class='Static' text='USB Bridge Desk ' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.0520155+00:00 WIN32 child HWND=0x7016A class='Static' text='USB Bridge Desk' PID=9028 visible=True enabled=False
+2026-11-23T15:48:51.0527250+00:00 WIN32 child HWND=0x401F2 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.0560568+00:00 WIN32 child HWND=0x40166 class='Static' text='正在卸载' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.0567496+00:00 WIN32 child HWND=0x601E4 class='Static' text='USB Bridge Desk 正在卸载，请稍候。' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.0567496+00:00 WIN32 child HWND=0x30218 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.0577587+00:00 WIN32 child HWND=0x40286 class='#32770' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.0582675+00:00 WIN32 child HWND=0x30282 class='Button' text='显示详情(&D)' PID=9028 visible=False enabled=True
+2026-11-23T15:48:51.0582675+00:00 WIN32 child HWND=0x30284 class='msctls_progress32' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.0598478+00:00 WIN32 child HWND=0x4023C class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.0605842+00:00 WIN32 child HWND=0x701E8 class='SysListView32' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.0605842+00:00 WIN32 child HWND=0x60076 class='SysHeader32' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.0723553+00:00 UIA dialog subtree list count=19:
+2026-11-23T15:48:51.0737028+00:00 UIA child ControlType=ControlType.Window Name='USB Bridge Desk 卸载' AutomationId='' PID=9028
+2026-11-23T15:48:51.0737028+00:00 UIA child ControlType=ControlType.Pane Name='OK' AutomationId='2' PID=9028
+2026-11-23T15:48:51.0737028+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='20' PID=9028
+2026-11-23T15:48:51.0757200+00:00 UIA child ControlType=ControlType.Pane Name='请先关闭 USB Bridge Desk，然后重试。' AutomationId='65535' PID=9028
+2026-11-23T15:48:51.0757200+00:00 UIA child ControlType=ControlType.Pane Name='< 上一步(P)' AutomationId='3' PID=9028
+2026-11-23T15:48:51.0777426+00:00 UIA child ControlType=ControlType.Pane Name='下一步(N) >' AutomationId='1' PID=9028
+2026-11-23T15:48:51.0777426+00:00 UIA child ControlType=ControlType.Pane Name='取消(C)' AutomationId='2' PID=9028
+2026-11-23T15:48:51.0797615+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1035' PID=9028
+2026-11-23T15:48:51.0797615+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1036' PID=9028
+2026-11-23T15:48:51.0817747+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk ' AutomationId='1256' PID=9028
+2026-11-23T15:48:51.0817747+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk' AutomationId='1028' PID=9028
+2026-11-23T15:48:51.0817747+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1034' PID=9028
+2026-11-23T15:48:51.0837868+00:00 UIA child ControlType=ControlType.Pane Name='正在卸载' AutomationId='1037' PID=9028
+2026-11-23T15:48:51.0837868+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk 正在卸载，请稍候。' AutomationId='1038' PID=9028
+2026-11-23T15:48:51.0857994+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1039' PID=9028
+2026-11-23T15:48:51.0857994+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='' PID=9028
+2026-11-23T15:48:51.0878124+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1004' PID=9028
+2026-11-23T15:48:51.0878124+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1006' PID=9028
+2026-11-23T15:48:51.0895711+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1016' PID=9028
+2026-11-23T15:48:51.0900831+00:00 NSIS UIA wait expired (live-app uninstall guard dialog); using Win32 BM_CLICK fallback owner PID=9028
+2026-11-23T15:48:51.1492708+00:00 Running-app uninstall guard captured text: OK  请先关闭 USB Bridge Desk，然后重试。 OK  请先关闭 USB Bridge Desk，然后重试。 < 上一步(&P) 下一步(&N) > 取消(&C)      USB Bridge Desk  USB Bridge Desk  正在卸载 USB Bridge Desk 正在卸载，请稍候。   显示详情(&D)     USB Bridge Desk 卸载 OK  请先关闭 USB Bridge Desk，然后重试。 < 上一步(P) 下一步(N) > 取消(C)   USB Bridge Desk  USB Bridge Desk  正在卸载 USB Bridge Desk 正在卸载，请稍候。     
+2026-11-23T15:48:51.1512936+00:00 Running-app uninstall guard dialog captured and asserted in Simplified Chinese.
+2026-11-23T15:48:51.1530611+00:00 NSIS button probe (live-app uninstall guard dialog) discovered owner PID=9028 visible dialogs=2
+2026-11-23T15:48:51.1550840+00:00 === NSIS dialog Win32/UIA comparison (live-app uninstall guard dialog) HWND=0x3027C owner PID=9028 ===
+2026-11-23T15:48:51.1550840+00:00 Win32 EnumChildWindows + GetWindowTextW list count=3:
+2026-11-23T15:48:51.1550840+00:00 WIN32 child HWND=0x30278 class='Button' text='OK' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.1571072+00:00 WIN32 child HWND=0x20276 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.1571072+00:00 WIN32 child HWND=0x20274 class='Static' text='请先关闭 USB Bridge Desk，然后重试。' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.1611354+00:00 UIA dialog subtree list count=3:
+2026-11-23T15:48:51.1611354+00:00 UIA child ControlType=ControlType.Pane Name='OK' AutomationId='2' PID=9028
+2026-11-23T15:48:51.1631503+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='20' PID=9028
+2026-11-23T15:48:51.1631503+00:00 UIA child ControlType=ControlType.Pane Name='请先关闭 USB Bridge Desk，然后重试。' AutomationId='65535' PID=9028
+2026-11-23T15:48:51.1651641+00:00 === NSIS dialog Win32/UIA comparison (live-app uninstall guard dialog) HWND=0x3020A owner PID=9028 ===
+2026-11-23T15:48:51.1651641+00:00 Win32 EnumChildWindows + GetWindowTextW list count=20:
+2026-11-23T15:48:51.1651641+00:00 WIN32 child HWND=0x3020C class='Button' text='< 上一步(&P)' PID=9028 visible=True enabled=False
+2026-11-23T15:48:51.1671750+00:00 WIN32 child HWND=0xC001A class='Button' text='下一步(&N) >' PID=9028 visible=True enabled=False
+2026-11-23T15:48:51.1671750+00:00 WIN32 child HWND=0x80194 class='Button' text='取消(&C)' PID=9028 visible=True enabled=False
+2026-11-23T15:48:51.1689325+00:00 WIN32 child HWND=0x70208 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:48:51.1694430+00:00 WIN32 child HWND=0x40152 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:48:51.1694430+00:00 WIN32 child HWND=0x90158 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.1709940+00:00 WIN32 child HWND=0x70072 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.1714545+00:00 WIN32 child HWND=0x501F4 class='Static' text='' PID=9028 visible=False enabled=True
+2026-11-23T15:48:51.1714545+00:00 WIN32 child HWND=0x40206 class='Static' text='USB Bridge Desk ' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.1730162+00:00 WIN32 child HWND=0x7016A class='Static' text='USB Bridge Desk' PID=9028 visible=True enabled=False
+2026-11-23T15:48:51.1734659+00:00 WIN32 child HWND=0x401F2 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.1734659+00:00 WIN32 child HWND=0x40166 class='Static' text='正在卸载' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.1734659+00:00 WIN32 child HWND=0x601E4 class='Static' text='USB Bridge Desk 正在卸载，请稍候。' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.1754760+00:00 WIN32 child HWND=0x30218 class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.1754760+00:00 WIN32 child HWND=0x40286 class='#32770' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.1754760+00:00 WIN32 child HWND=0x30282 class='Button' text='显示详情(&D)' PID=9028 visible=False enabled=True
+2026-11-23T15:48:51.1795079+00:00 WIN32 child HWND=0x30284 class='msctls_progress32' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.1795079+00:00 WIN32 child HWND=0x4023C class='Static' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.1815349+00:00 WIN32 child HWND=0x701E8 class='SysListView32' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.1815349+00:00 WIN32 child HWND=0x60076 class='SysHeader32' text='' PID=9028 visible=True enabled=True
+2026-11-23T15:48:51.2008200+00:00 UIA dialog subtree list count=19:
+2026-11-23T15:48:51.2028464+00:00 UIA child ControlType=ControlType.Window Name='USB Bridge Desk 卸载' AutomationId='' PID=9028
+2026-11-23T15:48:51.2028464+00:00 UIA child ControlType=ControlType.Pane Name='OK' AutomationId='2' PID=9028
+2026-11-23T15:48:51.2048657+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='20' PID=9028
+2026-11-23T15:48:51.2048657+00:00 UIA child ControlType=ControlType.Pane Name='请先关闭 USB Bridge Desk，然后重试。' AutomationId='65535' PID=9028
+2026-11-23T15:48:51.2068893+00:00 UIA child ControlType=ControlType.Pane Name='< 上一步(P)' AutomationId='3' PID=9028
+2026-11-23T15:48:51.2068893+00:00 UIA child ControlType=ControlType.Pane Name='下一步(N) >' AutomationId='1' PID=9028
+2026-11-23T15:48:51.2089102+00:00 UIA child ControlType=ControlType.Pane Name='取消(C)' AutomationId='2' PID=9028
+2026-11-23T15:48:51.2109303+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1035' PID=9028
+2026-11-23T15:48:51.2109303+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1036' PID=9028
+2026-11-23T15:48:51.2129479+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk ' AutomationId='1256' PID=9028
+2026-11-23T15:48:51.2149739+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk' AutomationId='1028' PID=9028
+2026-11-23T15:48:51.2149739+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1034' PID=9028
+2026-11-23T15:48:51.2167399+00:00 UIA child ControlType=ControlType.Pane Name='正在卸载' AutomationId='1037' PID=9028
+2026-11-23T15:48:51.2167399+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk 正在卸载，请稍候。' AutomationId='1038' PID=9028
+2026-11-23T15:48:51.2187552+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1039' PID=9028
+2026-11-23T15:48:51.2187552+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='' PID=9028
+2026-11-23T15:48:51.2207787+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1004' PID=9028
+2026-11-23T15:48:51.2207787+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1006' PID=9028
+2026-11-23T15:48:51.2227928+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1016' PID=9028
+2026-11-23T15:48:51.2227928+00:00 NSIS click via Win32 SendMessage BM_CLICK (live-app uninstall guard dialog) HWND=0x30278 text='OK' owner PID=9028
+2026-11-23T15:48:53.2990136+00:00 Uninstaller window poll candidates=3:
+2026-11-23T15:48:53.3010365+00:00 Candidate HWND=0x20216 PID=6908 title='System tray overflow window.'
+2026-11-23T15:48:53.3010365+00:00 Candidate HWND=0x601CA PID=3792 title='C:\ProgramData\GitHub\HostedComputeAgent\hosted-compute-agent'
+2026-11-23T15:48:53.3030557+00:00 Candidate HWND=0x100B0 PID=6908 title='Program Manager'
+2026-11-23T15:48:53.5032804+00:00 Uninstaller window poll candidates=4:
+2026-11-23T15:48:53.5053021+00:00 Candidate HWND=0x20216 PID=6908 title='System tray overflow window.'
+2026-11-23T15:48:53.5053021+00:00 Candidate HWND=0x70212 PID=7504 title='USB Bridge Desk 卸载 '
+2026-11-23T15:48:53.5073231+00:00 Candidate HWND=0x601CA PID=3792 title='C:\ProgramData\GitHub\HostedComputeAgent\hosted-compute-agent'
+2026-11-23T15:48:53.5073231+00:00 Candidate HWND=0x100B0 PID=6908 title='Program Manager'
+2026-11-23T15:48:53.5093461+00:00 Found uninstaller HWND=0x70212 owner PID=7504 title='USB Bridge Desk 卸载 '
+2026-11-23T15:48:53.5093461+00:00 === NSIS dialog Win32/UIA comparison (window discovery) HWND=0x70212 owner PID=7504 ===
+2026-11-23T15:48:53.5093461+00:00 Win32 EnumChildWindows + GetWindowTextW list count=18:
+2026-11-23T15:48:53.5113655+00:00 WIN32 child HWND=0x70168 class='Button' text='' PID=7504 visible=False enabled=False
+2026-11-23T15:48:53.5113655+00:00 WIN32 child HWND=0xA01E2 class='Button' text='卸载(&U)' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5131348+00:00 WIN32 child HWND=0x90056 class='Button' text='取消(&C)' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5131348+00:00 WIN32 child HWND=0xA00A4 class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:48:53.5131348+00:00 WIN32 child HWND=0x7016C class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:48:53.5151567+00:00 WIN32 child HWND=0xA0044 class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5151567+00:00 WIN32 child HWND=0xD004A class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5151567+00:00 WIN32 child HWND=0xA0130 class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:48:53.5171791+00:00 WIN32 child HWND=0xB014A class='Static' text='USB Bridge Desk ' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5171791+00:00 WIN32 child HWND=0x8016E class='Static' text='USB Bridge Desk' PID=7504 visible=True enabled=False
+2026-11-23T15:48:53.5171791+00:00 WIN32 child HWND=0xF0184 class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5192019+00:00 WIN32 child HWND=0x701CE class='Static' text='卸载 USB Bridge Desk' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5192019+00:00 WIN32 child HWND=0x901D6 class='Static' text='从本机卸载 USB Bridge Desk 。' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5192019+00:00 WIN32 child HWND=0x701DA class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5212244+00:00 WIN32 child HWND=0x601FE class='#32770' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5212244+00:00 WIN32 child HWND=0x4027E class='Static' text='卸载目录: ' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5212244+00:00 WIN32 child HWND=0x50204 class='Edit' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5212244+00:00 WIN32 child HWND=0x4020A class='Static' text='此向导将从本机卸载 USB Bridge Desk 。 点击 [卸载(U)] 开始卸载。' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5310548+00:00 UIA dialog subtree list count=14:
+2026-11-23T15:48:53.5310548+00:00 UIA child ControlType=ControlType.Pane Name='卸载(U)' AutomationId='1' PID=7504
+2026-11-23T15:48:53.5350815+00:00 UIA child ControlType=ControlType.Pane Name='取消(C)' AutomationId='2' PID=7504
+2026-11-23T15:48:53.5370984+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1035' PID=7504
+2026-11-23T15:48:53.5370984+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1036' PID=7504
+2026-11-23T15:48:53.5370984+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk ' AutomationId='1256' PID=7504
+2026-11-23T15:48:53.5391203+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk' AutomationId='1028' PID=7504
+2026-11-23T15:48:53.5391203+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1034' PID=7504
+2026-11-23T15:48:53.5411420+00:00 UIA child ControlType=ControlType.Pane Name='卸载 USB Bridge Desk' AutomationId='1037' PID=7504
+2026-11-23T15:48:53.5411420+00:00 UIA child ControlType=ControlType.Pane Name='从本机卸载 USB Bridge Desk 。' AutomationId='1038' PID=7504
+2026-11-23T15:48:53.5431606+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1039' PID=7504
+2026-11-23T15:48:53.5431606+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='' PID=7504
+2026-11-23T15:48:53.5449832+00:00 UIA child ControlType=ControlType.Pane Name='卸载目录: ' AutomationId='1029' PID=7504
+2026-11-23T15:48:53.5455842+00:00 UIA child ControlType=ControlType.Pane Name='C:\Program Files\USB Bridge Desk' AutomationId='1000' PID=7504
+2026-11-23T15:48:53.5470015+00:00 UIA child ControlType=ControlType.Pane Name='此向导将从本机卸载 USB Bridge Desk 。 点击 [卸载(U)] 开始卸载。' AutomationId='1006' PID=7504
+2026-11-23T15:48:53.5496401+00:00 NSIS button probe (uninstall confirmation) discovered owner PID=7504 visible dialogs=1
+2026-11-23T15:48:53.5516680+00:00 === NSIS dialog Win32/UIA comparison (uninstall confirmation) HWND=0x70212 owner PID=7504 ===
+2026-11-23T15:48:53.5530543+00:00 Win32 EnumChildWindows + GetWindowTextW list count=18:
+2026-11-23T15:48:53.5536970+00:00 WIN32 child HWND=0x70168 class='Button' text='' PID=7504 visible=False enabled=False
+2026-11-23T15:48:53.5536970+00:00 WIN32 child HWND=0xA01E2 class='Button' text='卸载(&U)' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5550734+00:00 WIN32 child HWND=0x90056 class='Button' text='取消(&C)' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5557253+00:00 WIN32 child HWND=0xA00A4 class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:48:53.5557253+00:00 WIN32 child HWND=0x7016C class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:48:53.5570896+00:00 WIN32 child HWND=0xA0044 class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5577542+00:00 WIN32 child HWND=0xD004A class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5577542+00:00 WIN32 child HWND=0xA0130 class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:48:53.5591076+00:00 WIN32 child HWND=0xB014A class='Static' text='USB Bridge Desk ' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5597824+00:00 WIN32 child HWND=0x8016E class='Static' text='USB Bridge Desk' PID=7504 visible=True enabled=False
+2026-11-23T15:48:53.5597824+00:00 WIN32 child HWND=0xF0184 class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5611303+00:00 WIN32 child HWND=0x701CE class='Static' text='卸载 USB Bridge Desk' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5611303+00:00 WIN32 child HWND=0x901D6 class='Static' text='从本机卸载 USB Bridge Desk 。' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5611303+00:00 WIN32 child HWND=0x701DA class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5628383+00:00 WIN32 child HWND=0x601FE class='#32770' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5631437+00:00 WIN32 child HWND=0x4027E class='Static' text='卸载目录: ' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5631437+00:00 WIN32 child HWND=0x50204 class='Edit' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5648678+00:00 WIN32 child HWND=0x4020A class='Static' text='此向导将从本机卸载 USB Bridge Desk 。 点击 [卸载(U)] 开始卸载。' PID=7504 visible=True enabled=True
+2026-11-23T15:48:53.5737286+00:00 UIA dialog subtree list count=14:
+2026-11-23T15:48:53.5737286+00:00 UIA child ControlType=ControlType.Pane Name='卸载(U)' AutomationId='1' PID=7504
+2026-11-23T15:48:53.5752763+00:00 UIA child ControlType=ControlType.Pane Name='取消(C)' AutomationId='2' PID=7504
+2026-11-23T15:48:53.5762540+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1035' PID=7504
+2026-11-23T15:48:53.5767171+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1036' PID=7504
+2026-11-23T15:48:53.5767171+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk ' AutomationId='1256' PID=7504
+2026-11-23T15:48:53.5787396+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk' AutomationId='1028' PID=7504
+2026-11-23T15:48:53.5795404+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1034' PID=7504
+2026-11-23T15:48:53.5807568+00:00 UIA child ControlType=ControlType.Pane Name='卸载 USB Bridge Desk' AutomationId='1037' PID=7504
+2026-11-23T15:48:53.5815687+00:00 UIA child ControlType=ControlType.Pane Name='从本机卸载 USB Bridge Desk 。' AutomationId='1038' PID=7504
+2026-11-23T15:48:53.5827773+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1039' PID=7504
+2026-11-23T15:48:53.5833251+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='' PID=7504
+2026-11-23T15:48:53.5839691+00:00 UIA child ControlType=ControlType.Pane Name='卸载目录: ' AutomationId='1029' PID=7504
+2026-11-23T15:48:53.5848386+00:00 UIA child ControlType=ControlType.Pane Name='C:\Program Files\USB Bridge Desk' AutomationId='1000' PID=7504
+2026-11-23T15:48:53.5860145+00:00 UIA child ControlType=ControlType.Pane Name='此向导将从本机卸载 USB Bridge Desk 。 点击 [卸载(U)] 开始卸载。' AutomationId='1006' PID=7504
+2026-11-23T15:49:23.5994498+00:00 NSIS button probe (uninstall confirmation) discovered owner PID=7504 visible dialogs=1
+2026-11-23T15:49:23.6008802+00:00 === NSIS dialog Win32/UIA comparison (uninstall confirmation) HWND=0x70212 owner PID=7504 ===
+2026-11-23T15:49:23.6029007+00:00 Win32 EnumChildWindows + GetWindowTextW list count=18:
+2026-11-23T15:49:23.6029007+00:00 WIN32 child HWND=0x70168 class='Button' text='' PID=7504 visible=False enabled=False
+2026-11-23T15:49:23.6029007+00:00 WIN32 child HWND=0xA01E2 class='Button' text='卸载(&U)' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.6049280+00:00 WIN32 child HWND=0x90056 class='Button' text='取消(&C)' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.6049280+00:00 WIN32 child HWND=0xA00A4 class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:49:23.6049280+00:00 WIN32 child HWND=0x7016C class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:49:23.6069564+00:00 WIN32 child HWND=0xA0044 class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.6069564+00:00 WIN32 child HWND=0xD004A class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.6069564+00:00 WIN32 child HWND=0xA0130 class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:49:23.6089834+00:00 WIN32 child HWND=0xB014A class='Static' text='USB Bridge Desk ' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.6089834+00:00 WIN32 child HWND=0x8016E class='Static' text='USB Bridge Desk' PID=7504 visible=True enabled=False
+2026-11-23T15:49:23.6089834+00:00 WIN32 child HWND=0xF0184 class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.6106398+00:00 WIN32 child HWND=0x701CE class='Static' text='卸载 USB Bridge Desk' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.6110112+00:00 WIN32 child HWND=0x901D6 class='Static' text='从本机卸载 USB Bridge Desk 。' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.6110112+00:00 WIN32 child HWND=0x701DA class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.6126555+00:00 WIN32 child HWND=0x601FE class='#32770' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.6130391+00:00 WIN32 child HWND=0x4027E class='Static' text='卸载目录: ' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.6140656+00:00 WIN32 child HWND=0x50204 class='Edit' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.6140656+00:00 WIN32 child HWND=0x4020A class='Static' text='此向导将从本机卸载 USB Bridge Desk 。 点击 [卸载(U)] 开始卸载。' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.6241674+00:00 UIA dialog subtree list count=14:
+2026-11-23T15:49:23.6241674+00:00 UIA child ControlType=ControlType.Pane Name='卸载(U)' AutomationId='1' PID=7504
+2026-11-23T15:49:23.6261864+00:00 UIA child ControlType=ControlType.Pane Name='取消(C)' AutomationId='2' PID=7504
+2026-11-23T15:49:23.6261864+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1035' PID=7504
+2026-11-23T15:49:23.6282109+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1036' PID=7504
+2026-11-23T15:49:23.6282109+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk ' AutomationId='1256' PID=7504
+2026-11-23T15:49:23.6295558+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk' AutomationId='1028' PID=7504
+2026-11-23T15:49:23.6295558+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1034' PID=7504
+2026-11-23T15:49:23.6315734+00:00 UIA child ControlType=ControlType.Pane Name='卸载 USB Bridge Desk' AutomationId='1037' PID=7504
+2026-11-23T15:49:23.6315734+00:00 UIA child ControlType=ControlType.Pane Name='从本机卸载 USB Bridge Desk 。' AutomationId='1038' PID=7504
+2026-11-23T15:49:23.6335894+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1039' PID=7504
+2026-11-23T15:49:23.6335894+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='' PID=7504
+2026-11-23T15:49:23.6356111+00:00 UIA child ControlType=ControlType.Pane Name='卸载目录: ' AutomationId='1029' PID=7504
+2026-11-23T15:49:23.6356111+00:00 UIA child ControlType=ControlType.Pane Name='C:\Program Files\USB Bridge Desk' AutomationId='1000' PID=7504
+2026-11-23T15:49:23.6356111+00:00 UIA child ControlType=ControlType.Pane Name='此向导将从本机卸载 USB Bridge Desk 。 点击 [卸载(U)] 开始卸载。' AutomationId='1006' PID=7504
+2026-11-23T15:49:23.6376273+00:00 NSIS UIA wait expired (uninstall confirmation); using Win32 BM_CLICK fallback owner PID=7504
+2026-11-23T15:49:23.7079748+00:00 Uninstall confirmation dialog captured in Simplified Chinese.
+2026-11-23T15:49:23.7099964+00:00 NSIS button probe (uninstall confirmation) discovered owner PID=7504 visible dialogs=1
+2026-11-23T15:49:23.7120186+00:00 === NSIS dialog Win32/UIA comparison (uninstall confirmation) HWND=0x70212 owner PID=7504 ===
+2026-11-23T15:49:23.7160581+00:00 Win32 EnumChildWindows + GetWindowTextW list count=18:
+2026-11-23T15:49:23.7180807+00:00 WIN32 child HWND=0x70168 class='Button' text='' PID=7504 visible=False enabled=False
+2026-11-23T15:49:23.7180807+00:00 WIN32 child HWND=0xA01E2 class='Button' text='卸载(&U)' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.7180807+00:00 WIN32 child HWND=0x90056 class='Button' text='取消(&C)' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.7201047+00:00 WIN32 child HWND=0xA00A4 class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:49:23.7201047+00:00 WIN32 child HWND=0x7016C class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:49:23.7201047+00:00 WIN32 child HWND=0xA0044 class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.7221275+00:00 WIN32 child HWND=0xD004A class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.7221275+00:00 WIN32 child HWND=0xA0130 class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:49:23.7238980+00:00 WIN32 child HWND=0xB014A class='Static' text='USB Bridge Desk ' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.7238980+00:00 WIN32 child HWND=0x8016E class='Static' text='USB Bridge Desk' PID=7504 visible=True enabled=False
+2026-11-23T15:49:23.7238980+00:00 WIN32 child HWND=0xF0184 class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.7259210+00:00 WIN32 child HWND=0x701CE class='Static' text='卸载 USB Bridge Desk' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.7259210+00:00 WIN32 child HWND=0x901D6 class='Static' text='从本机卸载 USB Bridge Desk 。' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.7259210+00:00 WIN32 child HWND=0x701DA class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.7279444+00:00 WIN32 child HWND=0x601FE class='#32770' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.7279444+00:00 WIN32 child HWND=0x4027E class='Static' text='卸载目录: ' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.7279444+00:00 WIN32 child HWND=0x50204 class='Edit' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.7299676+00:00 WIN32 child HWND=0x4020A class='Static' text='此向导将从本机卸载 USB Bridge Desk 。 点击 [卸载(U)] 开始卸载。' PID=7504 visible=True enabled=True
+2026-11-23T15:49:23.7398154+00:00 UIA dialog subtree list count=14:
+2026-11-23T15:49:23.7418379+00:00 UIA child ControlType=ControlType.Pane Name='卸载(U)' AutomationId='1' PID=7504
+2026-11-23T15:49:23.7418379+00:00 UIA child ControlType=ControlType.Pane Name='取消(C)' AutomationId='2' PID=7504
+2026-11-23T15:49:23.7438603+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1035' PID=7504
+2026-11-23T15:49:23.7438603+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1036' PID=7504
+2026-11-23T15:49:23.7458831+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk ' AutomationId='1256' PID=7504
+2026-11-23T15:49:23.7458831+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk' AutomationId='1028' PID=7504
+2026-11-23T15:49:23.7478992+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1034' PID=7504
+2026-11-23T15:49:23.7478992+00:00 UIA child ControlType=ControlType.Pane Name='卸载 USB Bridge Desk' AutomationId='1037' PID=7504
+2026-11-23T15:49:23.7499138+00:00 UIA child ControlType=ControlType.Pane Name='从本机卸载 USB Bridge Desk 。' AutomationId='1038' PID=7504
+2026-11-23T15:49:23.7499138+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1039' PID=7504
+2026-11-23T15:49:23.7499138+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='' PID=7504
+2026-11-23T15:49:23.7519340+00:00 UIA child ControlType=ControlType.Pane Name='卸载目录: ' AutomationId='1029' PID=7504
+2026-11-23T15:49:23.7519340+00:00 UIA child ControlType=ControlType.Pane Name='C:\Program Files\USB Bridge Desk' AutomationId='1000' PID=7504
+2026-11-23T15:49:23.7539561+00:00 UIA child ControlType=ControlType.Pane Name='此向导将从本机卸载 USB Bridge Desk 。 点击 [卸载(U)] 开始卸载。' AutomationId='1006' PID=7504
+2026-11-23T15:49:23.7557233+00:00 NSIS click via Win32 SendMessage BM_CLICK (uninstall confirmation) HWND=0xA01E2 text='卸载(&U)' owner PID=7504
+2026-11-23T15:49:23.7777441+00:00 Uninstaller state (finish-page poll +0s) owner PID=7504 alive=yes HasExited=False exitCode=<running>
+2026-11-23T15:49:23.7817867+00:00 Uninstaller visible top-level windows (finish-page poll +0s) owner PID=7504 count=1
+2026-11-23T15:49:23.7982326+00:00 Uninstaller dialog (finish-page poll +0s) HWND=0x70212 PID=7504 title='USB Bridge Desk 卸载 ' page=progress visibleText='< 上一步(&P) 下一步(&N) > 取消(&C)   USB Bridge Desk  USB Bridge Desk  正在卸载 USB Bridge Desk 正在卸载，请稍候。 '
+2026-11-23T15:49:28.8086251+00:00 Uninstaller state (finish-page poll +5s) owner PID=7504 alive=yes HasExited=False exitCode=<running>
+2026-11-23T15:49:28.8106548+00:00 Uninstaller visible top-level windows (finish-page poll +5s) owner PID=7504 count=1
+2026-11-23T15:49:28.8197305+00:00 Uninstaller dialog (finish-page poll +5s) HWND=0x70212 PID=7504 title='USB Bridge Desk 卸载 ' page=progress visibleText='< 上一步(&P) 下一步(&N) > 取消(&C)   USB Bridge Desk  USB Bridge Desk  正在卸载 USB Bridge Desk 正在卸载，请稍候。    正在卸载此安装包安装的 USB/IP 组件…  '
+2026-11-23T15:49:33.8222270+00:00 Uninstaller state (finish-page poll +10.1s) owner PID=7504 alive=yes HasExited=False exitCode=<running>
+2026-11-23T15:49:33.8262685+00:00 Uninstaller visible top-level windows (finish-page poll +10.1s) owner PID=7504 count=1
+2026-11-23T15:49:33.8303137+00:00 Uninstaller dialog (finish-page poll +10.1s) HWND=0x70212 PID=7504 title='USB Bridge Desk 卸载 ' page=progress visibleText='< 上一步(&P) 下一步(&N) > 取消(&C)   USB Bridge Desk  USB Bridge Desk  正在卸载 USB Bridge Desk 正在卸载，请稍候。    正在卸载此安装包安装的 USB/IP 组件…  '
+2026-11-23T15:49:33.8343655+00:00 Uninstaller state (post-uninstall-click +10s) owner PID=7504 alive=yes HasExited=False exitCode=<running>
+2026-11-23T15:49:33.8361354+00:00 Uninstaller visible top-level windows (post-uninstall-click +10s) owner PID=7504 count=1
+2026-11-23T15:49:33.8381641+00:00 Uninstaller dialog (post-uninstall-click +10s) HWND=0x70212 PID=7504 title='USB Bridge Desk 卸载 ' page=progress visibleText='< 上一步(&P) 下一步(&N) > 取消(&C)   USB Bridge Desk  USB Bridge Desk  正在卸载 USB Bridge Desk 正在卸载，请稍候。    正在卸载此安装包安装的 USB/IP 组件…  '
+2026-11-23T15:49:33.8401918+00:00 NSIS button probe (post-uninstall-click +10s) discovered owner PID=7504 visible dialogs=1
+2026-11-23T15:49:33.8442360+00:00 === NSIS dialog Win32/UIA comparison (post-uninstall-click +10s) HWND=0x70212 owner PID=7504 ===
+2026-11-23T15:49:33.8442360+00:00 Win32 EnumChildWindows + GetWindowTextW list count=20:
+2026-11-23T15:49:33.8462539+00:00 WIN32 child HWND=0x70168 class='Button' text='< 上一步(&P)' PID=7504 visible=True enabled=False
+2026-11-23T15:49:33.8462539+00:00 WIN32 child HWND=0xA01E2 class='Button' text='下一步(&N) >' PID=7504 visible=True enabled=False
+2026-11-23T15:49:33.8482793+00:00 WIN32 child HWND=0x90056 class='Button' text='取消(&C)' PID=7504 visible=True enabled=False
+2026-11-23T15:49:33.8482793+00:00 WIN32 child HWND=0xA00A4 class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:49:33.8503029+00:00 WIN32 child HWND=0x7016C class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:49:33.8520726+00:00 WIN32 child HWND=0xA0044 class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:33.8520726+00:00 WIN32 child HWND=0xD004A class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:33.8540926+00:00 WIN32 child HWND=0xA0130 class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:49:33.8540926+00:00 WIN32 child HWND=0xB014A class='Static' text='USB Bridge Desk ' PID=7504 visible=True enabled=True
+2026-11-23T15:49:33.8561146+00:00 WIN32 child HWND=0x8016E class='Static' text='USB Bridge Desk' PID=7504 visible=True enabled=False
+2026-11-23T15:49:33.8561146+00:00 WIN32 child HWND=0xF0184 class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:33.8581399+00:00 WIN32 child HWND=0x701CE class='Static' text='正在卸载' PID=7504 visible=True enabled=True
+2026-11-23T15:49:33.8581399+00:00 WIN32 child HWND=0x901D6 class='Static' text='USB Bridge Desk 正在卸载，请稍候。' PID=7504 visible=True enabled=True
+2026-11-23T15:49:33.8601663+00:00 WIN32 child HWND=0x701DA class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:33.8601663+00:00 WIN32 child HWND=0x701FE class='#32770' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:33.8621912+00:00 WIN32 child HWND=0x5020A class='Button' text='显示详情(&D)' PID=7504 visible=False enabled=True
+2026-11-23T15:49:33.8621912+00:00 WIN32 child HWND=0x60204 class='msctls_progress32' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:33.8642097+00:00 WIN32 child HWND=0x5027E class='Static' text='正在卸载此安装包安装的 USB/IP 组件…' PID=7504 visible=True enabled=True
+2026-11-23T15:49:33.8642097+00:00 WIN32 child HWND=0x40156 class='SysListView32' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:33.8662335+00:00 WIN32 child HWND=0x3026E class='SysHeader32' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:33.8781048+00:00 UIA dialog subtree list count=15:
+2026-11-23T15:49:33.8801261+00:00 UIA child ControlType=ControlType.Pane Name='< 上一步(P)' AutomationId='3' PID=7504
+2026-11-23T15:49:33.8801261+00:00 UIA child ControlType=ControlType.Pane Name='下一步(N) >' AutomationId='1' PID=7504
+2026-11-23T15:49:33.8821543+00:00 UIA child ControlType=ControlType.Pane Name='取消(C)' AutomationId='2' PID=7504
+2026-11-23T15:49:33.8839227+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1035' PID=7504
+2026-11-23T15:49:33.8844487+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1036' PID=7504
+2026-11-23T15:49:33.8864626+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk ' AutomationId='1256' PID=7504
+2026-11-23T15:49:33.8864626+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk' AutomationId='1028' PID=7504
+2026-11-23T15:49:33.8884831+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1034' PID=7504
+2026-11-23T15:49:33.8884831+00:00 UIA child ControlType=ControlType.Pane Name='正在卸载' AutomationId='1037' PID=7504
+2026-11-23T15:49:33.8904949+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk 正在卸载，请稍候。' AutomationId='1038' PID=7504
+2026-11-23T15:49:33.8904949+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1039' PID=7504
+2026-11-23T15:49:33.8985756+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='' PID=7504
+2026-11-23T15:49:33.9001074+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1004' PID=7504
+2026-11-23T15:49:33.9001074+00:00 UIA child ControlType=ControlType.Pane Name='正在卸载此安装包安装的 USB/IP 组件…' AutomationId='1006' PID=7504
+2026-11-23T15:49:33.9023998+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1016' PID=7504
+2026-11-23T15:49:38.9776808+00:00 Uninstaller state (finish-page poll +15.2s) owner PID=7504 alive=yes HasExited=False exitCode=<running>
+2026-11-23T15:49:38.9796991+00:00 Uninstaller visible top-level windows (finish-page poll +15.2s) owner PID=7504 count=1
+2026-11-23T15:49:38.9817218+00:00 Uninstaller dialog (finish-page poll +15.2s) HWND=0x70212 PID=7504 title='USB Bridge Desk 卸载 ' page=finish visibleText='< 上一步(&P) 下一步(&N) > 取消(&C)   USB Bridge Desk  USB Bridge Desk  卸载完成 卸载程序成功完成卸载。    已完成  '
+2026-11-23T15:49:38.9976073+00:00 Uninstaller finish page detected by visible completion text owner PID=7504 elapsed=15.2s NextEnabled=True
+2026-11-23T15:49:39.0590532+00:00 NSIS button probe (uninstall finish / Next (expected AutomationId=1)) discovered owner PID=7504 visible dialogs=1
+2026-11-23T15:49:39.0610701+00:00 === NSIS dialog Win32/UIA comparison (uninstall finish / Next (expected AutomationId=1)) HWND=0x70212 owner PID=7504 ===
+2026-11-23T15:49:39.0610701+00:00 Win32 EnumChildWindows + GetWindowTextW list count=20:
+2026-11-23T15:49:39.0630827+00:00 WIN32 child HWND=0x70168 class='Button' text='< 上一步(&P)' PID=7504 visible=True enabled=False
+2026-11-23T15:49:39.0630827+00:00 WIN32 child HWND=0xA01E2 class='Button' text='下一步(&N) >' PID=7504 visible=True enabled=True
+2026-11-23T15:49:39.0630827+00:00 WIN32 child HWND=0x90056 class='Button' text='取消(&C)' PID=7504 visible=True enabled=False
+2026-11-23T15:49:39.0650936+00:00 WIN32 child HWND=0xA00A4 class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:49:39.0658798+00:00 WIN32 child HWND=0x7016C class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:49:39.0658798+00:00 WIN32 child HWND=0xA0044 class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:39.0671067+00:00 WIN32 child HWND=0xD004A class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:39.0679072+00:00 WIN32 child HWND=0xA0130 class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:49:39.0679072+00:00 WIN32 child HWND=0xB014A class='Static' text='USB Bridge Desk ' PID=7504 visible=True enabled=True
+2026-11-23T15:49:39.0691173+00:00 WIN32 child HWND=0x8016E class='Static' text='USB Bridge Desk' PID=7504 visible=True enabled=False
+2026-11-23T15:49:39.0699329+00:00 WIN32 child HWND=0xF0184 class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:39.0699329+00:00 WIN32 child HWND=0x701CE class='Static' text='卸载完成' PID=7504 visible=True enabled=True
+2026-11-23T15:49:39.0711332+00:00 WIN32 child HWND=0x901D6 class='Static' text='卸载程序成功完成卸载。' PID=7504 visible=True enabled=True
+2026-11-23T15:49:39.0711332+00:00 WIN32 child HWND=0x701DA class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:39.0719603+00:00 WIN32 child HWND=0x701FE class='#32770' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:39.0728916+00:00 WIN32 child HWND=0x5020A class='Button' text='显示详情(&D)' PID=7504 visible=False enabled=True
+2026-11-23T15:49:39.0728916+00:00 WIN32 child HWND=0x60204 class='msctls_progress32' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:39.0728916+00:00 WIN32 child HWND=0x5027E class='Static' text='已完成' PID=7504 visible=True enabled=True
+2026-11-23T15:49:39.0749054+00:00 WIN32 child HWND=0x40156 class='SysListView32' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:39.0749054+00:00 WIN32 child HWND=0x3026E class='SysHeader32' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:49:39.0829743+00:00 UIA dialog subtree list count=15:
+2026-11-23T15:49:39.0849881+00:00 UIA child ControlType=ControlType.Pane Name='< 上一步(P)' AutomationId='3' PID=7504
+2026-11-23T15:49:39.0849881+00:00 UIA child ControlType=ControlType.Pane Name='下一步(N) >' AutomationId='1' PID=7504
+2026-11-23T15:49:39.0870009+00:00 UIA child ControlType=ControlType.Pane Name='取消(C)' AutomationId='2' PID=7504
+2026-11-23T15:49:39.0870009+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1035' PID=7504
+2026-11-23T15:49:39.0887608+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1036' PID=7504
+2026-11-23T15:49:39.0887608+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk ' AutomationId='1256' PID=7504
+2026-11-23T15:49:39.0907741+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk' AutomationId='1028' PID=7504
+2026-11-23T15:49:39.0907741+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1034' PID=7504
+2026-11-23T15:49:39.0927953+00:00 UIA child ControlType=ControlType.Pane Name='卸载完成' AutomationId='1037' PID=7504
+2026-11-23T15:49:39.0927953+00:00 UIA child ControlType=ControlType.Pane Name='卸载程序成功完成卸载。' AutomationId='1038' PID=7504
+2026-11-23T15:49:39.0948072+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1039' PID=7504
+2026-11-23T15:49:39.0948072+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='' PID=7504
+2026-11-23T15:49:39.1008544+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1004' PID=7504
+2026-11-23T15:49:39.1008544+00:00 UIA child ControlType=ControlType.Pane Name='已完成' AutomationId='1006' PID=7504
+2026-11-23T15:49:39.1028766+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1016' PID=7504
+2026-11-23T15:49:39.1046565+00:00 NSIS click via Win32 SendMessage BM_CLICK (uninstall finish / Next (expected AutomationId=1)) HWND=0xA01E2 text='下一步(&N) >' owner PID=7504
+2026-11-23T15:49:39.1046565+00:00 Uninstaller state (after finish / Next click) owner PID=7504 alive=yes HasExited=False exitCode=<running>
+2026-11-23T15:49:39.1066804+00:00 Uninstaller visible top-level windows (after finish / Next click) owner PID=7504 count=1
+2026-11-23T15:49:39.1087075+00:00 Uninstaller dialog (after finish / Next click) HWND=0x70212 PID=7504 title='USB Bridge Desk 卸载 ' page=finish visibleText='< 上一步(&P) 完成(&F) 取消(&C)   USB Bridge Desk  USB Bridge Desk  卸载完成 卸载程序成功完成卸载。    已完成  '
+2026-11-23T15:49:39.1107275+00:00 Uninstaller finish / Next clicked; waiting for process exit (300 s backstop).
+2026-11-23T15:54:39.1063620+00:00 Uninstaller state (process exit wait timeout (300s)) owner PID=7504 alive=yes HasExited=False exitCode=<running>
+2026-11-23T15:54:39.1083729+00:00 Uninstaller visible top-level windows (process exit wait timeout (300s)) owner PID=7504 count=1
+2026-11-23T15:54:39.1101330+00:00 Uninstaller dialog (process exit wait timeout (300s)) HWND=0x70212 PID=7504 title='USB Bridge Desk 卸载 ' page=unknown visibleText='< 上一步(&P) 完成(&F) 取消(&C)      USB Bridge Desk 卸载程序结束 USB Bridge Desk 已经成功从本机卸载。
+
+点击 [完成] 关闭卸载程序。'
+2026-11-23T15:54:39.1141573+00:00 NSIS button probe (process exit wait timeout (300s)) discovered owner PID=7504 visible dialogs=1
+2026-11-23T15:54:39.1141573+00:00 === NSIS dialog Win32/UIA comparison (process exit wait timeout (300s)) HWND=0x70212 owner PID=7504 ===
+2026-11-23T15:54:39.1161689+00:00 Win32 EnumChildWindows + GetWindowTextW list count=18:
+2026-11-23T15:54:39.1161689+00:00 WIN32 child HWND=0x70168 class='Button' text='< 上一步(&P)' PID=7504 visible=True enabled=False
+2026-11-23T15:54:39.1181802+00:00 WIN32 child HWND=0xA01E2 class='Button' text='完成(&F)' PID=7504 visible=True enabled=True
+2026-11-23T15:54:39.1181802+00:00 WIN32 child HWND=0x90056 class='Button' text='取消(&C)' PID=7504 visible=True enabled=False
+2026-11-23T15:54:39.1181802+00:00 WIN32 child HWND=0xA00A4 class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:54:39.1201901+00:00 WIN32 child HWND=0x7016C class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:54:39.1201901+00:00 WIN32 child HWND=0xA0044 class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:54:39.1201901+00:00 WIN32 child HWND=0xD004A class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:54:39.1222008+00:00 WIN32 child HWND=0xA0130 class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:54:39.1222008+00:00 WIN32 child HWND=0xB014A class='Static' text='USB Bridge Desk ' PID=7504 visible=False enabled=True
+2026-11-23T15:54:39.1242114+00:00 WIN32 child HWND=0x8016E class='Static' text='USB Bridge Desk' PID=7504 visible=False enabled=False
+2026-11-23T15:54:39.1242114+00:00 WIN32 child HWND=0xF0184 class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:54:39.1242114+00:00 WIN32 child HWND=0x701CE class='Static' text='卸载完成' PID=7504 visible=False enabled=True
+2026-11-23T15:54:39.1259668+00:00 WIN32 child HWND=0x901D6 class='Static' text='卸载程序成功完成卸载。' PID=7504 visible=False enabled=True
+2026-11-23T15:54:39.1259668+00:00 WIN32 child HWND=0x701DA class='Static' text='' PID=7504 visible=False enabled=True
+2026-11-23T15:54:39.1279786+00:00 WIN32 child HWND=0x7020C class='#32770' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:54:39.1279786+00:00 WIN32 child HWND=0x70166 class='Static' text='' PID=7504 visible=True enabled=True
+2026-11-23T15:54:39.1279786+00:00 WIN32 child HWND=0x701F2 class='Static' text='USB Bridge Desk 卸载程序结束' PID=7504 visible=True enabled=True
+2026-11-23T15:54:39.1299912+00:00 WIN32 child HWND=0xA016A class='Static' text='USB Bridge Desk 已经成功从本机卸载。
+
+点击 [完成] 关闭卸载程序。' PID=7504 visible=True enabled=True
+2026-11-23T15:54:39.1360428+00:00 UIA dialog subtree list count=10:
+2026-11-23T15:54:39.1380545+00:00 UIA child ControlType=ControlType.Pane Name='< 上一步(P)' AutomationId='3' PID=7504
+2026-11-23T15:54:39.1380545+00:00 UIA child ControlType=ControlType.Pane Name='完成(F)' AutomationId='1' PID=7504
+2026-11-23T15:54:39.1400692+00:00 UIA child ControlType=ControlType.Pane Name='取消(C)' AutomationId='2' PID=7504
+2026-11-23T15:54:39.1400692+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1036' PID=7504
+2026-11-23T15:54:39.1418291+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1045' PID=7504
+2026-11-23T15:54:39.1418291+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1034' PID=7504
+2026-11-23T15:54:39.1438411+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='' PID=7504
+2026-11-23T15:54:39.1438411+00:00 UIA child ControlType=ControlType.Pane Name='' AutomationId='1200' PID=7504
+2026-11-23T15:54:39.1458528+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk 卸载程序结束' AutomationId='1201' PID=7504
+2026-11-23T15:54:39.1458528+00:00 UIA child ControlType=ControlType.Pane Name='USB Bridge Desk 已经成功从本机卸载。
+
+点击 [完成] 关闭卸载程序。' AutomationId='1202' PID=7504
