@@ -35,7 +35,7 @@ jobs:
         working-directory: .
         shell: powershell
         run: |
-          $zip='source-fix34.zip'
+          $zip='source-fix35.zip'
           if(Test-Path r5-build){throw 'Clean runner checkout required: r5-build already exists'}
           Expand-Archive -LiteralPath $zip -DestinationPath r5-build
           Set-Location r5-build/USB-Bridge-Desk-R5
