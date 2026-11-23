@@ -1,0 +1,26 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261123090759
+Username: runnervmbpeip\runneradmin
+RunAs User: runnervmbpeip\runneradmin
+Configuration Name: 
+Machine: runnervmbpeip (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Windows\Sysnative\WindowsPowerShell\v1.0\powershell.exe -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -File C:\Users\RUNNER~1\AppData\Local\Temp\nsy2300.tmp\runtimes.ps1
+Process ID: 7928
+PSVersion: 5.1.26100.33822
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.33822
+BuildVersion: 10.0.26100.33822
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Downloading WindowsAppRuntime from Microsoft
+WindowsAppRuntime installer exit=0
+Registered Microsoft.WindowsAppRuntime.1.8_8000.994.2142.0_x64__8wekyb3d8bbwe status=Ok
+Validated x64 desktop runtime and Windows App Runtime for runneradmin
+**********************
+Windows PowerShell transcript end
+End time: 20261123090812
+**********************
