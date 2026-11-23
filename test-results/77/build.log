@@ -3,21 +3,22 @@ OK notices/usbip-win2-0.9.8.1-source.zip
 OK vendor/usbipd-win_5.3.0_x64.msi
 OK vendor/USBip-0.9.8.1-x64.exe
   Determining projects to restore...
-  Restored D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj (in 24.81 sec).
-D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\ConnectedClient.cs(34,26): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
-D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\ConnectedClient.cs(197,26): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
-D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\AttachedEndpoint.cs(280,26): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
-D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\AttachedEndpoint.cs(294,26): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
-D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\AttachedEndpoint.cs(308,26): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
-D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\AttachedEndpoint.cs(399,30): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
-D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\AttachedEndpoint.cs(487,22): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
-D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\Server.cs(27,22): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
-D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\Server.cs(116,30): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
-D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\Server.cs(129,34): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
-D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\PcapNg.cs(25,22): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
-D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\PcapNg.cs(44,22): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
-  Usbipd -> D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-source\usbipd-win-5.3.0\Usbipd\bin\x64\Release\net10.0\win-x64\usbipd.dll
-  Usbipd -> D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\host-win-x64\
+  Restored D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj (in 23.55 sec).
+D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\ConnectedClient.cs(34,26): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
+D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\ConnectedClient.cs(197,26): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
+D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\AttachedEndpoint.cs(280,26): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
+D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\AttachedEndpoint.cs(294,26): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
+D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\AttachedEndpoint.cs(308,26): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
+D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\AttachedEndpoint.cs(399,30): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
+D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\AttachedEndpoint.cs(487,22): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
+D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\PcapNg.cs(25,22): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
+D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\PcapNg.cs(44,22): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
+D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\Server.cs(27,22): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
+D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\Server.cs(116,30): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
+D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\Server.cs(129,34): warning CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1873) [D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\Usbipd.csproj]
+  Usbipd -> D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-source\usbipd-win-5.3.0\Usbipd\bin\x64\Release\net10.0\win-x64\usbipd.dll
+  Usbipd -> D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\host-win-x64\
+PASS update manifest, semantic version comparison and SHA-256 verification
 PASS UU loopback, independent port allocation, direct IPv6 normalization
 PASS transport input and port bounds
 PASS usbipd local/shared/attached/missing state
@@ -32,42 +33,46 @@ PASS cancel survives restart while controller unavailable
 PASS recycled virtual port preserved
 PASS duplicate endpoint, active target edit/delete guarded
 PASS 1.0.1 JSON migration and corrupt original preservation
+PASS exact multi-adapter address inventory has real usable LAN and public IPv6
+PASS global IPv6 recognizer and outbound local address matching
 PASS One probe per endpoint; prefer live physical aliases
 PASS LAN, EasyTier, stable and temporary IPv6 ranking
+PASS USB Ethernet physical adapter flag does not discourage local or global addresses
 PASS WARP, shared CGNAT, VMnet1/8 and generic tunnels
 PASS interface and address validity precede network hints
 PASS real loopback exclusive bind and occupied test port
 PASS USB/IP devlist on local TCP including nonempty, invalid and truncated replies
 PASS PnP and USB descriptor evidence overrides display name
+PASS USB identification priority and vendor-class honest fallback
 PASS remote guesses including legacy mappings and unknown devices
 PASS fixed minimum in effective pixels across DPI scales
-RESULT 23 passed, 0 failed
+RESULT 28 passed, 0 failed
   Determining projects to restore...
-  Restored D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\App\UsbBridgeDesk.csproj (in 31.41 sec).
+  Restored D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\App\UsbBridgeDesk.csproj (in 23 sec).
   1 of 2 projects are up-to-date for restore.
-  Core -> D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\Core\bin\Release\net10.0\Core.dll
-  UsbBridgeDesk -> D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\App\bin\Release\net10.0-windows10.0.19041.0\win-x64\UsbBridgeDesk.dll
-  UsbBridgeDesk -> D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\build\stage\
-WinUI resources: resources.pri  2344 bytes  SHA256 a176e0059b4abdffc4676f713e60d8276d7400034375c1a3ed83517619216f22
+  Core -> D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\Core\bin\Release\net10.0\Core.dll
+  UsbBridgeDesk -> D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\App\bin\Release\net10.0-windows10.0.19041.0\win-x64\UsbBridgeDesk.dll
+  UsbBridgeDesk -> D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\build\stage\
+WinUI resources: resources.pri  2392 bytes  SHA256 1c7bd159b1edcd108f98b4d4a15cb5b0e909738e59d94b987a4f011279a29c05
 Processing config: C:\Program Files (x86)\NSIS\nsisconf.nsh
-Processing script file: "D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\packaging\setup.nsi" (ACP)
+Processing script file: "D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\packaging\setup.nsi" (UTF8)
 
 Processed 1 file, writing output (x86-unicode):
 
-Output: "D:\a\usb-bridge-desk\usb-bridge-desk\r4-build\USB-Bridge-Desk-R4\build\from-source\USB-Bridge-Desk-R4\release\USB-Bridge-Desk-R4-1.2.0-x64.exe"
-Install: 3 pages (192 bytes), 1 section (2072 bytes), 565 instructions (15820 bytes), 358 strings (16984 bytes), 2 language tables (588 bytes).
-Uninstall: 3 pages (256 bytes), 1 section (2072 bytes), 298 instructions (8344 bytes), 211 strings (6672 bytes), 2 language tables (580 bytes).
-Datablock optimizer saved 634216 bytes (~0.6%).
+Output: "D:\a\usb-bridge-desk\usb-bridge-desk\r5-build\USB-Bridge-Desk-R5\build\from-source\USB-Bridge-Desk-R5\release\USB-Bridge-Desk-R5-1.3.0-x64.exe"
+Install: 3 pages (192 bytes), 1 section (2072 bytes), 571 instructions (15988 bytes), 361 strings (17308 bytes), 2 language tables (596 bytes).
+Uninstall: 3 pages (256 bytes), 1 section (2072 bytes), 306 instructions (8568 bytes), 214 strings (7114 bytes), 2 language tables (588 bytes).
+Datablock optimizer saved 634333 bytes (~0.5%).
 
 Using lzma (compress whole) compression.
 
 EXE header size:               53248 / 38912 bytes
-Install code:                          (36120 bytes)
-Install data:                          (104831092 bytes)
-Uninstall code+data:                   (87982 bytes)
-Compressed data:            45394868 / 104955194 bytes
-CRC (0x8D886931):                  4 / 4 bytes
+Install code:                          (36620 bytes)
+Install data:                          (105889119 bytes)
+Uninstall code+data:                   (88656 bytes)
+Compressed data:            45743668 / 106014395 bytes
+CRC (0x52568BE4):                  4 / 4 bytes
 
-Total size:                 45448120 / 104994110 bytes (43.2%)
-USB-Bridge-Desk-R4-1.2.0-x64.exe  45,448,120 bytes  SHA256 6aff4d06717c1b9d60afaef5802f7582a57cce8024731a9ff8837e8358abed7b
-USB-Bridge-Desk-R4-1.2.0-Source.zip  SHA256 21c08bede7fda192d7a70742463a119a05fe118b30f3af409de09841c012e64e
+Total size:                 45796920 / 106053311 bytes (43.1%)
+USB-Bridge-Desk-R5-1.3.0-x64.exe  45,796,920 bytes  SHA256 91f2965d8970fc97d3cfe6296fb255a382ab2bc69aa47b5364a17632980c70e0
+source-fix41.zip  SHA256 37958f2bd979348c630f4c8fba86a413fd48baa0fb8a33523d064db5251eb4b4
