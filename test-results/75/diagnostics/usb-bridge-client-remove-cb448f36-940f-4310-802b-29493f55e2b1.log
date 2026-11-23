@@ -1,0 +1,61 @@
+﻿2026-11-23 13:21:28.439   Log opened. (Time zone: UTC+00:00)
+2026-11-23 13:21:28.439   Setup version: Inno Setup version 7.1.0 (32-bit)
+2026-11-23 13:21:28.439   Original Uninstall EXE: C:\Program Files\USB Bridge Desk Engines\Client\unins000.exe
+2026-11-23 13:21:28.439   Uninstall DAT: C:\Program Files\USB Bridge Desk Engines\Client\unins000.dat
+2026-11-23 13:21:28.439   Current Uninstall EXE: C:\Users\RUNNER~1\AppData\Local\Temp\is-MYDEAZWV6U-uninstall.tmp\_unins.tmp
+2026-11-23 13:21:28.439   Uninstall command line: /SECONDPHASE="C:\Program Files\USB Bridge Desk Engines\Client\unins000.exe" /FIRSTPHASEWND=$D017E /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG="C:\Users\RUNNER~1\AppData\Local\Temp\usb-bridge-client-remove-cb448f36-940f-4310-802b-29493f55e2b1.log" 
+2026-11-23 13:21:28.441   Windows version: 10.0.26100
+2026-11-23 13:21:28.441   Windows architecture: x64 (64-bit)
+2026-11-23 13:21:28.441   Machine types supported by system: x86 x64
+2026-11-23 13:21:28.441   User privileges: Administrative
+2026-11-23 13:21:28.441   Administrative install mode: Yes
+2026-11-23 13:21:28.441   Install mode root key: HKEY_LOCAL_MACHINE
+2026-11-23 13:21:28.441   RedirectionGuard status for current process: Enabled in enforcing mode
+2026-11-23 13:21:28.441   Cleaning up any residual temporary files from previous Uninstall runs.
+2026-11-23 13:21:28.441   Cleanup finished (1 directories found, 1 directories checked, 0 files deleted).
+2026-11-23 13:21:28.442   Created protected temporary directory: C:\Users\RUNNER~1\AppData\Local\Temp\is-RXNZ3I1UQ2.tmp
+2026-11-23 13:21:28.442   -- DLL function import --
+2026-11-23 13:21:28.442   Function and DLL name: NtQuerySystemInformation@ntdll.dll
+2026-11-23 13:21:28.442   Importing the DLL function. Dest DLL name: ntdll.dll
+2026-11-23 13:21:28.442   Successfully imported the DLL function. Delay loaded? No
+2026-11-23 13:21:28.457   Unregistering detach task: USBip Detach All On Reboot Or Shutdown
+2026-11-23 13:21:28.463   Detach task unregistered successfully
+2026-11-23 13:21:28.463   Starting the uninstallation process.
+2026-11-23 13:21:28.463   Running Exec filename: C:\Program Files\USB Bridge Desk Engines\Client\devnode.exe
+2026-11-23 13:21:28.463   Running Exec parameters: remove ROOT\USBIP_WIN2\UDE root
+2026-11-23 13:21:28.506   Running Exec output:
+2026-11-23 13:21:28.506   1 device(s) were removed.
+2026-11-23 13:21:28.508   Process exit code: 0
+2026-11-23 13:21:28.508   Deleting registry key: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{199505b0-b93d-4521-a8c7-897818e0205a}_is1
+2026-11-23 13:21:28.692   Deleting file: \\?\C:\ProgramData\Microsoft\Windows\Start Menu\Programs\USBip\Uninstall USBip.lnk
+2026-11-23 13:21:28.694   Deleting directory: \\?\C:\ProgramData\Microsoft\Windows\Start Menu\Programs\USBip
+2026-11-23 13:21:28.694   Deleting file: \\?\C:\Program Files\USB Bridge Desk Engines\Client\resources.dll
+2026-11-23 13:21:28.694   Deleting file: \\?\C:\Program Files\USB Bridge Desk Engines\Client\libusbip.dll
+2026-11-23 13:21:28.694   Deleting file: \\?\C:\Program Files\USB Bridge Desk Engines\Client\devnode.exe
+2026-11-23 13:21:28.694   Deleting file: \\?\C:\Program Files\USB Bridge Desk Engines\Client\usbip.exe
+2026-11-23 13:21:28.694   Deleting file: \\?\C:\Program Files\USB Bridge Desk Engines\Client\Readme.md
+2026-11-23 13:21:28.696   Deleting directory: \\?\C:\Program Files\USB Bridge Desk Engines\Client
+2026-11-23 13:21:28.696   Failed to delete directory (145). Will retry later.
+2026-11-23 13:21:28.696   Deleting Uninstall data files.
+2026-11-23 13:21:28.696   Creating "_unins-done.tmp" file.
+2026-11-23 13:21:29.202   Deleting directory: \\?\C:\Program Files\USB Bridge Desk Engines\Client
+2026-11-23 13:21:29.206   Uninstallation process succeeded.
+2026-11-23 13:21:29.206   Removed all? Yes
+2026-11-23 13:21:29.206   Will restart because UninstallNeedRestart returned True.
+2026-11-23 13:21:29.206   Need to restart Windows? Yes
+2026-11-23 13:21:29.208   Deleting OEM driver oem14.inf (usbip2_ude.inf_amd64_bcfb5e9b79f800fa)
+2026-11-23 13:21:29.262   Microsoft PnP Utility
+2026-11-23 13:21:29.262   
+2026-11-23 13:21:29.262   Ignoring /force when used with /uninstall to delete driver package.
+2026-11-23 13:21:29.353   Driver package uninstalled.
+2026-11-23 13:21:29.353   Driver package deleted successfully.
+2026-11-23 13:21:29.355   pnputil /delete-driver oem14.inf returned exit code 0
+2026-11-23 13:21:29.420   Deleting OEM driver oem13.inf (usbip2_filter.inf_amd64_2af67c4689565fb6)
+2026-11-23 13:21:29.475   Microsoft PnP Utility
+2026-11-23 13:21:29.475   
+2026-11-23 13:21:29.475   Ignoring /force when used with /uninstall to delete driver package.
+2026-11-23 13:21:29.493   Driver package uninstalled.
+2026-11-23 13:21:29.493   Driver package deleted successfully.
+2026-11-23 13:21:29.493   pnputil /delete-driver oem13.inf returned exit code 0
+2026-11-23 13:21:29.497   Will not restart Windows automatically.
+2026-11-23 13:21:29.497   Log closed.

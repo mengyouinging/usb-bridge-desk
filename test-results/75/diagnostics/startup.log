@@ -1,0 +1,85 @@
+2026-11-23T13:18:47.9635507+00:00 Main pid=7416 base=C:\Program Files\USB Bridge Desk\
+2026-11-23T13:18:47.9740494+00:00 Checking WinUI process requirements
+2026-11-23T13:18:47.9945731+00:00 Entering Application.Start
+2026-11-23T13:18:48.0700150+00:00 UI dispatcher ready, creating application
+2026-11-23T13:18:48.0800968+00:00 Loading compiled App.xaml
+2026-11-23T13:18:48.0842516+00:00 Application resources loaded
+2026-11-23T13:18:48.1343615+00:00 Constructing main window
+2026-11-23T13:18:50.6637819+00:00 Activating main window
+2026-11-23T13:18:50.7721750+00:00 Main window content loaded
+2026-11-23T13:18:50.7794196+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-23T13:18:50.8358855+00:00 Overview rendered
+2026-11-23T13:18:50.8421780+00:00 Update check entered silent=True
+2026-11-23T13:18:51.6469469+00:00 Update check/download failed: System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at UsbBridge.UpdateClient.CheckAsync(CancellationToken token)
+   at Desk.Shell.CheckForUpdate(Boolean silent)
+2026-11-23T13:19:20.6729172+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-23T13:19:27.6455280+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-23T13:19:28.1003618+00:00 DesktopAcrylicController attached=True
+2026-11-23T13:19:28.1006222+00:00 Backdrop requested=acrylic active=WindowAcrylic advancedEffects=True
+2026-11-23T13:19:37.6674829+00:00 Tray exit command pid=7416
+2026-11-23T13:19:37.6706386+00:00 Main window closed
+2026-11-23T13:19:45.1956418+00:00 Main pid=4328 base=C:\Program Files\USB Bridge Desk\
+2026-11-23T13:19:45.1988423+00:00 Checking WinUI process requirements
+2026-11-23T13:19:45.2151620+00:00 Entering Application.Start
+2026-11-23T13:19:45.2706871+00:00 UI dispatcher ready, creating application
+2026-11-23T13:19:45.2803050+00:00 Loading compiled App.xaml
+2026-11-23T13:19:45.2842939+00:00 Application resources loaded
+2026-11-23T13:19:45.3298221+00:00 Constructing main window
+2026-11-23T13:19:45.5677451+00:00 Activating main window
+2026-11-23T13:19:45.6633754+00:00 Main window content loaded
+2026-11-23T13:19:45.6703168+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-23T13:19:45.7372836+00:00 Overview rendered
+2026-11-23T13:19:45.7399679+00:00 Update check entered silent=True
+2026-11-23T13:19:45.8563472+00:00 Update manifest returned latest_version=9.9.9
+2026-11-23T13:19:45.8614015+00:00 Update manifest latest_version=9.9.9 current_version=1.3.0 comparison=newer branch=update-dialog
+2026-11-23T13:19:45.8616163+00:00 Update dialog ShowAsync called mode=main-window-inline
+2026-11-23T13:19:45.8647285+00:00 Update dialog Opened (inline panel)
+2026-11-23T13:19:45.8649262+00:00 Update prompt inline panel mounted in main-window UIA tree
+2026-11-23T13:19:45.8699281+00:00 Update prompt inline UIA peer probe installPeer=ButtonAutomationPeer installPeerName='下载并安装' overlayPeer=null hostPeer=null hostPeerChildren=null probeScope=host-Grid-peer-subtree overlayMountedInHostVisualChildren=True overlayInHostPeerSubtree=False
+2026-11-23T13:19:47.1382697+00:00 Update check entered silent=False
+2026-11-23T13:19:47.1550754+00:00 Update manifest returned latest_version=9.9.9
+2026-11-23T13:19:47.1603732+00:00 Update manifest latest_version=9.9.9 current_version=1.3.0 comparison=newer branch=update-dialog
+2026-11-23T13:19:47.1605631+00:00 Update dialog ShowAsync called mode=main-window-inline
+2026-11-23T13:19:47.1613293+00:00 Update dialog Opened (inline panel)
+2026-11-23T13:19:47.1615142+00:00 Update prompt inline panel mounted in main-window UIA tree
+2026-11-23T13:19:47.1617589+00:00 Update prompt inline UIA peer probe installPeer=ButtonAutomationPeer installPeerName='下载并安装' overlayPeer=null hostPeer=null hostPeerChildren=null probeScope=host-Grid-peer-subtree overlayMountedInHostVisualChildren=True overlayInHostPeerSubtree=False
+2026-11-23T13:19:47.3893068+00:00 Update check entered silent=False
+2026-11-23T13:19:47.3928081+00:00 Update manifest returned latest_version=9.9.9
+2026-11-23T13:19:47.3980547+00:00 Update manifest latest_version=9.9.9 current_version=1.3.0 comparison=newer branch=update-dialog
+2026-11-23T13:19:47.3982211+00:00 Update dialog ShowAsync called mode=main-window-inline
+2026-11-23T13:19:47.3987867+00:00 Update dialog Opened (inline panel)
+2026-11-23T13:19:47.3989298+00:00 Update prompt inline panel mounted in main-window UIA tree
+2026-11-23T13:19:47.3991613+00:00 Update prompt inline UIA peer probe installPeer=ButtonAutomationPeer installPeerName='下载并安装' overlayPeer=null hostPeer=null hostPeerChildren=null probeScope=host-Grid-peer-subtree overlayMountedInHostVisualChildren=True overlayInHostPeerSubtree=False
+2026-11-23T13:19:47.4390035+00:00 Update prompt selected download and install
+2026-11-23T13:19:47.6978630+00:00 Update check/download failed: System.IO.InvalidDataException: 更新包 SHA-256 校验失败，未启动安装程序。
+   at UsbBridge.UpdateClient.DownloadVerifiedAsync(UpdateManifest manifest, CancellationToken token)
+   at Desk.Shell.CheckForUpdate(Boolean silent)
+2026-11-23T13:19:48.5188179+00:00 Update check entered silent=False
+2026-11-23T13:19:48.5444671+00:00 Update manifest returned latest_version=9.9.9
+2026-11-23T13:19:48.5492516+00:00 Update manifest latest_version=9.9.9 current_version=1.3.0 comparison=newer branch=update-dialog
+2026-11-23T13:19:48.5494815+00:00 Update dialog ShowAsync called mode=main-window-inline
+2026-11-23T13:19:48.5500329+00:00 Update dialog Opened (inline panel)
+2026-11-23T13:19:48.5501862+00:00 Update prompt inline panel mounted in main-window UIA tree
+2026-11-23T13:19:48.5503667+00:00 Update prompt inline UIA peer probe installPeer=ButtonAutomationPeer installPeerName='下载并安装' overlayPeer=null hostPeer=null hostPeerChildren=null probeScope=host-Grid-peer-subtree overlayMountedInHostVisualChildren=True overlayInHostPeerSubtree=False
+2026-11-23T13:19:48.5980105+00:00 Update prompt selected download and install
+2026-11-23T13:19:48.7049863+00:00 Main window closed
+2026-11-23T13:19:50.4514690+00:00 Main pid=3516 base=C:\Program Files\USB Bridge Desk\
+2026-11-23T13:19:50.4547276+00:00 Checking WinUI process requirements
+2026-11-23T13:19:50.4692465+00:00 Entering Application.Start
+2026-11-23T13:19:50.5246479+00:00 UI dispatcher ready, creating application
+2026-11-23T13:19:50.5344938+00:00 Loading compiled App.xaml
+2026-11-23T13:19:50.5387386+00:00 Application resources loaded
+2026-11-23T13:19:50.5844343+00:00 Constructing main window
+2026-11-23T13:19:50.8530457+00:00 Activating main window
+2026-11-23T13:19:50.9483760+00:00 Main window content loaded
+2026-11-23T13:19:50.9552403+00:00 Backdrop requested=mica active=MicaBackdrop advancedEffects=True
+2026-11-23T13:19:50.9971571+00:00 Overview rendered
+2026-11-23T13:19:50.9998469+00:00 Update check entered silent=True
+2026-11-23T13:19:51.3516611+00:00 Update check/download failed: System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at UsbBridge.UpdateClient.CheckAsync(CancellationToken token)
+   at Desk.Shell.CheckForUpdate(Boolean silent)
