@@ -1,14 +1,48 @@
-﻿# R4 1.2.0 Windows test - run 83
+﻿# R5 1.3.0 Windows test - run 83
 
-- build: failure
-- silent install: skipped
-- installed backend: skipped
-- tray overlays: skipped
-- desktop capture: skipped
-- installer: n/a
-- driver exit: n/a
-- alive 30s: 
-- clean exit:  (forced: , code: )
-- screenshots: 0
+- build: success
+- silent install: success
+- installed backend: success
+- tray overlays: success
+- desktop capture: success
+- installer: SIZE=45789392 | SHA256=C79AA936D49FDB965742BE478208A0A4D3A5848BEA2CCEBB991D663BF43D37B3 | INSTALL_EXIT=0
+- driver exit: DRIVER_EXIT=0
+- alive 30s: True
+- clean exit: True (forced: False, code: 0)
+- screenshots: 16
 - failures: none recorded
 
+- service_start passed=True {"State":"Running","ProcessId":5640,"PathName":"\"C:\\Program Files\\USB Bridge Desk\\resources\\host\\usbipd.exe\" server"}
+- tcp_3240_listener passed=True [{"LocalAddress":"::","LocalPort":3240,"OwningProcess":5640}]
+- host_device_enumeration passed=True {"exitCode":0,"devices":0}
+- usbip_devlist_handshake passed=True {"endpoint":"127.0.0.1:3240","version":"0x0111","request":"OP_REQ_DEVLIST","reply":"OP_REP_DEVLIST","status":0,"exports":0}
+- installed_client_loopback_list passed=True {"exitCode":0,"exports":0,"endpoint":"127.0.0.1:3240"}
+- client_virtual_ports passed=True {"exitCode":0,"importedPorts":0}
+- restore_service passed=True {"restored":"Stopped"}
+- minimum home: 880 x 640 DIP; within bounds=True
+- minimum client: 880 x 640 DIP; within bounds=True
+- minimum maps: 880 x 640 DIP; within bounds=True
+- minimum host: 880 x 640 DIP; within bounds=True
+- minimum logs: 880 x 640 DIP; within bounds=True
+- minimum settings: 880 x 640 DIP; within bounds=True
+- address evidence: 不推荐 · Ethernet 3 · 10.1.0.31:3240 虚拟网卡或隧道，仅同一虚拟网络内的对端可能可达。 / 不推荐 · vEthernet (nat) · 172.28.208.1:3240 虚拟网卡或隧道，仅同一虚拟网络内的对端可能可达。
+- acrylic: fallback_color_observed - Verified stimulus; stable title pixels match the configured dark fallback color; OS cause unknown
+- local screenshot source: descriptor-fixture 本机类型测试夹具（无实物） · 键盘 · 1-1  ·  0000:0000  ·  模拟 HID 接口描述符
+- Windows local devices: 
+- remote device rows (read-only loopback fixture): Mouse · 鼠标（推测） · 1-2   ·   046d:c077
+- 01-overview.png (overview) sha256=E70F34640EB55DF148FE0422B28ED0DD6186892A262019FD59F3F0F47B73647E
+- r4-title.png (installed title-bar mark) sha256=1336B4D2D2E40A82DB7CECEF816F71C58DF60649E568235316C750E7F89B9C3F
+- r4-taskbar.png (Explorer taskbar application button) sha256=52672F9CD0F22C7B1FDB3DEC11E10C2631A5A22A24A3FF5B4CA3F68E46E0A1D1
+- r4-icon-16.png (installed ICO rendered at 16 physical pixels) sha256=2921B9AA82757EC478394F7F370DD604AB6B966BDAF6C6006F3B5DEC2C2EAAD2
+- r4-icon-32.png (installed ICO rendered at 32 physical pixels) sha256=6BBD764C6F6200CB9D6D5586E8C778D7AA08EF4D446D815E0A6D75965F6593F0
+- 02-local.png (host) sha256=11302A5C90383C18439B5C49C4A420E2B88C2705608DC101959ED9256105B090
+- r4-addresses.png (open address list and local verdicts) sha256=54C3AD17FF06C88005B90EA3D46563C1DC68776519B979EF10DFF805E13D7167
+- r4-local-type.png (display-only local HID fixture (0 physical devices)) sha256=2E905E5178918FF07108AB6574CF1F8387B047DD107541C54BEDADE55C930747
+- 03-remote.png (client) sha256=7D4BAEC02C9CD642FFB1EA0A2FC6115746CA29F9BA50063A00CB204259DDC7F5
+- r4-remote-type.png (remote device type: 鼠标（推测）) sha256=A021C476AC779159358FE4CAC2610B51152A7F74364AAB7A6F6AF7BAC52998BC
+- 04-mappings.png (mappings) sha256=764C754244E2F1B7E2F4F90F524A13E457E243F47553AC2EE46DBDA4C1C595D7
+- 05-dark-acrylic.png (settings dark / acrylic / fallback_color_observed) sha256=843FD7827DEDCDAA45F4382F1F8ACCAE5341E58116318CF6ABEBF02F787A2E83
+- 06-dark-overview.png (overview dark / acrylic / fallback_color_observed) sha256=EE4D8BCC3EA1F1E97827347FCA252432DB8DA27C68EE03435090BC17B7E1F0A2
+- 07-dark-device-card.png (dark mode content-matched device-card watermark) sha256=FB3609E96A9A7E2F37FC3D980DC1A7E66B5B91BE13231B6D121A003AA793E4AA
+- r4-tray.png (registered notification icon) sha256=265E3303B456561609D702CB959FF8C27C1863070F92E275A3F6723F42764AF3
+- 07-tray.png (visible application tray menu) sha256=79FD3AC3FD1E8AD5A6353E17B3B207D94858F315D5E70081C8649E07982BEB27
